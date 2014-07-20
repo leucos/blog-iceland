@@ -1,21 +1,21 @@
-title:            Site Title
-description:      Describe your website.
+title:            Islande
+description:      Islande & misc
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
-disqus_shortname:
+url:              http://127.0.0.1:4000
+disqus_shortname: islande
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  bio:            "Describe your self."
-  email:          your@email.com
+  name:           Michel blanc
+  avatar:         gravatar.jpg
+  bio:            "Just passing by"
+  email:          mb@mbnet.fr
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:
-  facebook:
-  github:
-  stackoverflow:
-  linkedin:
+  twitter: b9m
+  facebook: michel.blanc.3367
+  github: leucos
+  stackoverflow: 467722/leucos
+  linkedin: michel-blanc/0/888/ab4
   instagram:
   lastfm:
   tumblr:
@@ -24,8 +24,7 @@ owner:
   steam:
   dribbble:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
-
+  google_plus: u/0/+MichelBlanc_xyz/about
 # Analytics and webmaster tools stuff goes here
 google_analytics:
 google_verify:
@@ -35,21 +34,21 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
+  - title: A propos
     url: /about/
   - title: Posts
     url: /posts/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  # - title: Theme Setup
+  #   url: /theme-setup/
+  # - title: Made Mistakes
+  #   url: http://mademistakes.com
+  #   external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Paris
 future:      true
-pygments:    true
-#highlighter: pygments
+#pygments:    true
+highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks

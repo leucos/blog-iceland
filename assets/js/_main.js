@@ -55,13 +55,26 @@ $(document).ready(function() {
       enabled: true,
       navigateByImgClick: true,
       preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+      //function(item) {
+  //   return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+  // }
     },
     image: {
-      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
+      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.', 
     },
     removalDelay: 300, // Delay in milliseconds before popup is removed
     // Class that is added to body when popup is open. 
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: 'mfp-fade'
   });
+
+  // Opens external links in a new tab
+  var domain_root = document.location.protocol+'//'+document.location.host;
+  var all_links = $('a').each(function(index,element){
+    if(element.href.substr(0,domain_root.length) !== domain_root) {
+      element.target = '_blank';
+    }
+  });
+
 });
+
