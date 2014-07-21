@@ -3,13 +3,18 @@ layout: post
 title: "Conseils pratiques pour la randonnée en Islande"
 description: "Quelques conseils à 2 kronurs pour le trek et la rando en Islande"
 tagline: "Quelques conseils à 2 kronurs pour le trek et la rando en Islande"
-
+category: pratique
 tags: [islande, tips]
 comments: true
 image:
   feature: pano_alftavatn2_lzn.jpg
   credit: Michel Blanc
   legend: Alftavatn depuis le Laugavegur
+mapping:
+  layers:
+    - http://127.0.0.1:4000/kml/huts.kml
+  latitude: 64.101
+  longitude: -18.1
 ---
 <section id="table-of-contents" class="toc">
   <header>
@@ -191,6 +196,7 @@ prendre, mais vous en trouverez plein partout, notamment au camping).
   <a href="/images/2014-07-16-conseils-pratiques/bsi.jpg" title="BSI"><img src="/images/2014-07-16-conseils-pratiques/bsi.jpg"></a>
   <figcaption><a href="http://www.bsi.is/" title="BSI">BSI</a>.</figcaption>
 </figure>
+- - -
 
 Le BSI c’est la gare routière de Reykjavik, siège de la société Reykjavik
 Excursions qui a des lignes de bus parcourant toute l’île. Il est situé juste à
@@ -235,6 +241,7 @@ débrouillerez bien.
   <a href="/images/2014-07-16-conseils-pratiques/bus_bsi.jpg" title="Bus au repos au BSI"><img src="/images/2014-07-16-conseils-pratiques/bus_bsi.jpg"></a>
   <figcaption><a href="http://www.re.is/" title="BSI">Bus au repos au BSI</a>.</figcaption>
 </figure>
+- - -
 
 C’est la compagnie qui dessert toute l’ile. Vous trouverez leurs horaires et
 tarifs sur [leur site](http://www.re.is) ou sur 
@@ -266,6 +273,7 @@ l’heure de départ (pas forcément de celle d’arrivée par contre…).
   <a href="/images/2014-07-16-conseils-pratiques/straeto.jpg" title="Bus Strætó"><img src="/images/2014-07-16-conseils-pratiques/straeto.jpg"></a>
   <figcaption><a href="http://www.straeto.is/" title="Strætó">Strætó</a>.</figcaption>
 </figure>
+- - -
 
 Les bus de la municipalité de Reykjavik (jaunes, 
 [Strætó.is](http://www.straeto.is/english/)) ne prennent pas la CB et ne rendent 
@@ -340,6 +348,7 @@ sous aucun prétexte !
   <a href="/images/2014-07-16-conseils-pratiques/sangitamiya.jpg" title="Hljóðheimurinn Sangitamiya"><img src="/images/2014-07-16-conseils-pratiques/sangitamiya.jpg"></a>
   <figcaption><a href="http://www.re.is/" title="Hljóðheimurinn Sangitamiya">Hljóðheimurinn Sangitamiya</a>.</figcaption>
 </figure>
+- - -
 
 Un super magasin de musique qui vend tout, sauf des instruments conventionnels.
 Super vendeur, on peut tout essayer. On rage juste d’avoir un si petit sac à dos
@@ -388,6 +397,8 @@ plusieurs fois par saison (et, en passant, sont souvent bénévoles).
 
 TODO: KML de quelques refuges en Islande
 
+{% render_map 500,500 %}
+
 #### Fimmvörðuháls (Útivist)
 
 <figure class="third">
@@ -396,6 +407,7 @@ TODO: KML de quelques refuges en Islande
   <a href="/images/2014-07-16-conseils-pratiques/fimm3.jpg" title="Refuge Útivist de Fimmvörðuháls, la cuisine"><img src="/images/2014-07-16-conseils-pratiques/fimm3.jpg"></a>
   <figcaption>Fimmvörðuháls</figcaption>
 </figure>
+- - -
 
 - Gérant : [Útivist](http://www.utivist.is/english/fimmvorduhals-hut/)
 - Eau : aucune, neige à fondre éventuellement
@@ -413,19 +425,21 @@ n'ai pas trouvé d'infos directes dessus.
 
 #### Basár-Þórsmörk (Útivist)
 
-<figure class="half">
+<figure class="third">
   <a href="/images/2014-07-16-conseils-pratiques/basar1.jpg" title="Refuge Útivist de Basár-Þórsmörk, la cuisine"><img src="/images/2014-07-16-conseils-pratiques/basar1.jpg"></a>
   <a href="/images/2014-07-16-conseils-pratiques/basar2.jpg" title="Refuge Útivist de Basár-Þórsmörk, la cuisine"><img src="/images/2014-07-16-conseils-pratiques/basar2.jpg"></a>
+  <a href="/images/2014-07-16-conseils-pratiques/basar4.jpg" title="Il y a plein de randos superbes aux alentours de Þórsmörk"><img src="/images/2014-07-16-conseils-pratiques/basar4.jpg"></a>
   <figcaption>Basár-Þórsmörk, la cuisine</figcaption>
 </figure>
 
 - - -
 
-<figure class="half">
+<figure>
   <a href="/images/2014-07-16-conseils-pratiques/basar3.jpg" title="Bazar à Basár"><img src="/images/2014-07-16-conseils-pratiques/basar3.jpg"></a>
-  <a href="/images/2014-07-16-conseils-pratiques/basar4.jpg" title="Il y a plein de randos superbes aux alentours de Þórsmörk"><img src="/images/2014-07-16-conseils-pratiques/basar4.jpg"></a>
-  <figcaption>Basár-Þórsmörk</figcaption>
+  <figcaption>Bazar à Basár</figcaption>
 </figure>
+
+- - -
 
 - Gérant : [Útivist](http://www.utivist.is/english/basar-hut/)
 - Douche : 400kr/4 min (attention ! c’est 4 minutes et non 5 comme ailleurs).
@@ -472,10 +486,18 @@ niveau de la Krossá (la rivière de la vallée de Þórsmörk).
   <figcaption>Emstrur-Botnar (FÍ)</figcaption>
 </figure>
 
+- - -
+
 - Gérant : FÍ
 - Douche : 400 ISK / 5 minutes, une seule douche, longue file d’attente...
 - Cuisine : bien équipée
 - Électricité : non
+- Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
+(Álftavatn - Hvanngil - Emstrur) à 15h10. Ce bus circule tous les jours depuis 
+2014 et permet de rentrer sur Reykjavik en cas de souci. Attention, l'arrêt du 
+bus n'est pas au refuge mais à un endroit appellé <<Crossroads>> (croisement).
+Il faudra se renseigner auprès du Warden pour voir de quel croisement on parle. 
+C'est le dernier bus échappatoire si vous allez vers le sud.
 
 Ne pas rater la vue sur le canyon de la Markarfljot (demander au warden). Vous 
 me raconterez (je l’ai ratée...). Kristina, la warden qui porte des chaussettes 
@@ -486,35 +508,77 @@ Quechua, nous a accueillis avec un grand sourire.
 La solution alternative à Alftavatn (5 km avant). Dans un cadre superbe, et 
 visiblement désert (tout le monde va à Alftavatn). Certainement un bon plan si 
 vous cherchez le calme. Il y a (comme partout ailleurs) des balades sympas dans 
-les environs.
+les environs, notamment sur Hvanngilshausar, la montagne qui domine le refuge à 
+l'est. MOntez au sommet, suivez la crête (balisé), et revenez par la vallée, ça 
+vaut vraiment le coup.
 
-Balade près de Hvanngil
-Balade près de Hvanngil
+<figure class="third">
+  <a href="/images/2014-07-16-conseils-pratiques/hvangillshausar.jpg" title="Vue depuis Hvanngilshausar"><img src="/images/2014-07-16-conseils-pratiques/hvangillshausar.jpg"></a>
+  <figcaption>Vue depuis Hvanngilshausar</figcaption>
+</figure>
 
-- Gérant : FÍ
-Desservi par un bus qui boucle sur Reykjavik.
+- - -
 
-#### Alftavatn
+Une autre balade permet de croiser quelques cascades.
 
-La maison blanche
-La maison blanche
+<figure class="third">
+  <a href="/images/2014-07-16-conseils-pratiques/hvangill1.jpg" title="Balade des cascades à Hvangill"><img src="/images/2014-07-16-conseils-pratiques/hvangill1.jpg"></a>
+  <figcaption>Balade des cascades à Hvangill</figcaption>
+</figure>
 
-Une des chambres
-Une des chambres
+- - -
 
-Alftavatn, la maison blanche
+- Gérant : [FÍ](http://www.fi.is/en/huts/hvanngil/)
+- Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
+(Álftavatn - Hvanngil - Emstrur) à 14h30. Ce bus circule tous les jours (depuis 
+2014) et permet de rentrer sur Reykjavik en cas de souci.
 
-Gérant : FÍ
-Douche : 400 ISK / 5 minutes
-Électricité : possible le soir chez les warden, 500ISK
-Cuisine : incroyable… plein de matos tout neuf, nickel chrome (ceci vaut pour la maison blanche; l’autre est très correcte aussi, plus dans le style Emstrur)
-Couchage : 72 places
-Poubelles : géantes
-Desservi par un bus qui boucle sur Reykjavik. Si vous devez craquer sur le Laugavegur, craquez ici, il n’y a pas d’autre échappatoire avant Thorsmork (depuis le nord) ou Landmannalaugar (depuis le sud). De plus, le trajet en bus est vraiment grandiose.
-Si vous pouvez, essayez d’être installé dans la maison blanche par la warden, c’est vraiment nickel. Le soir, balade romantique au bord du lac de rigueur.
+#### Alftavatn (FÍ)
 
-#### Hoskuldarskali (Hraftinnusker)
-Hraftinnusker
+<figure class="third">
+  <a href="/images/2014-07-16-conseils-pratiques/alftavatn1.jpg" title="Alftavatn : cuisine et dépendance"><img src="/images/2014-07-16-conseils-pratiques/alftavatn1.jpg"></a>
+  <a href="/images/2014-07-16-conseils-pratiques/alftavatn2.jpg" title="Alftavatn : une des chambres"><img src="/images/2014-07-16-conseils-pratiques/alftavatn2.jpg" title="Alftavatn : une des chambres"></a>
+  <figcaption>Alftavatn</figcaption>
+</figure>
+
+- - -
+
+<figure class="third">
+  <a href="/images/2014-07-16-conseils-pratiques/alftavatn3.jpg" title="Alftavatn : la maison blanche"><img src="/images/2014-07-16-conseils-pratiques/alftavatn3.jpg"></a>
+  <figcaption>Alftavatn : la maison blanche</figcaption>
+</figure>
+
+- - -
+
+- Gérant : [FÍ](http://www.fi.is/en/huts/alftavatn/)
+- Douche : 400 ISK / 5 minutes
+- Électricité : possible le soir chez les warden, 500 ISK
+- Cuisine : incroyable... plein de matos tout neuf (n 2010), nickel chrome (ceci 
+vaut pour la maison blanche; l’autre est très correcte aussi, plus dans le 
+style Emstrur)
+- Couchage : 72 places
+- Poubelles : géantes
+- Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
+(Álftavatn - Hvanngil - Emstrur) à 13h00. Ce bus circule tous les jours (depuis 
+2014) et permet de rentrer sur Reykjavik en cas de souci.
+
+Desservi par un bus qui boucle sur Reykjavik. Si vous devez craquer sur le 
+Laugavegur, craquez ici, il n’y a pas d’autre échappatoire avant 
+Landmannalaugar (depuis le sud). De plus, le trajet en bus est vraiment 
+grandiose.
+
+Si vous pouvez, essayez d’être installé dans la maison blanche par la warden, 
+c’est vraiment nickel. Le soir, balade romantique au bord du lac de rigueur.
+
+#### Höskuldskali, alias Hraftinnusker (FÍ)
+
+<figure class="third">
+  <a href="/images/2014-07-16-conseils-pratiques/hraf1.jpg" title="Une des quelques tables en terrasse à Hraftinnusker"><img src="/images/2014-07-16-conseils-pratiques/hraf1.jpg"></a>
+  <a href="/images/2014-07-16-conseils-pratiques/hraf2.jpg" title="Hraftinnusker dans la brume"><img src="/images/2014-07-16-conseils-pratiques/hraf2.jpg"></a>
+  <figcaption>Hraftinnusker</figcaption>
+</figure>
+
+- - -
 
 Gérant : FÍ
 Eau : oui, parfois chaude au robinet (ou c’était un impression due au froid !)
@@ -778,3 +842,6 @@ David (a.k.a. BigFoot) a vu du pays, et vous en parle sur son blog.
 
 [^cb]: c'est visiblement en voie de disparition quand même
 
+*[Þórsmörk]: le Þ se prononce comme 's'. Prononcer 'Sorsmork'
+*[Hvanngil]: la série 'hv' se prononce 'kw'. Prononcer 'Kwangil'
+*[warden]: Gardien de refuge

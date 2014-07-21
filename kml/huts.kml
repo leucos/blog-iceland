@@ -1,0 +1,1837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>huts.kml</name>
+	<Style id="sh_ylw-diamond0110">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond1000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond030">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond90">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond610">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond1020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond1100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond190">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond160</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond2110">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond140">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond2110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond1100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond0200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond90</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond52">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond11000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond210">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond1320">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond1010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond150</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond150">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="waypoint_n10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond20">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond1020">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond121">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond030</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond160">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond0100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond130</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond07">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond113">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond0200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond610">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond114">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond220">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond22">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond03">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond601">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond021</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond160</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="waypoint_h1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond1100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond4000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond121</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond4000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond15">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="waypoint0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint_n10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint_h1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond210">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond301</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond03</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond520">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond003">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond700">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond230">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond800">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond1000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond2010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond610</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond02">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond1110">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond340">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond160">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond021">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond5000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond0020">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond1300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond5000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond0110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond1120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond230</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond220</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond003</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond220">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond150">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond1110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond0020</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond600">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond1310">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond220</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond18">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond17">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond40">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond700</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond130">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond310">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond0100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond0100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond113</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond340</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond301">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-diamond12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond2010">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond0000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond11000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond600</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond1010">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond1000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond520</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Huts</name>
+		<Placemark>
+			<name>Afangagil</name>
+			<description>Áfangagil
+
+Áfangar ehf. mountain hut.
+
+Telephone: 00354 845 9500
+
+Homepage: www.afangagil.info
+http://www.southiceland.com/main.php?cat=2&amp;ele=4&amp;item=147
+
+
+The mountain hut Afangagil is situated on the edge of one of Iceland&apos;s most impressive and active volcanic areas, near the known mountain Hekla. Afangagil is about 5 km from road nr. 26 or 3 km from the road Landmannaleid (F225). The lodges accommodate up to 25 people (in bunks with mattresses) and has a kitchen with cold tap water and gas stoves. The WC facilities are in a separate house (water toilet). Good storage for luggage. Facilities for horses/horse riders (hedge and hay for sale).
+
+Beautiful attractions a short distance away are: Landmannalaugar, Hekla, Þjórsárdalur, Veiðivötn and Sprengisandur
+	
+Address: 	Rangárþingi ytra
+Phone: 	+354 845-9500
+Email: 	info@afangagil.org
+Website: 	www.afangagil.info</description>
+			<LookAt>
+				<longitude>-19.09701183806843</longitude>
+				<latitude>64.02543915506782</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond10</styleUrl>
+			<Point>
+				<coordinates>-19.09701183806843,64.02543915506782,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alftavatn</name>
+			<description>The mountain huts of the Iceland Touring Association on lake Alftavatn on the Middle Route were built in 1979 and can accommodate 52 people in sleeping bags.  They are equipped with gas stoves, utensils and running cold water.  One of the huts is reserved for hikers on the trail between Thorsmork and Landmannalaugar.
+
+During summer, the warden of the huts lives in a separate house.  Showers and WCs are in the fourth house and fee is charged for the use of the showers.  The huts are about half-way on the trail and the Middle Route for vehicles is only a stone&apos;s throw away.  The beautiful landscapes of the area offer varied hikes, i.e. to the gorge Alftaskard, Bratthals and Torfahlaup.
+
+Lake Alftavatn is deep and decorative.  In the past, whooper swans were hunted there, but after the drowning of the farmer of Fljotsdalur in 1838, witnessed by his teenage daughter, the hunt was abandoned.  It is possible to drive (4x4) along Mt. Torfatindur to the narrow gorge Torfahlaup.
+GPS coordinates:  63°51.470  19°13.640
+Source:  The ITA office Tel.: 568 2533, fi@fi.is
+
+Álftavatn450-spegilmynd</description>
+			<LookAt>
+				<longitude>-19.09655721913188</longitude>
+				<latitude>63.94222998133042</latitude>
+				<altitude>0</altitude>
+				<heading>0.1710148102311348</heading>
+				<tilt>0</tilt>
+				<range>62868.13319735585</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond1300</styleUrl>
+			<Point>
+				<coordinates>-19.22733333333333,63.85783333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Álftavatnakrókur</name>
+			<TimeStamp><when>2013-07-30T14:18:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint0</styleUrl>
+			<Point>
+				<coordinates>-18.690703,63.897892,447.44</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Blagil</name>
+			<LookAt>
+				<longitude>-18.31360790561303</longitude>
+				<latitude>63.96936127996757</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1983893674008114</heading>
+				<tilt>0</tilt>
+				<range>7491.928904298281</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond2</styleUrl>
+			<Point>
+				<coordinates>-18.32103450691362,63.96617177573427,953.2243521752006</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dalakofinn</name>
+			<LookAt>
+				<longitude>-19.31018051013077</longitude>
+				<latitude>63.94372165230942</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2869983960903845</heading>
+				<tilt>0</tilt>
+				<range>6236.588030448836</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond190</styleUrl>
+			<Point>
+				<coordinates>-19.35840912979144,63.95093743756536,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Emstrur - Botnar Hut</name>
+			<description>The Iceland Touring Association huts Botnar on river South Emstrua accommodate 40 people.  They are equipped with gas stoves, utensils and running cold water. 
+
+During summer, the warden of the huts lives in a separate house.  Shower and WCs are in the fourth house and fee is charged for the use of the shower.  The huts are about half-way on the trail  Just south of the huts is a pedestrian bridge across the aforementioned river.
+
+A short and rewarding walk takes you to the canyons of river Markarfljot and a mountain track allows 4wd-vehicles access to the huts.
+GPS co-ordinates:  63°45.980  19°22.450.
+Source:  The ITA website www.fi.is, email  fi@fi.is Tel.: 568 2533</description>
+			<LookAt>
+				<longitude>-19.09655721768362</longitude>
+				<latitude>63.94222998384576</latitude>
+				<altitude>0</altitude>
+				<heading>0.1710148115321939</heading>
+				<tilt>0</tilt>
+				<range>60329.05320532008</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond400</styleUrl>
+			<Point>
+				<coordinates>-19.374167,63.76633333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fimmvorduhàls</name>
+			<description>The Touring Association Utivist restored the decayed, former &quot;Mountainmen&apos;s&quot; hut in 1990-1991 with their permission.  The Mountainmen were pioneers in mountaineering and interior travelling in Iceland.
+
+Hut Baldvinsskali is located a bit lower in the mountain pass, 30-40 minutes&apos; walking distance from the Fimmvorduhals hut, located on the highest point of the pass, just west of the marked hiking trail between Skogar and Thorsmork.  A track for robust 4wd vehicles lies up to Baldvinsskali and ends there.  Those huts increase the savety of hikers enroute, who can also spend the night there, or even two, to get the opportunity to climb the glaciers on both sides, Eyjafjallajokull and Myrdalsjokull.
+
+The Fimmvorduhals hut is heated with oil and contains the most necessary kitchen utensils.  The WC conditions are special, because it is impossible to use septic tanks.  Therefore the guests are asked to follow the specific rules applied.  Keep in mind, that running water is not always accessible near the hut, and snow is not always available for melting, especially late in summer.  The hut accommodates 23 people.
+
+GPS co-ordinates: 63°37.320N W 19°27.093W.
+Source:  The Utivist website.
+Tel.: 562 1000</description>
+			<LookAt>
+				<longitude>-19.45268732481325</longitude>
+				<latitude>63.62056827111599</latitude>
+				<altitude>0</altitude>
+				<heading>0.2527228308737091</heading>
+				<tilt>4.466364583084044</tilt>
+				<range>678.1686967460515</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond11</styleUrl>
+			<Point>
+				<coordinates>-19.4546099479877,63.62156809875503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hagavatn Hut</name>
+			<description>ITA Mountain hut Hagavatn was built in 1942.  It was rebuilt in 1986 and underwent thorogh maintainance in 2000-2001.  It is situated in a vegetated dell at the edge of glacier Langjokull, at the foot of the westernmost of the Mts Jarlhettur.  Only glacial water can be found in its vicinity.  The hut accommodates 12 people, 8 downstairs and 4 in the attic.  A stay there enables the traveller to get better aquainted with Mts Jarlhettur, glacier Langjokull and Mt Hagafell.
+Sources:  The ITA website.
+GPS co-ordinates:  64°27.760  20°14.700.
+Source:  ITA tel.: 568 2533, fi@fi.is
+
+Source : http://www.fi.is/en/huts/hagavatn/</description>
+			<LookAt>
+				<longitude>-20.245</longitude>
+				<latitude>64.462667</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond800</styleUrl>
+			<Point>
+				<coordinates>-20.245,64.462667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hvanngil</name>
+			<description>The new  ITA Hvanngil Hut offers sleeping bag accommodations for 60 people in four rooms. The Midvegur Route starts at the farm and church site Keldur with its ancient farm houses and Folk Museum.  The road continues across the Langviu Lava Field, River Markarfljot and past Lake Alftavatn, where there are two of the Icelandic Touring Association’s huts for the hikers on the “Laugavegur Hiking Trail”. 
+GPS co-ordinates:  63°50.026  19°12.507.  fi@fi.is (WRONG)
+
+Source : http://www.fi.is/en/huts/hvanngil/
+
+
+The new Hvanngil Hut offers sleeping bag accommodations for 70 people in four rooms.  The warden’s telephone number is 853 9081.  The Midvegur Route starts at the farm and church site Keldur with its ancient farm houses and Folk Museum.  The road continues across the Langviu Lava Field, River Markarfljot and past Lake Alftavatn, where there are two of the Icelandic Touring Association’s huts for the hikers on the “Laugavegur  Hiking Trail”. 
+GPS co-ordinates:  64°50.026  19°12.507.  fi@fi.is
+
+Source : http://www.nat.is/fjallaskalareng/skalar_fi_hvanngil_eng.htm</description>
+			<LookAt>
+				<longitude>-19.20508957211884</longitude>
+				<latitude>63.83169935957422</latitude>
+				<altitude>0</altitude>
+				<heading>-1.833283046391846</heading>
+				<tilt>0</tilt>
+				<range>856.5348687710398</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond41</styleUrl>
+			<Point>
+				<coordinates>-19.20487378720065,63.83209813298355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hloduvellir Hut</name>
+			<description>The Hloduvellir hut is the property of the Iceland Touring Association and Laugadaela County.  It was built in 1970 and is located in the lava field at the southern foot of Mt Hlodufell.  It comprises a large entrance and a sleeping hall with a kitchenette (gas-stove).  It accommodates 15 people in bunks.  Water is collected from the roof of the huthe attractions in the neighbourhood are Mt. Hlodufell, Eldborgin in the Lamb Lava Field, Mt Kalfstindur, Mt Hognhofdi, Mt Skrida and Mt Skjaldbreid.  The hiking trail across Rotarsandur to Gorge Bruararskord is popular and interesting.
+
+The hut is accessible on foot or by jeeps or other robust 4wd vehicles from lake Laugarvatn or the Kaldidalur Route in the West.  Other 4wd access tracks start in valley Haukadalur forest near the Geysir area, and from the southernmost part of the Kjolur route.
+Source:  The ITA website.  fi@fi.is Tel.: 568 2533 
+
+Source : http://www.fi.is/en/huts/hloduvellir/</description>
+			<LookAt>
+				<longitude>-18.73134349932089</longitude>
+				<latitude>64.08184977893535</latitude>
+				<altitude>0</altitude>
+				<heading>1.359180768512837</heading>
+				<tilt>0</tilt>
+				<range>147035.3537410055</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond120</styleUrl>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Holaskjol</name>
+			<description>Holaskjol, sheltered by Mounds Lambaskardsholar, offers mountain hut accommodation in a beautiful location just off the Landmanna Route, near the rivers Sydri Ofaera and Skafta and the magnificent fissure Eldgja.  It is and excellent spot for a further exploration of the area on foot and then enjoy the services of the Bus Company Kynnisferdir and its daily schedule on the Landmanna Route during summers.
+
+
+
+A short walk from Holaskjol is  Skaelingar Hut, Utivist Touring Association
+Tel.: 562 1000</description>
+			<LookAt>
+				<longitude>-18.714975772832</longitude>
+				<latitude>63.87733733786773</latitude>
+				<altitude>0</altitude>
+				<heading>-4.264371165754214</heading>
+				<tilt>0.2109024535203121</tilt>
+				<range>22362.44963226599</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond52</styleUrl>
+			<Point>
+				<coordinates>-18.6045,63.90766666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hrafntinnusker Hut</name>
+			<description>Geographical co-ordinates (WGS-84): 	63.933261 	19.168080
+UTM (WGS-84): 	7090867.1 	7589807.4
+Geographical co-ordinates (Hjörsey 1955): 	63.933571 	19.168477
+UTM ( Hjörsey1955): 	7091076.0 	75897691.6
+
+
+The  lodge has a ground floor with a loft. On the ground floor is an entrance hall, toilet, cooking room, and a dormitory. The loft includes the warden&apos;s quarters as well as sleepingbag accommodation with 18 mattresses. The dormitory has 6 single bunks and 6 double bunks ( with mattresses). Generally, the lodge accommodates a maximum of 52 people. However, during unfavorable weather conditions, the warden is entitled to utilize the entire ground floor area if neccessary. Moreover, guests need to be prepared to share a double bunk with another person.
+
+Quiet hours are from 24:00 - 07:00, unless the warden agrees on something else. Cooking is not allowed during quiet hours.
+
+Smoking inside the lodge is strictly forbidden at all times.
+
+A warden is appointed during the months of July and August. The house is heated with geothermal steam, and is kept warm year round.  Cold tap water can be accessed in the cooking room during the stay of the warden.  Other times, water needs to be fetched from the ravine west of the lodge, or by melting snow. Electricity is used to light the lodge. A switch is on the lamps. the electricity is generated by solar energy.; please coserve the energy! Gas stoves are in the cooking room and are connected to gas containers year round.
+
+The technology used for acquiring heat, electicity and water may fail. In that case, repairmen are contacted. Please bear in mind that the altitude of the lodge is at 1027 m. It is difficult to approach the lodge by automobile, impossible at times, and the repairmen are located in 200 km distance.
+
+The cooking room provides pots, plates, glasses and cutlery.
+
+The toilet is not a water toilet. Toilet paper is generally provided.
+
+Because  the lodge is surrounded by sand, large amount of sand can be carried into the house with normal use. Guests are kindly asked to wipe their shoes thoroughly before entering the lodge. Please do not enter the cooking room in your hiking boots. It is advisable to bring a pair of slippers.
+
+The warden needs assistance in keeping the lodge clean and tidy. Tour guides are kindly asked to initate all assistance. During  the warden&apos;s absence, it is the guest&apos;s responsibility to have the lodge clean and tidy at the time of departure.
+
+The camping site is on the sand below the lodge. Outhouse is on the site. Campers can access tap water by the lodge.
+
+Guests cannot leave trash at the lodge.  Trash containers are at Landmannalaugar and at Hvanngil.  Please do not dispose of trash in the toilet, the outhouse, or hide it under rocks. Remember clean environment - beautiful nature!
+
+The operatin cost of the lodge at Hrafntinnusker is high. Therefore, it is important  that guests pay for accommodation and facilities.  The Touring Club of Iceland publishes yearly a rate for accommodation in lodges, camping sites, and/or the use of hygienic facilities of day guests. The warden collects the fee. During the warden&apos;s absence, guests are kindly asked to put payment in the box in the entrance hall.
+
+Ice caves develope where there is thermal activity under the ice patches.  Such ice caves should not be entered because of their instability.  A traveller was killed such a cave in the morning of August 16th 2006, when he was hit by a block of ice from the ceiling.
+
+Source : http://www.fi.is/en/huts/hrafntinnusker/</description>
+			<LookAt>
+				<longitude>-18.73134349932089</longitude>
+				<latitude>64.08184977893535</latitude>
+				<altitude>0</altitude>
+				<heading>1.359180768512837</heading>
+				<tilt>0</tilt>
+				<range>147035.3537410055</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond0000</styleUrl>
+			<Point>
+				<coordinates>-19.16808,63.93326100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hvitarnes Hut</name>
+			<description>The Hvitarnes hut was the first to be built by the Iceland Touring Association in 1930.  It is located 425 metres above mean sea level.  It comprises the ground floor with two sleeping rooms, a kitchen and the entrance, the attic with mattresses on the floor and a small room.  In the kitchen is a gas-stove and a log-stove, but no utensils.  A WC is in a separate house and the warden lives in another small house. The wardens work in Hvítárnes is a volunteer work and is just part of the summer.  The view from the hut is breathtaking, and this hut is the starting or end spot of hikes on the ancient Kjolur Route.
+
+GPS co-ordinates:  N64°37.007  W19°45.394.
+Sources:  ITA tel.: 568 2533, fi@fi.is
+
+Source : http://www.fi.is/en/huts/hvitarnes/</description>
+			<LookAt>
+				<longitude>-19.75656666666667</longitude>
+				<latitude>64.616783</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond140</styleUrl>
+			<Point>
+				<coordinates>-19.75656666666667,64.616783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jokulheimar</name>
+			<description>The first hut was built in 1955, the garage in 1958, the fuel storage house in 1963, and the second hut in 1965.  The older hut accommodates 20 people, and the younger 8-20 persons.  The houses are located 675 metres above mean sea level.
+
+Both huts are locked, but those who make prior arrangements, usually are granted access.
+
+Contact Mr. Vilhjalmur Kjartansson, Tel.: 893-0742.
+GPS co-ordinates:  64° 18.614&apos;  18° 14.319&apos;.
+Source:  The IGC website.
+skalar@jorfi.is</description>
+			<LookAt>
+				<longitude>-18.24124069119011</longitude>
+				<latitude>64.30606425205252</latitude>
+				<altitude>0</altitude>
+				<heading>0.7303159218501835</heading>
+				<tilt>0</tilt>
+				<range>8243.949389474452</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond07</styleUrl>
+			<Point>
+				<coordinates>-18.24024177308716,64.30947490513616,1351.854014714708</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Krokur</name>
+			<LookAt>
+				<longitude>-19.41273922723186</longitude>
+				<latitude>63.82774220230395</latitude>
+				<altitude>0</altitude>
+				<heading>-0.08325529970388375</heading>
+				<tilt>0</tilt>
+				<range>12537.15916063683</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond22</styleUrl>
+			<Point>
+				<coordinates>-19.40638277671207,63.83297171179229,823.7571609290334</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Landmannahellir</name>
+			<description>Overview : http://nat.is/travelguideeng/landmannahellir_domadalur_route.htm
+Camping ground : http://www.landmannahellir.is/english/campingsite.htm
+Cave : http://nat.is/travelguideeng/plofin_landmannahellir.htm</description>
+			<LookAt>
+				<longitude>-19.24998376381625</longitude>
+				<latitude>64.0518793827717</latitude>
+				<altitude>0</altitude>
+				<heading>0.2538929577652295</heading>
+				<tilt>0</tilt>
+				<range>1555.79878209264</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond1100</styleUrl>
+			<Point>
+				<coordinates>-19.24136415341574,64.05356240205728,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Landmannalaugar Hut</name>
+			<description>The Iceland Touring Association first built a hut in Landmannalaugar in 1951, but the present hut dates back to 1969.  The huts are located about 600 metres above mean sea level at the edge of the lavafield Laugahraun on a few hot springs, which create excellent bathing conditions in a natural brook.
+
+The dwelling hut is two storeys high and offers sleeping bag accommodations for 75 people  The ground floor comprises a spacey entry, a large sleeping hall, a kitchen, the warden&apos;s quarters and a storage room.  Upstairs are three large sleeping rooms and one small.  The house is heated the whole year round and gas is used for cooking.  All neccessary appliances are in the kitchen.  Outside is a large house with WC and showers.  The camping site is to the northeast of the houses.
+
+Landmannalaugar is either the beginning or the end of the hiking trail to or from Thorsmork.  All around the houses are unbelievably beautiful hiking trails, short and long.
+
+The telephone number of the hut from July 1st to September 30th is:  863 1175
+
+GPS co-ordinates:  63°59.600  19°03.660.
+Source:  ITA Tel.: 568 2533, fi@fi.is
+
+Landmannalaugar, this pearl of the interior is situated in a valley between colourful mountains at the dark edge of the rhyolite lava field Laugahraun. Many hot and cold springs create a bathing warm brook, where people bathe. The banks of the brook are boggy and lush vegetated and people are kindly asked to use the wooden path across the bog to the brook. It is forbidden to use soap in the brook. The surroundings of L. are too colourful and magnificent to describe with words.  The mountains are split with gullies and gorges, one of which, the Jokulgil, is about 13 km long.
+
+It is possible to hike all the way to its end, when the river is not swollen, and there are several other hiking possibilities in the area. Landmannalaugar is also the starting point for those, who want to hike to the Thorsmork area in the south. It is easy to walk there in three days, but many prefer to spend more time enroute to be able to enjoy the trip to the utmost. The tourist hut in Landmannalaugar accommodates 110 or more people and there is a camping area, where it is extremely difficult to drive the pegs into the ground, and if it starts blowing hard, rocks have to be used to weigh the tents down. People are kindly asked to return the rocks to the wooden crates after use. Landmannalaugar is a part of a larger nature reserve.
+
+During summer the scheduled busses of Austurleid-Kynnisferdir stop over at Landmannalaugar every day. Scheduled bus services from Landmannalaugar to Lake Myvatn in the North are also available
+
+Sigalda (F-208) 27 km, Crossroads (26/F-225) 49 km, Eldgja 41 km,  Kirkjubaejarklaustur 120 km. 
+
+Source : http://www.fi.is/en/huts/landmannalaugar/</description>
+			<LookAt>
+				<longitude>-19.0637809654836</longitude>
+				<latitude>63.98893390975682</latitude>
+				<altitude>0</altitude>
+				<heading>0.4188215811186703</heading>
+				<tilt>1.416325644709352</tilt>
+				<range>2943.843399714492</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond114</styleUrl>
+			<Point>
+				<coordinates>-19.06088184074927,63.99088233179996,63.00000000000001</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nordurfjordur Hut (Valgeirsstadir)</name>
+			<description>The Nordurfjordur hut is called Valgeirsstadir.  It is a restored farmhouse in good condition, just above a beach at the end of the bay.  It has two storeys and is electrically heated.  The upper floor comprises four rooms for 4-6 guests, and the ground floor four rooms for 6 guests each, a well equipped kitchen and a dining room.  The kitchen has an electric stove with an oven, a microwave,  all utensils, and running hot and cold water.
+There are two WC and a shower.  A small supermarket is only a 10 minutes&apos; walking distance away and an outdoor swimming pool at Krossnes.
+
+Interesting, short hikes take you through majestic landscapes to the top of Mts Tafla, Kalfatindar, Munadarnesfjall and Krossnesfjall.  A longer hike takes you to the Ingolfsfjordur Bay around Mt Strutur.  A stroll along the coastline takes you to attractions like Trollahladi, Bergid and the Gvendur Seat, where bishop Gudmundur the good sat when he was consecrating the dangerous Urdir screes.
+Telephone from July 1st to August 31st:  451-4017.
+GPS co-ordinates:  66°03.080  21°33.970.
+Source:  The ITA website.  fi@fi.is
+
+Source : http://www.fi.is/en/huts/nordurfjordur/</description>
+			<LookAt>
+				<longitude>-21.56616666666667</longitude>
+				<latitude>66.05133333333333</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond1320</styleUrl>
+			<Point>
+				<coordinates>-21.56616666666667,66.05133333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nyidalur Hut</name>
+			<description>The Iceland Touring Association&apos;s huts are located at about 800 metres above mean sea level at the mouth of valley Nyidalur (Jokuldalur).  The Sprengisandur Route lies right pat them.  The older hut was built in 1967.  It has two storeys.  The ground floor comprises an entrance, a kitchen, the warden&apos;s room, and a sleeping hall, and upstairs are sleeping quarters.  The younger hut has a kitchen, a warden&apos;s room, and a sleeping hall downstairs, and upstairs are sleeping quarters.  Both houses accommodate 120 people in bunks and on mattresses on the floor.  Both kitchens are equipped with oil-stoves, pots and pans, but no other utensils.  During the period July 1st to August 31st the huts are attended by wardens.  WC and showers are in a separate house.  On a fine day, the view from the huts is magnificent.  The nearby Tungnafell glacier is easy to conquer from the well vegetated valley Nyidalur (Jokuldalur), which also allows access to Pass Vonarskard across the mountain ridge Mjohals.
+Telephone from July 1st to August 31st:  854-1194.
+GPS co-ordinates:  N64°44.130  W18°04.350.
+Source:  The ITA website.  fi@fi.is
+
+Source : http://www.fi.is/en/huts/nyidalur/</description>
+			<LookAt>
+				<longitude>-18.0725</longitude>
+				<latitude>64.7355</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond150</styleUrl>
+			<Point>
+				<coordinates>-18.0725,64.7355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ork</name>
+			<LookAt>
+				<longitude>-18.57144738935147</longitude>
+				<latitude>64.08873571585018</latitude>
+				<altitude>0</altitude>
+				<heading>0.1605597040039497</heading>
+				<tilt>0</tilt>
+				<range>8589.820057042803</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond0</styleUrl>
+			<Point>
+				<coordinates>-18.60745539537727,64.10542363526747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rjupnavellir</name>
+			<description>The huts at Rjupnavellir are accessible by car.  They are situated just north of the forested area Galtalaekjarskogur.  Daily bus connections from the capital and from Landmannalaugar  via Leirubakki  enable hikers to catch busses in either direction by notifying the bus company, Reykjavik Excursions, in advance.
+
+Location sources :
+http://www.traveljournals.net/explore/iceland/map/m3660459/rjupnavellir.html
+http://www.traveljournals.net/explore/iceland/map/m3660459/rjupnavellir.html
+(conflicts w/ http://www.traveljournals.net/explore/iceland/map/m3660459/rjupnavellir.html)</description>
+			<LookAt>
+				<longitude>-19.817</longitude>
+				<latitude>64.05</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond1000</styleUrl>
+			<Point>
+				<coordinates>-19.81667,64.05,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Skaelingar</name>
+			<description>Touring Association Utivist restored a decayed farmers&apos; sheep roundup shelter in 1996-97.  Its surroundings are breathtakingly beautiful.  Large lava outcrops and the vegetation remind of a park.  A short walk takes you to Holaskjol, but one day&apos;s hikes include Mt Uxatindar and Mt Gjatindur.
+
+A rather difficult 4wd track continues to the hut from the track to Mt Gjatindur.  The hut offers mattresses and a gas-stove, but no other utensils.  It is heated with oil, but is not insulated, and therefore not meant for winter use.  It houses 16 persons.
+GPS co-ordinates:  N 63°58.849´ W 18°31.319´.
+Source:  The Utivist website.
+Tel.: 562 1000
+utivist@utivist.is</description>
+			<LookAt>
+				<longitude>-18.52198333333334</longitude>
+				<latitude>63.98081666666667</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond0100</styleUrl>
+			<Point>
+				<coordinates>-18.52198333333334,63.98081666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Strutur</name>
+			<description>Mountain hut Strutur was built to accommodate 26 people in 2002.  Its access track lies just west of Mt Maelifell from the Middle Route.  Interesting one day hikes take you to Raudubotnar, River Holmsa Lagoon, Strutslaug and glacier Torfajokull.  The hut is an ideal resting place for those who are hiking from Alftavotn to Hvanngil or Emstrur or visa versa.
+
+GPS co-ordinates: 63°50.330´N 18°58.477´W.
+Source: The Utivist website.
+Tel.: 562 1000
+utivist@utivist.is</description>
+			<LookAt>
+				<longitude>-18.97461666666667</longitude>
+				<latitude>63.83883333333333</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond1120</styleUrl>
+			<Point>
+				<coordinates>-18.97461666666667,63.83883333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sveinstindur</name>
+			<description>The Sveinstindur hut is located southeast of Mt Sveinstindur.   The access track for 4wd vehicles continues from a track to lake Langisjor.  It continues to the east and is marked.  During the first part of summer, some quicksand can be expected.  A marked hiking trail lies from the track to lake Langisjor and the hut, and from there another marked trail to the top of Mt Sveinstindur.  The hike from the hut, to the top, and back, takes about three hours.  The view from up there on a fine day is beyond words.  An interesting day&apos;s hike lies along the foot of Mts Fogrufjoll.
+
+The old farmers&apos; sheep roundup hut was resorted the the Touring Association Utivist in the autumn of 1999.  Now it is put to good use and fits well into the landscape.  It is heated with a small oil furnace.  Food is cooked on a gas-stove and all necessary utensils are available.  During summer the hut has running water.  It accommodates 22 people.
+
+GPS co-ordinates:   64°05.176´N 18°24.946´W.
+Source:  The Utivist website.
+Tel.: 562 1000
+utivist@utivist.is</description>
+			<LookAt>
+				<longitude>-18.40569086001225</longitude>
+				<latitude>64.07896727632571</latitude>
+				<altitude>0</altitude>
+				<heading>1.554266628768247</heading>
+				<tilt>0</tilt>
+				<range>3600.574039468809</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond601</styleUrl>
+			<Point>
+				<coordinates>-18.40995319404754,64.07690473660382,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Thjofadalir Hut</name>
+			<description>The small hut in valleys Thjofadalir was built by ITA  in 1939 to accommodate 12 people.  It is located at the foot of Mt Raudkollur and the hillock Throskuldur is nearby.  It is on the ancient trail across the Kjolur highlands between the northern and southern parts of the country.  It has a tiny entrance, a ground floor and an attic above half of the ground floor.  There are no utensils in the house.  The latrine is a short distance away from the house.  Visitors have to take all garbage with them.  The environment offers short and pleasant hikes, i.e. Mt Hrutfell, Fagrahlid and jokulkrokur at the edge of glacier Langjokull.  Mt Raudkollur and Oddnyjarhnjukur are also worthy goals.
+
+GPS co-ordinates:  64°48.900  19°42.510.
+Source: ITA. Tel.: 568 2533, fi@fi.is
+
+Source : http://www.fi.is/en/huts/thjofadalir/</description>
+			<LookAt>
+				<longitude>-19.7085</longitude>
+				<latitude>64.815</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond610</styleUrl>
+			<Point>
+				<coordinates>-19.7085,64.815,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Skagfjordsskali-Þórsmörk</name>
+			<description>Iceland Touring Association Mountain hut Skagfjordsskali is located on a flat area at the mouth of Valley Langidalur in Thorsmork, just a stone&apos;s throw from river Krossa.  The route there from road # 1 requires jeeps or other robust 4wd vehicles, great care and experience, because of the many unbridged rivers which have to be forded.
+
+Among the many attractions enroute are the Lagoon of the Gigjokull glacier, gorge Stakkholtsgja and a few others.  Just outside the hut is Mt Valahnukur, which tempts most people to climb and nearby attractions, Storendi, Stangarhals, Hamraskogar, Husadalur, Tindafjoll, Basar, Eyjafjallajokull and many others, offer great hiking possibilities.  Here is also the starting or ending point of the socalled &quot;Laugavegur&quot; hiking trail between Thorsmork and Landmannalaugar.  Hikers on that trail spend nights in the ITA huts in Emstrur, on lake Alftavatn and Mt. Hrafntinnusker.
+
+On the groundfloor of the hut are a spaceous entrance, two small kitchens, a big dining hall, and two sleeping halls with bunks.  In the attic are more bunks.  The hut accommodates 75 people.  Outside are separate houses, one with WC and showers, a pick-nick house for day visitors, small sleeping quarters (2-4), and a shop.  The hut is heated by an oil furnace, which is also used for cooking.  All necessary appliances can be found in the kitchens.
+
+The telephone numbers of the hut from May 15th and September 30th is: 893-1191.
+GPS co-ordinates:  63°40.960  19°30.890.
+
+Tel.: 568 2533, fi@fi.is 
+
+Source : http://www.fi.is/en/huts/thorsmork/</description>
+			<LookAt>
+				<longitude>-19.51278418882367</longitude>
+				<latitude>63.68381293251729</latitude>
+				<altitude>0</altitude>
+				<heading>5.956568262757766</heading>
+				<tilt>0.3101787524975981</tilt>
+				<range>758.1279675287702</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond00</styleUrl>
+			<Point>
+				<coordinates>-19.5135430005826,63.68476275251262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Thverbrekknamuli Hut</name>
+			<description>The  ITA hut Thverbrekknamuli is situated southeast of Mt Hrutfell, near river Fulakvisl.  It is near the middle of the hiking trail on the ancient Kjolur Route.  The hut was built in 1980 and accommodates 20 people.  The house is heated with gas and an oil-stove.  There are no utensils in the house and visitors have to take garbage with them.  A WC is near the hut and a latrine for winter travellers a bit further away.
+
+The fifth bridge across river Fulakvisl was built in 2005.  The others have either been swept away by floods or not withstood the weight of the winter snow.
+
+GPS co-ordinates:  64°43.100  19°36.860.
+Source:  The ITA  Tel.: 568 2533, fi@fi.is
+
+Source : http://www.fi.is/en/huts/thverbrekknamuli/</description>
+			<LookAt>
+				<longitude>-19.61433333333333</longitude>
+				<latitude>64.71833333333333</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond1310</styleUrl>
+			<Point>
+				<coordinates>-19.61433333333333,64.71833333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Basár-Þórsmörk</name>
+			<description>Soon after the Touring Association Utivist was founded, its members started contemplating the construction of its first mountain hut in the Godaland area.  A hut there would increase the savety of travellers and facilitate the access to numerous remarkable hiking areas.  The Basar area was mostly intact, only shepherds and a few other people from the nearby counties had visited this nature paradise.
+
+The large hut was built during the period 1980-1981, and the smaller one shortly afterwards.  In the middle of the nineties, a large kitchen and dining hall were added to the large hut.  Immediately after the Utivist settlement in Basar, the development of the camping grounds commenced.
+
+Ever since volunteers have continued working at maintainance and improvements.  The association has published hiking maps with explanations.  The Godaland area comprises a number of hiking possibilities, short and long, easy and more strenuous, if people want to conquer the mountain peaks.  During summer, summer is pipelined to the huts and the WC are open.  The huts are heated with oil and a small hydroelectric power station supples electricity for lights.  The huts accommodate 80-90 people.  Wardens are present from early May to October.
+
+GPS co-ordinates: N63°40,559&apos; W19°29,014&apos;.
+Source:  Utivist website.
+Tel.: 562 1000
+utivist@utivist.is</description>
+			<LookAt>
+				<longitude>-19.47241972129496</longitude>
+				<latitude>63.67847238470101</latitude>
+				<altitude>0</altitude>
+				<heading>1.771690053816145</heading>
+				<tilt>25.76676349880216</tilt>
+				<range>1052.83168037436</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond00</styleUrl>
+			<Point>
+				<coordinates>-19.48000708555114,63.67815877242973,477.9999579758942</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Húsadalur-Þórsmörk</name>
+			<description>#### Húsadalur-Þórsmörk (Volcano Huts)
+
+- Gérant : [Volcano Huts](http://www.volcanohuts.com/) (anciennement 
+Hostelling International), 
+[page facebook](https://www.facebook.com/Husadalur?ref=stream) 
+
+Peu d’infos, je n’ai fait que passer. Mais visiblement, il y a tout le confort
+(et même un restau). Ca semble assez familial. On peut y acheter des cartes
+postales, des timbres et poster sur place. Pratique pour faire son devoir quand
+on parcours le Laugavegur, même si c’est légèrement excentré par rapport à la
+route normale.
+
+Il y a aussi une mini-hot pool. Bon, vraiment mini...
+
+Ils sont sur [facebook](https://www.facebook.com/Husadalur?ref=stream) et 
+postent régulièrement, ce qui permet par exemple d&apos;avoir des infos sur le 
+niveau de la Krossá (la rivière de la vallée de Þórsmörk).
+</description>
+			<LookAt>
+				<longitude>-19.52230521490715</longitude>
+				<latitude>63.68695986855336</latitude>
+				<altitude>0</altitude>
+				<heading>1.726974928844314</heading>
+				<tilt>25.77750287205896</tilt>
+				<range>3810.265172653731</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond00</styleUrl>
+			<Point>
+				<coordinates>-19.54125704831261,63.69123378099317,561.9660003549375</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Graenalon</name>
+			<LookAt>
+				<longitude>-18.76273946953655</longitude>
+				<latitude>64.00322240954083</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01148458552245251</heading>
+				<tilt>0</tilt>
+				<range>8465.345633795238</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond3</styleUrl>
+			<Point>
+				<coordinates>-18.80096914954324,63.9989391362562,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jokuldaln</name>
+			<LookAt>
+				<longitude>-18.82518578959018</longitude>
+				<latitude>63.98677357647645</latitude>
+				<altitude>0</altitude>
+				<heading>-0.06760967868972133</heading>
+				<tilt>0</tilt>
+				<range>5594.783548046606</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond</styleUrl>
+			<Point>
+				<coordinates>-18.83595729510149,63.9852216335705,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

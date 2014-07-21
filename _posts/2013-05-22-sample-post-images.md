@@ -2,6 +2,7 @@
 layout: post
 title: "A Post with Images"
 description: "Examples and code for displaying images in posts."
+category: crap
 tags: [sample post, images, test]
 comments: true
 ---

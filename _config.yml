@@ -6,7 +6,7 @@ disqus_shortname: islande
 
 # Owner/author information
 owner:
-  name:           Michel blanc
+  name:           Michel Blanc
   avatar:         gravatar.jpg
   bio:            "Just passing by"
   email:          mb@mbnet.fr
@@ -34,15 +34,23 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: Pratique
+    url: /pratique/
   - title: A propos
     url: /about/
-  - title: Posts
-    url: /posts/
   # - title: Theme Setup
   #   url: /theme-setup/
   # - title: Made Mistakes
   #   url: http://mademistakes.com
   #   external: true
+
+mapping:
+  provider: openstreetmap
+  zoom: 8
+  dimensions:
+    width: 600
+    height: 400
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Paris
