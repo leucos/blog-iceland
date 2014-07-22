@@ -20,7 +20,7 @@ mapping:
   <header>
     <h3>Sommaire</h3>
   </header>
-<div id="drawer" markdown="1">
+<div id="drawer" markdown="1" class="hidden">
 *  Auto generated table of contents
 {:toc}
 </div>
