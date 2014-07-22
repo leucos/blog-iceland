@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Fjallabak et le trek du Laugavegur"
-description: "Le trek le plus couru d'Islande"
+description: "Le trek le plus couru d'Islande, et le parc naturel attenant."
 tagline: "Le trek le plus couru d'Islande"
 category: pratique
 tags: [islande, tips]
 comments: true
 image:
-  feature: pano_alftavatn2_lzn.jpg
+  feature: 2014-07-16-le_laugavegur/pano_alftavatn2_lzn.jpg
   credit: Michel Blanc
   legend: Alftavatn depuis le Laugavegur
 mapping:
