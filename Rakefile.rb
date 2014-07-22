@@ -20,8 +20,8 @@ desc "Generate blog files"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
     "source"      => ".",
-    "destination" => "_site"
-    "url" => 
+    "destination" => "_site",
+    "url" => url
   })).process
 end
 
