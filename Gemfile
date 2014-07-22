@@ -8,6 +8,7 @@ gem 'thor'
 gem 'activesupport'
 gem 'stringex'
 gem 'github-pages'
+gem 'jekyll-sitemap'
 
 gem 'guard-jekyll'
 gem 'guard-livereload'
