@@ -6,31 +6,7 @@
     
     
     <url>
-        <loc>http://127.0.0.1:4000/theme-setup/</loc>
-    </url>
-    
-    <url>
-        <loc>http://127.0.0.1:4000/sitemap.xml</loc>
-    </url>
-    
-    <url>
-        <loc>http://127.0.0.1:4000/pratique/</loc>
-    </url>
-    
-    <url>
-        <loc>http://127.0.0.1:4000/posts/</loc>
-    </url>
-    
-    <url>
-        <loc>http://127.0.0.1:4000/index.html</loc>
-    </url>
-    
-    <url>
-        <loc>http://127.0.0.1:4000/feed.xml</loc>
-    </url>
-    
-    <url>
-        <loc>http://127.0.0.1:4000/categories/</loc>
+        <loc>http://127.0.0.1:4000/404.html</loc>
     </url>
     
     <url>
@@ -38,10 +14,38 @@
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/404.html</loc>
+        <loc>http://127.0.0.1:4000/categories/</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/feed.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/index.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/posts/</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/pratique/</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/sitemap.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/theme-setup/</loc>
     </url>
     
 
+    
+    <url>
+        <loc>http://127.0.0.1:4000/pratique/randonner/</loc>
+    </url>
     
     <url>
         <loc>http://127.0.0.1:4000/pratique/refuges/</loc>

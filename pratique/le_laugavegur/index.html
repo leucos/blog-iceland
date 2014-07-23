@@ -6,19 +6,19 @@
 <head>
 <meta charset="utf-8">
 <title>Fjallabak et le trek du Laugavegur &#8211; Islande</title>
-<meta name="description" content="Le trek le plus couru d'Islande">
+<meta name="description" content="Le trek le plus couru d'Islande, et le parc naturel attenant.">
 <meta name="keywords" content="islande, tips">
 <!-- Twitter Cards -->
 	
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:image" content=
 			
-				"http://127.0.0.1:4000/images/pano_alftavatn2_lzn.jpg"
+				"http://127.0.0.1:4000/images/2014-07-16-le_laugavegur/pano_alftavatn2_lzn.jpg"
 			
 		>
 	
 	<meta name="twitter:title" content="Fjallabak et le trek du Laugavegur">
-	<meta name="twitter:description" content="Le trek le plus couru d'Islande">
+	<meta name="twitter:description" content="Le trek le plus couru d'Islande, et le parc naturel attenant.">
 	<meta name="twitter:creator" content="@b9m">
 
 
@@ -26,7 +26,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Fjallabak et le trek du Laugavegur">
-<meta property="og:description" content="Le trek le plus couru d'Islande">
+<meta property="og:description" content="Le trek le plus couru d'Islande, et le parc naturel attenant.">
 <meta property="og:url" content="http://127.0.0.1:4000/pratique/le_laugavegur/">
 <meta property="og:site_name" content="Islande">
 
@@ -104,7 +104,7 @@
   <div class="image-wrap">
   <img src=
     
-      "http://127.0.0.1:4000/images/pano_alftavatn2_lzn.jpg"
+      "http://127.0.0.1:4000/images/2014-07-16-le_laugavegur/pano_alftavatn2_lzn.jpg"
     
   alt="Fjallabak et le trek du Laugavegur feature image">
   <span class="image-credit">
@@ -150,7 +150,7 @@
   <header>
     <h3>Sommaire</h3>
   </header>
-<div id="drawer">
+<div id="drawer" class="hidden">
 <ul id="markdown-toc">
   <li><a href="#laugavegur">Laugavegur</a>    <ul>
       <li><a href="#gnralits">Généralités</a></li>
@@ -509,7 +509,9 @@ organisation sans faille… et surtout, d’ajouter quelques centaines de gramme
   <h4>You might also enjoy <small class="pull-right">(<a href="http://127.0.0.1:4000/posts/">View all posts</a>)</small></h4>
     <ul>
     
-      <li><a href="http://127.0.0.1:4000/pratique/refuges/" title="Les refuges en Islande">Les refuges en Islande</a></li>
+      <li><a href="http://127.0.0.1:4000/pratique/randonner/" title="Randonner en Islande">Randonner en Islande</a></li>
+    
+      <li><a href="http://127.0.0.1:4000/pratique/refuges/" title="Les refuges (et quelques campings) autour de Fjallabak et du Laugavegur">Les refuges (et quelques campings) autour de Fjallabak et du Laugavegur</a></li>
     
       <li><a href="http://127.0.0.1:4000/pratique/conseils-pratiques/" title="Conseils pratiques pour la randonnée en Islande">Conseils pratiques pour la randonnée en Islande</a></li>
     
@@ -556,7 +558,7 @@ var jekyllMapping = (function () {
             if (typeof(settings.latitude) !== 'undefined' && typeof(settings.longitude) !== 'undefined') {
                 this.center = new OpenLayers.LonLat(settings.longitude, settings.latitude).transform( new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
                 this.map.setCenter(this.center, settings.zoom);
-                this.markers.addMarker(new OpenLayers.Marker(this.center));
+                //this.markers.addMarker(new OpenLayers.Marker(this.center));
             }     
 
             if (settings.locations instanceof Array) {
@@ -576,7 +578,40 @@ var jekyllMapping = (function () {
                                 })
                             })
                         });
+
                     this.map.addLayer(m)
+                    
+                    m.events.register('loadend', m, function(evt){
+                        this.map.zoomToExtent(m.getDataExtent())
+                    });
+
+                    this.map.zoomToExtent(m.getDataExtent());
+                    // console.log(bounds.getCenterLonLat());
+                    // console.log(this.map.getCenterLonLat());
+
+                    var highlightCtrl = new OpenLayers.Control.SelectFeature(m, {
+                        hover: true,
+                        highlightOnly: true,
+                        renderIntent: "temporary",
+                        eventListeners: {
+                            // beforefeaturehighlighted: this.onFeatureHover,
+                            featurehighlighted: this.onFeaturePreview,
+                            featureunhighlighted: this.onFeatureUnpreview,
+                        }
+                    });
+                    
+                    var selectCtrl = new OpenLayers.Control.SelectFeature(m, {
+
+                    });
+
+                    m.events.on({
+                        "featureselected": this.onFeatureSelect,
+                        "featureunselected": this.onFeatureUnselect
+                    });
+                    this.map.addControl(highlightCtrl);
+                    this.map.addControl(selectCtrl);
+                    highlightCtrl.activate();                       
+                    selectCtrl.activate();                       
                 }
             }
         },
@@ -585,7 +620,11 @@ var jekyllMapping = (function () {
 
             this.markers = new OpenLayers.Layer.Markers("Markers"),
             this.map = new OpenLayers.Map("jekyll-mapping");
-            this.map.addLayer(new OpenLayers.Layer.OSM());
+            this.map.addLayer(new OpenLayers.Layer.OSM("OpenCycleMap",
+              ["http://a.tile.opencyclemap.org/cycle/${z}/${x}/${y}.png",
+               "http://b.tile.opencyclemap.org/cycle/${z}/${x}/${y}.png",
+               "http://c.tile.opencyclemap.org/cycle/${z}/${x}/${y}.png"])
+            );
             this.map.addLayer(this.markers);
 
             if (settings.pages) {
@@ -593,6 +632,84 @@ var jekyllMapping = (function () {
             } else {
                 this.pageToMap();
             }
+        },
+        onFeatureHover: function(event) {
+
+            var feature = event.feature;
+            // Since KML is user-generated, do naive protection against
+            // Javascript.
+            var content = "<h2>"+feature.attributes.name + "</h2>" + feature.attributes.description;
+            if (content.search("<script") != -1) {
+                content = "Content contained Javascript! Escaped content below.<br>" + content.replace(/</g, "&lt;");
+            }
+            var popup = new OpenLayers.Popup.FramedCloud("chicken", 
+                                     feature.geometry.getBounds().getCenterLonLat(),
+                                     new OpenLayers.Size(100,100),
+                                     content,
+                                     null, true, this.onPopupClose);
+            feature.popup = popup;
+            this.map.addPopup(popup);
+        },
+        onFeatureSelect: function(event) {
+            console.log("onFeatureSelect");
+            var feature = event.feature;
+
+            // close hovering popup before
+            if(feature.popup) {
+                this.map.removePopup(feature.popup);
+                feature.popup.destroy();
+                delete feature.popup;
+            }
+
+            // Since KML is user-generated, do naive protection against
+            // Javascript.
+            var content = "<h2>"+feature.attributes.name + "</h2>" + feature.attributes.description;
+            if (content.search("<script") != -1) {
+                content = "Content contained Javascript! Escaped content below.<br>" + content.replace(/</g, "&lt;");
+            }
+            var popup = new OpenLayers.Popup.FramedCloud("refuge-detail", 
+                                     feature.geometry.getBounds().getCenterLonLat(),
+                                     new OpenLayers.Size(100,100),
+                                     content,
+                                     null, true, this.onPopupClose);
+            feature.popup = popup;
+            this.map.addPopup(popup);
+        },        
+        onFeatureUnselect: function(event) {
+            var feature = event.feature;
+            if(feature.popup) {
+                this.map.removePopup(feature.popup);
+                feature.popup.destroy();
+                delete feature.popup;
+            }
+        },
+        onFeaturePreview: function(event) {
+            console.log("onFeatureHover");
+
+            var feature = event.feature;
+            // Since KML is user-generated, do naive protection against
+            // Javascript.
+            var content = "<strong>"+ feature.attributes.name + "</strong>";
+
+            var popup = new OpenLayers.Popup("refuge-overview", 
+                                     feature.geometry.getBounds().getCenterLonLat(),
+                                     new OpenLayers.Size(100,100),
+                                     'Refuge de ' + feature.attributes.name,
+                                     null, false, this.onPopupClose);
+            popup.autoSize = true;
+            feature.popup = popup;
+            this.map.addPopup(popup);
+        },        
+        onFeatureUnpreview: function(event) {
+            var feature = event.feature;
+            if(feature.popup) {
+                this.map.removePopup(feature.popup);
+                feature.popup.destroy();
+                delete feature.popup;
+            }
+        },        
+        onPopupClose: function(evt) {
+            select.unselectAll();
         }        
     };
     return obj;
@@ -603,7 +720,7 @@ var jekyllMapping = (function () {
     
     
             <script type="text/javascript">
-                window.onload = function () { jekyllMapping.mappingInitialize({"provider":"openstreetmap","zoom":8,"dimensions":{"width":600,"height":400},"layers":["http://127.0.0.1:4000/kml/huts.kml"],"latitude":64.101,"longitude":-18.1}) };
+                window.onload = function () { jekyllMapping.mappingInitialize({"provider":"openstreetmap","zoom":8,"dimensions":{"width":800,"height":600},"layers":["http://127.0.0.1:4000/kml/huts.kml"],"latitude":64.101,"longitude":-18.1}) };
             </script>
     
     
