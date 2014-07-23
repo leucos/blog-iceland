@@ -375,7 +375,7 @@ prendre, mais vous en trouverez plein partout, notamment au camping).</p>
 <h3 id="le-bsi">Le BSI</h3>
 
 <figure>
-  <a href="/images/2014-07-16-conseils-pratiques/bsi.jpg" title="BSI"><img src="/images/2014-07-16-conseils-pratiques/bsi.jpg" /></a>
+  <a href="http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bsi.jpg" title="BSI"><img src="http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bsi.jpg" /></a>
   <figcaption><a href="http://www.bsi.is/" title="BSI">BSI</a>.</figcaption>
 </figure>
 <hr />
@@ -420,7 +420,7 @@ débrouillerez bien.</p>
 <h3 id="les-bus-reykjavik-excursion">Les bus Reykjavik Excursion</h3>
 
 <figure>
-  <a href="/images/2014-07-16-conseils-pratiques/bus_bsi.jpg" title="Bus au repos au BSI"><img src="/images/2014-07-16-conseils-pratiques/bus_bsi.jpg" /></a>
+  <a href="http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bus_bsi.jpg" title="Bus au repos au BSI"><img src="http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bus_bsi.jpg" /></a>
   <figcaption><a href="http://www.re.is/" title="BSI">Bus au repos au BSI</a>.</figcaption>
 </figure>
 <hr />
@@ -459,7 +459,7 @@ l’heure de départ (pas forcément de celle d’arrivée par contre…).</p>
 <h3 id="les-bus-municipaux-strtis">Les bus municipaux (Strætó.is)</h3>
 
 <figure>
-  <a href="/images/2014-07-16-conseils-pratiques/straeto.jpg" title="Bus Strætó"><img src="/images/2014-07-16-conseils-pratiques/straeto.jpg" /></a>
+  <a href="http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/straeto.jpg" title="Bus Strætó"><img src="http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/straeto.jpg" /></a>
   <figcaption><a href="http://www.straeto.is/" title="Strætó">Strætó</a>.</figcaption>
 </figure>
 <hr />
@@ -540,7 +540,7 @@ qui la jouxte.</p>
 sous aucun prétexte !</p>
 
 <figure>
-  <a href="/images/2014-07-16-conseils-pratiques/sangitamiya.jpg" title="Hljóðheimurinn Sangitamiya"><img src="/images/2014-07-16-conseils-pratiques/sangitamiya.jpg" /></a>
+  <a href="http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/sangitamiya.jpg" title="Hljóðheimurinn Sangitamiya"><img src="http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/sangitamiya.jpg" /></a>
   <figcaption><a href="http://www.re.is/" title="Hljóðheimurinn Sangitamiya">Hljóðheimurinn Sangitamiya</a>.</figcaption>
 </figure>
 <hr />
@@ -738,8 +738,9 @@ var jekyllMapping = (function () {
                 }
             }
         },
-        mappingInitialize: function (set) {
+        mappingInitialize: function (set, siteurl) {
             settings = set;
+            this.siteurl = siteurl;
 
             this.markers = new OpenLayers.Layer.Markers("Markers"),
             this.map = new OpenLayers.Map("jekyll-mapping");
@@ -841,12 +842,7 @@ var jekyllMapping = (function () {
 
     
     
-    
-            <script type="text/javascript">
-                window.onload = function () { jekyllMapping.mappingInitialize({"provider":"openstreetmap","zoom":8,"dimensions":{"width":800,"height":600},"layers":["http://127.0.0.1:4000/kml/huts.kml"],"latitude":64.101,"longitude":-18.1}) };
-            </script>
-    
-    
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="http://leucos.github.io/blog-iceland/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>

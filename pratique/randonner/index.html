@@ -376,8 +376,9 @@ var jekyllMapping = (function () {
                 }
             }
         },
-        mappingInitialize: function (set) {
+        mappingInitialize: function (set, siteurl) {
             settings = set;
+            this.siteurl = siteurl;
 
             this.markers = new OpenLayers.Layer.Markers("Markers"),
             this.map = new OpenLayers.Map("jekyll-mapping");
@@ -479,6 +480,7 @@ var jekyllMapping = (function () {
 
     
     
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="http://leucos.github.io/blog-iceland/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
