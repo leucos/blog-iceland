@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://127.0.0.1:4000</loc>
+        <loc>http://leucos.github.io/blog-iceland</loc>
     </url>
     
     
     <url>
-        <loc>http://127.0.0.1:4000/404.html</loc>
+        <loc>http://leucos.github.io/blog-iceland/404.html</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/about/</loc>
+        <loc>http://leucos.github.io/blog-iceland/about/</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/categories/</loc>
+        <loc>http://leucos.github.io/blog-iceland/categories/</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/feed.xml</loc>
+        <loc>http://leucos.github.io/blog-iceland/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/index.html</loc>
+        <loc>http://leucos.github.io/blog-iceland/index.html</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/posts/</loc>
+        <loc>http://leucos.github.io/blog-iceland/posts/</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/pratique/</loc>
+        <loc>http://leucos.github.io/blog-iceland/pratique/</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/sitemap.xml</loc>
+        <loc>http://leucos.github.io/blog-iceland/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/theme-setup/</loc>
+        <loc>http://leucos.github.io/blog-iceland/theme-setup/</loc>
     </url>
     
 
     
     <url>
-        <loc>http://127.0.0.1:4000/pratique/randonner/</loc>
+        <loc>http://leucos.github.io/blog-iceland/pratique/randonner/</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/pratique/refuges/</loc>
+        <loc>http://leucos.github.io/blog-iceland/pratique/refuges/</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/pratique/le_laugavegur/</loc>
+        <loc>http://leucos.github.io/blog-iceland/pratique/le_laugavegur/</loc>
     </url>
     
     <url>
-        <loc>http://127.0.0.1:4000/pratique/conseils-pratiques/</loc>
+        <loc>http://leucos.github.io/blog-iceland/pratique/conseils-pratiques/</loc>
     </url>
     
 </urlset>
