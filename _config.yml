@@ -48,8 +48,8 @@ mapping:
   provider: openstreetmap
   zoom: 8
   dimensions:
-    width: 600
-    height: 400
+    width: 800
+    height: 600
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

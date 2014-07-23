@@ -30,7 +30,7 @@ var jekyllMapping = (function () {
             if (typeof(settings.latitude) !== 'undefined' && typeof(settings.longitude) !== 'undefined') {
                 this.center = new OpenLayers.LonLat(settings.longitude, settings.latitude).transform( new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
                 this.map.setCenter(this.center, settings.zoom);
-                this.markers.addMarker(new OpenLayers.Marker(this.center));
+                //this.markers.addMarker(new OpenLayers.Marker(this.center));
             }     
 
             if (settings.locations instanceof Array) {
@@ -50,7 +50,40 @@ var jekyllMapping = (function () {
                                 })
                             })
                         });
+
                     this.map.addLayer(m)
+                    
+                    m.events.register('loadend', m, function(evt){
+                        this.map.zoomToExtent(m.getDataExtent())
+                    });
+
+                    this.map.zoomToExtent(m.getDataExtent());
+                    // console.log(bounds.getCenterLonLat());
+                    // console.log(this.map.getCenterLonLat());
+
+                    var highlightCtrl = new OpenLayers.Control.SelectFeature(m, {
+                        hover: true,
+                        highlightOnly: true,
+                        renderIntent: "temporary",
+                        eventListeners: {
+                            // beforefeaturehighlighted: this.onFeatureHover,
+                            featurehighlighted: this.onFeaturePreview,
+                            featureunhighlighted: this.onFeatureUnpreview,
+                        }
+                    });
+                    
+                    var selectCtrl = new OpenLayers.Control.SelectFeature(m, {
+
+                    });
+
+                    m.events.on({
+                        "featureselected": this.onFeatureSelect,
+                        "featureunselected": this.onFeatureUnselect
+                    });
+                    this.map.addControl(highlightCtrl);
+                    this.map.addControl(selectCtrl);
+                    highlightCtrl.activate();                       
+                    selectCtrl.activate();                       
                 }
             }
         },
@@ -59,7 +92,11 @@ var jekyllMapping = (function () {
 
             this.markers = new OpenLayers.Layer.Markers("Markers"),
             this.map = new OpenLayers.Map("jekyll-mapping");
-            this.map.addLayer(new OpenLayers.Layer.OSM());
+            this.map.addLayer(new OpenLayers.Layer.OSM("OpenCycleMap",
+              ["http://a.tile.opencyclemap.org/cycle/${z}/${x}/${y}.png",
+               "http://b.tile.opencyclemap.org/cycle/${z}/${x}/${y}.png",
+               "http://c.tile.opencyclemap.org/cycle/${z}/${x}/${y}.png"])
+            );
             this.map.addLayer(this.markers);
 
             if (settings.pages) {
@@ -67,6 +104,84 @@ var jekyllMapping = (function () {
             } else {
                 this.pageToMap();
             }
+        },
+        onFeatureHover: function(event) {
+
+            var feature = event.feature;
+            // Since KML is user-generated, do naive protection against
+            // Javascript.
+            var content = "<h2>"+feature.attributes.name + "</h2>" + feature.attributes.description;
+            if (content.search("<script") != -1) {
+                content = "Content contained Javascript! Escaped content below.<br>" + content.replace(/</g, "&lt;");
+            }
+            var popup = new OpenLayers.Popup.FramedCloud("chicken", 
+                                     feature.geometry.getBounds().getCenterLonLat(),
+                                     new OpenLayers.Size(100,100),
+                                     content,
+                                     null, true, this.onPopupClose);
+            feature.popup = popup;
+            this.map.addPopup(popup);
+        },
+        onFeatureSelect: function(event) {
+            console.log("onFeatureSelect");
+            var feature = event.feature;
+
+            // close hovering popup before
+            if(feature.popup) {
+                this.map.removePopup(feature.popup);
+                feature.popup.destroy();
+                delete feature.popup;
+            }
+
+            // Since KML is user-generated, do naive protection against
+            // Javascript.
+            var content = "<h2>"+feature.attributes.name + "</h2>" + feature.attributes.description;
+            if (content.search("<script") != -1) {
+                content = "Content contained Javascript! Escaped content below.<br>" + content.replace(/</g, "&lt;");
+            }
+            var popup = new OpenLayers.Popup.FramedCloud("refuge-detail", 
+                                     feature.geometry.getBounds().getCenterLonLat(),
+                                     new OpenLayers.Size(100,100),
+                                     content,
+                                     null, true, this.onPopupClose);
+            feature.popup = popup;
+            this.map.addPopup(popup);
+        },        
+        onFeatureUnselect: function(event) {
+            var feature = event.feature;
+            if(feature.popup) {
+                this.map.removePopup(feature.popup);
+                feature.popup.destroy();
+                delete feature.popup;
+            }
+        },
+        onFeaturePreview: function(event) {
+            console.log("onFeatureHover");
+
+            var feature = event.feature;
+            // Since KML is user-generated, do naive protection against
+            // Javascript.
+            var content = "<strong>"+ feature.attributes.name + "</strong>";
+
+            var popup = new OpenLayers.Popup("refuge-overview", 
+                                     feature.geometry.getBounds().getCenterLonLat(),
+                                     new OpenLayers.Size(100,100),
+                                     'Refuge de ' + feature.attributes.name,
+                                     null, false, this.onPopupClose);
+            popup.autoSize = true;
+            feature.popup = popup;
+            this.map.addPopup(popup);
+        },        
+        onFeatureUnpreview: function(event) {
+            var feature = event.feature;
+            if(feature.popup) {
+                this.map.removePopup(feature.popup);
+                feature.popup.destroy();
+                delete feature.popup;
+            }
+        },        
+        onPopupClose: function(evt) {
+            select.unselectAll();
         }        
     };
     return obj;
