@@ -87,8 +87,9 @@ var jekyllMapping = (function () {
                 }
             }
         },
-        mappingInitialize: function (set) {
+        mappingInitialize: function (set, siteurl) {
             settings = set;
+            this.siteurl = siteurl;
 
             this.markers = new OpenLayers.Layer.Markers("Markers"),
             this.map = new OpenLayers.Map("jekyll-mapping");

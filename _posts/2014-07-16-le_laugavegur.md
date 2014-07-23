@@ -10,11 +10,7 @@ image:
   feature: 2014-07-16-le_laugavegur/pano_alftavatn2_lzn.jpg
   credit: Michel Blanc
   legend: Alftavatn depuis le Laugavegur
-mapping:
-  layers:
-    - http://127.0.0.1:4000/kml/huts.kml
-  latitude: 64.101
-  longitude: -18.1
+
 ---
 <section id="table-of-contents" class="toc">
   <header>

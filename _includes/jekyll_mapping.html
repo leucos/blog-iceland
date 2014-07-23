@@ -13,7 +13,7 @@
             </script>
         {% when "openstreetmap" %}
             <script type="text/javascript">
-                window.onload = function () { jekyllMapping.mappingInitialize({% yaml_to_json mapping %}) };
+                window.onload = function () { jekyllMapping.mappingInitialize({% yaml_to_json mapping %}, "{{ site.url }}") };
             </script>
     {% endcase %}
     {% endif %}

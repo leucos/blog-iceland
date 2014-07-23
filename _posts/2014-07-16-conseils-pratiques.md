@@ -10,11 +10,7 @@ image:
   feature: 2014-07-16-conseils-pratiques/header.jpg
   credit: Michel Blanc
   legend: « The Pond », un des lacs de Reykjavik
-mapping:
-  layers:
-    - http://127.0.0.1:4000/kml/huts.kml
-  latitude: 64.101
-  longitude: -18.1
+
 ---
 <section id="table-of-contents" class="toc">
   <header>
@@ -204,7 +200,7 @@ prendre, mais vous en trouverez plein partout, notamment au camping).
 ### Le BSI
 
 <figure>
-  <a href="/images/2014-07-16-conseils-pratiques/bsi.jpg" title="BSI"><img src="/images/2014-07-16-conseils-pratiques/bsi.jpg"></a>
+  <a href="{{ site.url }}/images/2014-07-16-conseils-pratiques/bsi.jpg" title="BSI"><img src="{{ site.url }}/images/2014-07-16-conseils-pratiques/bsi.jpg"></a>
   <figcaption><a href="http://www.bsi.is/" title="BSI">BSI</a>.</figcaption>
 </figure>
 - - -
@@ -249,7 +245,7 @@ débrouillerez bien.
 ### Les bus Reykjavik Excursion
 
 <figure>
-  <a href="/images/2014-07-16-conseils-pratiques/bus_bsi.jpg" title="Bus au repos au BSI"><img src="/images/2014-07-16-conseils-pratiques/bus_bsi.jpg"></a>
+  <a href="{{ site.url }}/images/2014-07-16-conseils-pratiques/bus_bsi.jpg" title="Bus au repos au BSI"><img src="{{ site.url }}/images/2014-07-16-conseils-pratiques/bus_bsi.jpg"></a>
   <figcaption><a href="http://www.re.is/" title="BSI">Bus au repos au BSI</a>.</figcaption>
 </figure>
 - - -
@@ -283,7 +279,7 @@ l’heure de départ (pas forcément de celle d’arrivée par contre…).
 ### Les bus municipaux (Strætó.is)
 
 <figure>
-  <a href="/images/2014-07-16-conseils-pratiques/straeto.jpg" title="Bus Strætó"><img src="/images/2014-07-16-conseils-pratiques/straeto.jpg"></a>
+  <a href="{{ site.url }}/images/2014-07-16-conseils-pratiques/straeto.jpg" title="Bus Strætó"><img src="{{ site.url }}/images/2014-07-16-conseils-pratiques/straeto.jpg"></a>
   <figcaption><a href="http://www.straeto.is/" title="Strætó">Strætó</a>.</figcaption>
 </figure>
 - - -
@@ -364,7 +360,7 @@ Ne rater <<Hljóðheimurinn Sangitamiya>> (situé au [7 rue Grettisgata](https:/
 sous aucun prétexte !
 
 <figure>
-  <a href="/images/2014-07-16-conseils-pratiques/sangitamiya.jpg" title="Hljóðheimurinn Sangitamiya"><img src="/images/2014-07-16-conseils-pratiques/sangitamiya.jpg"></a>
+  <a href="{{ site.url }}/images/2014-07-16-conseils-pratiques/sangitamiya.jpg" title="Hljóðheimurinn Sangitamiya"><img src="{{ site.url }}/images/2014-07-16-conseils-pratiques/sangitamiya.jpg"></a>
   <figcaption><a href="http://www.re.is/" title="Hljóðheimurinn Sangitamiya">Hljóðheimurinn Sangitamiya</a>.</figcaption>
 </figure>
 - - -
