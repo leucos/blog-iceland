@@ -7,6 +7,6 @@ gem 'rake'
 gem 'thor'
 gem 'activesupport'
 gem 'stringex'
-gem 'github-pages'
 
-gem 'guard-jekyll'
+gem 'jgd', :git => 'https://github.com/leucos/jekyll-github-deploy'
+
