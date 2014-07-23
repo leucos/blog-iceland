@@ -570,7 +570,7 @@ var jekyllMapping = (function () {
                     var m = new OpenLayers.Layer.Vector("KML", {
                             strategies: [new OpenLayers.Strategy.Fixed()],
                             protocol: new OpenLayers.Protocol.HTTP({
-                                url: settings.layers.pop(),
+                                url: this.siteurl + settings.layers.pop(),
                                 format: new OpenLayers.Format.KML({
                                     extractStyles: true,
                                     extractAttributes: true,
