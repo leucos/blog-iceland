@@ -1,36 +1,1786 @@
----
-layout: none
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">{{ site.title }}</title>
+<title type="text">Islande</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
-<link rel="alternate" type="text/html" href="{{ site.url }}" />
-<updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>{{ site.url }}/</id>
+<link rel="self" type="application/atom+xml" href="http://127.0.0.1:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://127.0.0.1:4000" />
+<updated>2014-07-23T15:23:12+02:00</updated>
+<id>http://127.0.0.1:4000/</id>
 <author>
-  <name>{{ site.owner.name }}</name>
-  <uri>{{ site.url }}/</uri>
-  <email>{{ site.owner.email }}</email>
+  <name>Michel Blanc</name>
+  <uri>http://127.0.0.1:4000/</uri>
+  <email>mb@mbnet.fr</email>
 </author>
-{% for post in site.posts limit:20 %}
+
 
 <entry>
-  <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-  <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
-  <id>{{ site.url }}{{ post.id }}</id>
-  {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
-  <published>{{ post.date | date_to_xmlschema }}</published>
-  {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
-  <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
+  <title type="html"><![CDATA[Les refuges en Islande]]></title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:4000/pratique/refuges/" />
+  <id>http://127.0.0.1:4000/pratique/refuges</id>
+  <published>2014-07-16T00:00:00+02:00</published>
+  <updated>2014-07-16T00:00:00+02:00</updated>
   <author>
-    <name>{{ site.owner.name }}</name>
-    <uri>{{ site.url }}</uri>
-    <email>{{ site.owner.email }}</email>
+    <name>Michel Blanc</name>
+    <uri>http://127.0.0.1:4000</uri>
+    <email>mb@mbnet.fr</email>
   </author>
-  <content type="html">{{ post.content | xml_escape }}
-  &lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ site.owner.name }} at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
+  <content type="html">&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+  &lt;header&gt;
+    &lt;h3&gt;Sommaire&lt;/h3&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#les-refuges&quot;&gt;Les refuges&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#dernires-mises--jour&quot;&gt;Dernières mises à jour&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#gnralits&quot;&gt;Généralités&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#les-refuges-du-laugavegur&quot;&gt;Les refuges du Laugavegur&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#fimmvruhls-tivist&quot;&gt;Fimmvörðuháls (Útivist)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#fimmvruhls-f&quot;&gt;Fimmvörðuháls (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#basr-rsmrk-tivist&quot;&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Útivist)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#skagfjordsskali-rsmrk-f&quot;&gt;Skagfjordsskali-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#hsadalur-rsmrk-volcano-huts&quot;&gt;Húsadalur-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Volcano Huts)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#emstrur-botnar-f&quot;&gt;Emstrur-Botnar (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#hvanngil-f&quot;&gt;&lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#alftavatn-f&quot;&gt;Alftavatn (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#hskuldskali-alias-hraftinnusker-f&quot;&gt;Höskuldskali, alias Hraftinnusker (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#landmannalaugar&quot;&gt;Landmannalaugar&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#les-refuges-hors-laugavegur-mais-plus-ou-moins-dans-le-secteur-&quot;&gt;Les refuges hors Laugavegur (mais plus ou moins dans le secteur )&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#alftavatnkrokur-lftavtn&quot;&gt;Alftavatnkrokur (Álftavötn)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#holaskjol&quot;&gt;Holaskjol&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#skaelingar-stragil&quot;&gt;Skaelingar (Stóragil)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#sveinstindur&quot;&gt;Sveinstindur&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#dalakofinn&quot;&gt;Dalakofinn&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#campings&quot;&gt;Campings&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#reykjavik&quot;&gt;Reykjavik&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#kirkjubjarklaustur&quot;&gt;Kirkjubæjarklaustur&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#skaftafell&quot;&gt;Skaftafell&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#skgar&quot;&gt;Skógar&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /#table-of-contents --&gt;
+
+&lt;h2 id=&quot;les-refuges&quot;&gt;Les refuges&lt;/h2&gt;
+
+&lt;h3 id=&quot;dernires-mises--jour&quot;&gt;Dernières mises à jour&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;21 juillet 2014 : Révision des informations sur les refuges&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gnralits&quot;&gt;Généralités&lt;/h3&gt;
+
+&lt;p&gt;Les refuges sont gérés la plupart du temps par &lt;a href=&quot;http://fi.is&quot;&gt;Ferðafélag Íslands
+(FÍ)&lt;/a&gt; ou par &lt;a href=&quot;http://utivist.is&quot;&gt;Útivist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pour les refuges du Laugavegur, il faut impérativement réserver, et assez à
+l’avance (les réservations ne sont pas confirmées avant janvier, mais elles sont
+traitées dans l’ordre d’arrivée). A titre d’exemple, au 1er février, certains
+jours sont déjà complets à Fimmvörðuháls (à noter depuis que FÍ a contruit un
+autre refuge en 2013, celui mentionné précédemment étant géré par Útivist;
+depuis 2013, il est possible de parcourir le Laugavegur uniquement en refuges FÍ
+puisque cet organisme a aussi racheté celui d’Husadalur à Thorsmork). Pour les
+autres refuges, j’ai vu pas mal de place à chaque fois.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tarifs : en 2010, Ferðafélag Íslands (FÍ) demandait 4200 ISK par nuit, Útivist
+2500 ISK. On tourne plus dans les 4500 ISK de nos jours. Douches :  les refuges
+sont en général bien équipés, permettent de prendre des douches chaudes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Douches : l’eau chaude dans les douche est presque toujours délivrée par un
+minuteur. Prenez un chronomètre pour vous laver ! Vous pouvez toujours attaquer
+à l’eau froide pour commencer et gagner un peu de temps. En général les douches
+coutent 400 ISK et les &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; ont la monnaie. Mais ayez quelques pièces d’avance,
+on ne sait jamais.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Eau : sauf indication contraire, l’eau et les WC sont toujours disponibles. Les
+toilettes et les douches sont toujours dans un bâtiment différent des couchages.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Divers : notez qu’il n’y a pas (ou que rarement) de couvertures dans les
+refuges.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bivouac : des emplacements de tente permettent de camper autour des refuges.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quiet hours : dans les refuges il y a des quiet hours: 24h-7h.  Pas très 
+pratique pour les couche-tôt / lève-tôt.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Une troisième possibilité de couchage existe à Thorsmok, non citée ici (voir
+là). Il ne faut pas se braquer sur l’accueil décrit : les wardens changent
+plusieurs fois par saison (et, en passant, sont souvent bénévoles).&lt;/p&gt;
+
+&lt;p&gt;TODO: KML de quelques refuges en Islande&lt;/p&gt;
+
+&lt;div id=&quot;jekyll-mapping&quot; style=&quot;height:500px;width:500px;&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;les-refuges-du-laugavegur&quot;&gt;Les refuges du Laugavegur&lt;/h3&gt;
+
+&lt;h4 id=&quot;fimmvruhls-tivist&quot;&gt;Fimmvörðuháls (Útivist)&lt;/h4&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/fimm1.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, à deux pas de l&#39;Eyjafjallajökull&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/fimm1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/fimm2.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, l&#39;intérieur&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/fimm2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/fimm3.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, la cuisine&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/fimm3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Fimmvörðuháls&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.utivist.is/english/fimmvorduhals-hut/&quot;&gt;Útivist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Eau : aucune, neige à fondre éventuellement&lt;/li&gt;
+  &lt;li&gt;Douche : aucune&lt;/li&gt;
+  &lt;li&gt;Électricité : néant&lt;/li&gt;
+  &lt;li&gt;WC : deux cuvettes séparées pour éviter la fermentation de l’urine dans les containers&lt;/li&gt;
+  &lt;li&gt;Cuisine : gaz, à utiliser avec parcimonie&lt;/li&gt;
+  &lt;li&gt;Couchage : 23 lits, la salle à manger est au milieu, pas pratique quand il y a des anglais bruyants&lt;/li&gt;
+  &lt;li&gt;Situation exceptionnelle, vue magnifique sur le laugavegur si le temps est avec vous. Un &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; très sympa garde régulièrement ce refuge : c’est Uwe.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;fimmvruhls-f&quot;&gt;Fimmvörðuháls (FÍ)&lt;/h4&gt;
+
+&lt;p&gt;Il semble qu’il y ait un refuge FÍ à Fimmvörðuháls depuis très récemment. Je 
+n’ai pas trouvé d’infos directes dessus.&lt;/p&gt;
+
+&lt;h4 id=&quot;basr-rsmrk-tivist&quot;&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Útivist)&lt;/h4&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/basar1.jpg&quot; title=&quot;Refuge Útivist de Basár-Þórsmörk, la cuisine&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/basar1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/basar2.jpg&quot; title=&quot;Refuge Útivist de Basár-Þórsmörk, la cuisine&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/basar2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/basar4.jpg&quot; title=&quot;Il y a plein de randos superbes aux alentours de Þórsmörk&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/basar4.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt;, la cuisine&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/basar3.jpg&quot; title=&quot;Bazar à Basár&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/basar3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Bazar à Basár&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.utivist.is/english/basar-hut/&quot;&gt;Útivist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Douche : 400kr/4 min (attention ! c’est 4 minutes et non 5 comme ailleurs).&lt;/li&gt;
+  &lt;li&gt;Électricité : possible le soir chez les &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;, gratuit&lt;/li&gt;
+  &lt;li&gt;Cuisine : le grand luxe, gaz, cafetière, …&lt;/li&gt;
+  &lt;li&gt;Couchage : 80 places.&lt;/li&gt;
+  &lt;li&gt;Poubelles : géantes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;N’achetez « la » carte du coin ici (sauf si vous n’avez pas le choix). Allez 
+plutôt à Húsadalur (a.k.a. Assa) si vous pouvez (20% moins cher).&lt;/p&gt;
+
+&lt;p&gt;En ce qui nous concerne, l’accueil a été glacial…&lt;/p&gt;
+
+&lt;h4 id=&quot;skagfjordsskali-rsmrk-f&quot;&gt;Skagfjordsskali-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (FÍ)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.fi.is/en/huts/thorsmork/&quot;&gt;FÍ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Racheté en 2012 par FÍ. Je n’ai fais que passer devant, aucune info.&lt;/p&gt;
+
+&lt;h4 id=&quot;hsadalur-rsmrk-volcano-huts&quot;&gt;Húsadalur-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Volcano Huts)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.volcanohuts.com/&quot;&gt;Volcano Huts&lt;/a&gt; (anciennement 
+Hostelling International), 
+&lt;a href=&quot;https://www.facebook.com/Husadalur?ref=stream&quot;&gt;page facebook&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Peu d’infos, je n’ai fait que passer. Mais visiblement, il y a tout le confort
+(et même un restau). Ca semble assez familial. On peut y acheter des cartes
+postales, des timbres et poster sur place. Pratique pour faire son devoir quand
+on parcours le Laugavegur, même si c’est légèrement excentré par rapport à la
+route normale.&lt;/p&gt;
+
+&lt;p&gt;Il y a aussi une mini-hot pool. Bon, vraiment mini…&lt;/p&gt;
+
+&lt;p&gt;Ils sont sur &lt;a href=&quot;https://www.facebook.com/Husadalur?ref=stream&quot;&gt;facebook&lt;/a&gt; et 
+postent régulièrement, ce qui permet par exemple d’avoir des infos sur le 
+niveau de la Krossá (la rivière de la vallée de &lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt;).&lt;/p&gt;
+
+&lt;h4 id=&quot;emstrur-botnar-f&quot;&gt;Emstrur-Botnar (FÍ)&lt;/h4&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/emstrur1.jpg&quot; title=&quot;Emstrur, vue générale&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/emstrur1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/emstrur2.jpg&quot; title=&quot;Emstrur, la cabine du Warden&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/emstrur2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/emstrur3.jpg&quot; title=&quot;Emstrur. En cas d&#39;incendie, sautez par la fenêtre&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/emstrur3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Emstrur-Botnar (FÍ)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : FÍ&lt;/li&gt;
+  &lt;li&gt;Douche : 400 ISK / 5 minutes, une seule douche, longue file d’attente…&lt;/li&gt;
+  &lt;li&gt;Cuisine : bien équipée&lt;/li&gt;
+  &lt;li&gt;Électricité : non&lt;/li&gt;
+  &lt;li&gt;Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
+(Álftavatn - &lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 15h10. Ce bus circule tous les jours depuis 
+2014 et permet de rentrer sur Reykjavik en cas de souci. Attention, l’arrêt du 
+bus n’est pas au refuge mais à un endroit appellé «Crossroads» (croisement).
+Il faudra se renseigner auprès du Warden pour voir de quel croisement on parle. 
+C’est le dernier bus échappatoire si vous allez vers le sud.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ne pas rater la vue sur le canyon de la Markarfljot (demander au &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;). Vous 
+me raconterez (je l’ai ratée…). Kristina, la &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; qui porte des chaussettes 
+Quechua, nous a accueillis avec un grand sourire.&lt;/p&gt;
+
+&lt;h4 id=&quot;hvanngil-f&quot;&gt;&lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; (FÍ)&lt;/h4&gt;
+
+&lt;p&gt;La solution alternative à Alftavatn (5 km avant). Dans un cadre superbe, et 
+visiblement désert (tout le monde va à Alftavatn). Certainement un bon plan si 
+vous cherchez le calme. Il y a (comme partout ailleurs) des balades sympas dans 
+les environs, notamment sur Hvanngilshausar, la montagne qui domine le refuge à 
+l’est. MOntez au sommet, suivez la crête (balisé), et revenez par la vallée, ça 
+vaut vraiment le coup.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/hvangillshausar.jpg&quot; title=&quot;Vue depuis Hvanngilshausar&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/hvangillshausar.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Vue depuis Hvanngilshausar&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Une autre balade permet de croiser quelques cascades.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/hvangill1.jpg&quot; title=&quot;Balade des cascades à Hvangill&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/hvangill1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Balade des cascades à Hvangill&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.fi.is/en/huts/hvanngil/&quot;&gt;FÍ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
+(Álftavatn - &lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 14h30. Ce bus circule tous les jours (depuis 
+2014) et permet de rentrer sur Reykjavik en cas de souci.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;Alftavatn&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;alftavatn-f&quot;&gt;Alftavatn (FÍ)&lt;/h4&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/alftavatn1.jpg&quot; title=&quot;Alftavatn : cuisine et dépendance&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/alftavatn1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/alftavatn2.jpg&quot; title=&quot;Alftavatn : une des chambres&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/alftavatn2.jpg&quot; title=&quot;Alftavatn : une des chambres&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Alftavatn&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/alftavatn3.jpg&quot; title=&quot;Alftavatn : la maison blanche&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/alftavatn3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Alftavatn : la maison blanche&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.fi.is/en/huts/alftavatn/&quot;&gt;FÍ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Douche : 400 ISK / 5 minutes&lt;/li&gt;
+  &lt;li&gt;Électricité : possible le soir chez les &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;, 500 ISK&lt;/li&gt;
+  &lt;li&gt;Cuisine : incroyable… plein de matos tout neuf (n 2010), nickel chrome (ceci 
+vaut pour la maison blanche; l’autre est très correcte aussi, plus dans le 
+style Emstrur)&lt;/li&gt;
+  &lt;li&gt;Couchage : 72 places&lt;/li&gt;
+  &lt;li&gt;Poubelles : géantes&lt;/li&gt;
+  &lt;li&gt;Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
+(Álftavatn - &lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 13h00. Ce bus circule tous les jours (depuis 
+2014) et permet de rentrer sur Reykjavik en cas de souci.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Desservi par un bus qui boucle sur Reykjavik. Si vous devez craquer sur le 
+Laugavegur, craquez ici, il n’y a pas d’autre échappatoire avant 
+Landmannalaugar (depuis le sud). De plus, le trajet en bus est vraiment 
+grandiose.&lt;/p&gt;
+
+&lt;p&gt;Si vous pouvez, essayez d’être installé dans la maison blanche par la &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;, 
+c’est vraiment nickel. Le soir, balade romantique au bord du lac de rigueur.&lt;/p&gt;
+
+&lt;h4 id=&quot;hskuldskali-alias-hraftinnusker-f&quot;&gt;Höskuldskali, alias Hraftinnusker (FÍ)&lt;/h4&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/hraf1.jpg&quot; title=&quot;Une des quelques tables en terrasse à Hraftinnusker&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/hraf1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/hraf2.jpg&quot; title=&quot;Hraftinnusker dans la brume&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/hraf2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Hraftinnusker&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.fi.is/en/huts/hrafntinnusker/&quot;&gt;FÍ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Eau : oui, parfois chaude au robinet (ou c’était un impression due au froid !)&lt;/li&gt;
+  &lt;li&gt;Douche : oui&lt;/li&gt;
+  &lt;li&gt;Électricité : probablement pas&lt;/li&gt;
+  &lt;li&gt;WC : toilettes sèches&lt;/li&gt;
+  &lt;li&gt;Cuisine : oui&lt;/li&gt;
+  &lt;li&gt;Couchage : 52 lits&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Malgré l’aspect extérieur parfois inquiétant (surtout les toiletes), c’est
+super. Les couchages sont au sol mais très bons. Quasiment tous à l’étage, donc
+il fait plutot chaud. On y a dormi la fenêtre ouverte en 2013.&lt;/p&gt;
+
+&lt;p&gt;Notez que la météo est souvent très exacerbée ici. Camper ici peut tenir de la
+survie si vous n’êtes pas équipé correctement.&lt;/p&gt;
+
+&lt;p&gt;Malgré tout, c’est un super spot pour explorer les environs si la météo est
+favorable (grimper Hraftinnusker, Sodul, Reykjafjoll, Haskerdingur, Hvani).&lt;/p&gt;
+
+&lt;h4 id=&quot;landmannalaugar&quot;&gt;Landmannalaugar&lt;/h4&gt;
+
+&lt;p&gt;Landmannalaugar, le refuge
+Refuge de Landmannalaugar, les bas flancs des randonneurs d’en bas&lt;/p&gt;
+
+&lt;p&gt;Les sanitaires de Landmannalaugar et les très prisés tuyaux d’eau chaude
+La maison des wardens à gauche (on apercoit le toit du refuge derrière) et les sanitaires sur la droite.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.fi.is/en/huts/landmannalaugar/&quot;&gt;FÍ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Eau : oui, chaude au robinet dans le refuge et aux lavabos à l’extérieur et 
+dans les sanitaires&lt;/li&gt;
+  &lt;li&gt;Douche : 400 ISK/5 minutes&lt;/li&gt;
+  &lt;li&gt;Électricité : recharge payante chez les &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;&lt;/li&gt;
+  &lt;li&gt;Cuisine : oui&lt;/li&gt;
+  &lt;li&gt;Couchage : 75 lits&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Je ne suis pas fan de l’endroit. Le camping est moche, le sol béton, l’endroit
+est surpeuplé, et adieu les quiet hours, c’est très bruyant tard et tôt.&lt;/p&gt;
+
+&lt;p&gt;Par contre, dès que l’on s’éloigne un peu, c’est paradisiaque. Évidemment, ne
+pas rater (comment serait-ce possible !) le bain dans les sources d’eau chaude;
+même s’il fait froid dehors, on est super bien dedans et on a pas froid en
+sortant. Le plus dur, c’est de se décider à passer en maillot. Passez à la
+douche en sortant, et évitez de remuer les algues, il y a quelques habitants
+microscopiques qui on semble t’il importuné quelques voyageurs précédents.&lt;/p&gt;
+
+&lt;p&gt;Le Mountain Mall&lt;/p&gt;
+
+&lt;p&gt;Possibilité de ravitaillement (ne révez pas tout de même…) dans le « Mountain
+Mall ». C’est un bus aménagé en petit magasin, donc vous ne trouverez pas votre
+marque de chocolat favorite. Il y a du gaz la plupart du temps.
+Si vous avez expédié des affaires depuis le BSI, c’est ici qu’il faudra demander
+de vous faire ouvrir le “storage” pour aller récupérer vos affaires.&lt;/p&gt;
+
+&lt;h3 id=&quot;les-refuges-hors-laugavegur-mais-plus-ou-moins-dans-le-secteur-&quot;&gt;Les refuges hors Laugavegur (mais plus ou moins dans le secteur )&lt;/h3&gt;
+
+&lt;h4 id=&quot;alftavatnkrokur-lftavtn&quot;&gt;Alftavatnkrokur (Álftavötn)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.utivist.is/english/alftavotn-hut/&quot;&gt;Útivist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Douche : non&lt;/li&gt;
+  &lt;li&gt;Électricité : non&lt;/li&gt;
+  &lt;li&gt;Cuisine : ce qu’il faut, pas plus&lt;/li&gt;
+  &lt;li&gt;Couchage : 20 places&lt;/li&gt;
+  &lt;li&gt;Poubelles : il faudra les remporter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Attention, ne pas confondre avec &lt;a href=&quot;#Alftavatn&quot;&gt;Alftavatn&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Refait à neuf à l’intérieur, murs de pierre à la base, c’est vraiment très beau.
+En plus le cadre est splendide, je n’en sais pas plus, je n’ai fait que passer
+en courant sous des trombes d’eau à chaque fois. Pas très loin d’un canyon
+parcouru par la Sydri-Ofaera qu’il faut traverser deux fois pour passer sur une
+ile. Magnifique.&lt;/p&gt;
+
+&lt;h4 id=&quot;holaskjol&quot;&gt;Holaskjol&lt;/h4&gt;
+
+&lt;p&gt;Holaskjol
+Hoslaskjol, béni soit ton poêle à gaz !
+La salle à manger du bâtiment principal à Holaskjol&lt;/p&gt;
+
+&lt;p&gt;Un batiment principal et quelques cabanons individuels.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant: &lt;a href=&quot;http://www.eldgja.is/en/accommodation&quot;&gt;Privé ?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Douche : 400kr, mais no limits !&lt;/li&gt;
+  &lt;li&gt;Électricité : probablement, pas vu&lt;/li&gt;
+  &lt;li&gt;Couchage : une bonne trentaine de place dans le batiment principal&lt;/li&gt;
+  &lt;li&gt;Poubelles : oui&lt;/li&gt;
+  &lt;li&gt;BBQ : oui !&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Poeles au gaz pour faire sécher les affaires ! Il y a une petite cascade à
+quelques minutes du refuge, « Lítla Goðafoss » comme l’appelle le &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;
+d’Holaskjol.&lt;/p&gt;
+
+&lt;p&gt;Globalement plutot désert. Sympa. !lors de mes 3 passages, je n’ai jamais eu
+besoin de réserver, et toujours eu de la place.&lt;/p&gt;
+
+&lt;p&gt;Desservi par le bus &lt;em&gt;10&lt;/em&gt; Skaftafell-Landmannalaugar (vers 10h) et &lt;em&gt;10a&lt;/em&gt;
+Landmannalaugar-Skaftafell (18h). Horaires changeants d’une année sur l’autre,
+vérifiez chez &lt;a href=&quot;http://www.re.is&quot;&gt;Reykjavik Excursions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;skaelingar-stragil&quot;&gt;Skaelingar (Stóragil)&lt;/h4&gt;
+
+&lt;p&gt;Base en pierre du refuge
+Refuge de Skaelingar
+Skaelingar&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.utivist.is/english/skaelingar-hut/&quot;&gt;Útivist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Douche : non&lt;/li&gt;
+  &lt;li&gt;Électricité : non&lt;/li&gt;
+  &lt;li&gt;Cuisine : ce qu’il faut, pas plus&lt;/li&gt;
+  &lt;li&gt;Couchage : 20 places&lt;/li&gt;
+  &lt;li&gt;Poubelles : il faudra les remporter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Refait à neuf à l’intérieur, murs de pierre à la base (ce refuge ressemble
+beaucoup a Alftavatnkrokur. Autour du refuge il y a quelques étonnants « troncs
+de lave » A deux heures d’Eldgja par la piste de 4×4.&lt;/p&gt;
+
+&lt;h4 id=&quot;sveinstindur&quot;&gt;Sveinstindur&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.utivist.is/english/sveinstindur-hut/&quot;&gt;Útivist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Douche : non&lt;/li&gt;
+  &lt;li&gt;Électricité : non&lt;/li&gt;
+  &lt;li&gt;Cuisine : ce qu’il faut, pas plus&lt;/li&gt;
+  &lt;li&gt;Couchage : 20 places&lt;/li&gt;
+  &lt;li&gt;Poubelles : il faudra les remporter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;L’endroit est magnifique. Sveinstindur (la montagne) magique.&lt;/p&gt;
+
+&lt;h4 id=&quot;dalakofinn&quot;&gt;Dalakofinn&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : [Útivist](http://www.utivist.is/english/dalakofinn-hut/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Je ne sais rien de celui là. Je l’ai vu de loin deux fois. Le secteur est
+renversant avec quelques sources chaudes cachées à creuser soi-même.&lt;/p&gt;
+
+&lt;h3 id=&quot;campings&quot;&gt;Campings&lt;/h3&gt;
+
+&lt;h4 id=&quot;reykjavik&quot;&gt;Reykjavik&lt;/h4&gt;
+
+&lt;p&gt;Depuis le camping, vous pouvez prendre la ligne 14 pour vous rendre au centre-ville. Sortez à Hllemur.&lt;/p&gt;
+
+&lt;p&gt;Pas de commentaires. Y’a tout. Même les douches gratuites. Assez peuplé, mais globalement pas très bruyant. Les tables « hors d’eau » sont cependant assez rare. Pas simple pour manger quand il pleut.&lt;/p&gt;
+
+&lt;p&gt;Horaires de la ligne 14 (sens Camping -&amp;gt; BSI)
+Horaires de la ligne 14 (sens Camping -&amp;gt; BSI)&lt;/p&gt;
+
+&lt;h4 id=&quot;kirkjubjarklaustur&quot;&gt;Kirkjubæjarklaustur&lt;/h4&gt;
+
+&lt;p&gt;Douches : 400 ISK / 5mins.
+Électricité : dans les sanitaires, on doit pouvoir demander au gardien aussi.
+Cuisine : rien. Deux trois éviers, c’est tout.
+Eau : à volonté, chaude et gratuite aux robinets.
+Lave linge, sèche linge.
+Ravitaillement : la station service est à 5 minutes à pied.
+Plein de balades dans le coin.
+Super accueil, bons conseils.
+Emplacement géniaux, très bon planté du piquet !
+Piscine déserte (et chaude, bien sûr) à 10 minutes à pied.
+Point de départ des Laki tours, si l’envie vous prend (faut aimer le bus, vous êtes prévenus).
+En bref, il y a tout ce qu’il faut ici pour y faire un break détente et quelques emplettes.&lt;/p&gt;
+
+&lt;h4 id=&quot;skaftafell&quot;&gt;Skaftafell&lt;/h4&gt;
+
+&lt;p&gt;Douches : 400ISK / 5mins. Astuce : plutôt que de faire la queue devant les trois douches à coté de la machine à laver, allez au milieu du camping, il y en a 6, et elles sont bien moins fréquentées.
+Électricité : dans les sanitaires. Attention aux vols…
+Cuisine : rien. Deux trois éviers, c’est tout.
+Eau : à volonté, chaude et gratuite aux robinets.
+Lave linge, sèche linge. Tous deux très fréquentés…
+Ravitaillement : on peut manger à la cafet. Mais pour la ravitaillement, il faut allet à la station service située à 5km.
+Super accueil, tenancière charmante(ok, c’est complètement subjectif)
+Sol gazon mais malgré tout très dur, amenez les pointes !&lt;/p&gt;
+
+&lt;h4 id=&quot;skgar&quot;&gt;Skógar&lt;/h4&gt;
+
+&lt;p&gt;Camping de Skogar&lt;/p&gt;
+
+&lt;p&gt;C’est le minimum syndical. Le camping est très exposé au vents du sud. Par contre, vue imprenable sur la cascade. Ne plantez pas la tente trop près si vous ne voulez pas que le bruit vous empêche de dormir.
+Il y a un petit truc pour s’approvisionner à coté, mais en comptez pas trop dessus, les rayons étaient déserts quand j’y suis allé.
+Plantage facile, le sol est assez meuble.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/pratique/refuges/&quot;&gt;Les refuges en Islande&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;Islande&lt;/a&gt; on July 16, 2014.&lt;/p&gt;</content>
 </entry>
-{% endfor %}
+
+
+<entry>
+  <title type="html"><![CDATA[Fjallabak et le trek du Laugavegur]]></title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:4000/pratique/le_laugavegur/" />
+  <id>http://127.0.0.1:4000/pratique/le_laugavegur</id>
+  <published>2014-07-16T00:00:00+02:00</published>
+  <updated>2014-07-16T00:00:00+02:00</updated>
+  <author>
+    <name>Michel Blanc</name>
+    <uri>http://127.0.0.1:4000</uri>
+    <email>mb@mbnet.fr</email>
+  </author>
+  <content type="html">&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+  &lt;header&gt;
+    &lt;h3&gt;Sommaire&lt;/h3&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#laugavegur&quot;&gt;Laugavegur&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#gnralits&quot;&gt;Généralités&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#difficult&quot;&gt;Difficulté&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#etapes&quot;&gt;Etapes&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#liste&quot;&gt;Liste&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#dans-quel-sens-&quot;&gt;Dans quel sens ?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#doubler-les-tapes-&quot;&gt;Doubler les étapes ?&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#progression&quot;&gt;Progression&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#exposition-terrain-instable&quot;&gt;Exposition, Terrain instable&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#nvs&quot;&gt;Névés&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#gus&quot;&gt;Gués&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lquipement&quot;&gt;L’équipement&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#vtements&quot;&gt;Vétements&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#sac-de-couchage&quot;&gt;Sac de couchage&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#tente&quot;&gt;Tente&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#liste-de-matriel&quot;&gt;Liste de matériel&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#leau&quot;&gt;L’eau&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#autres-infos&quot;&gt;Autres infos&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /#table-of-contents --&gt;
+
+&lt;h2 id=&quot;laugavegur&quot;&gt;Laugavegur&lt;/h2&gt;
+
+&lt;h3 id=&quot;gnralits&quot;&gt;Généralités&lt;/h3&gt;
+
+&lt;p&gt;C’est le trek le plus couru en Islande. Le Laugavegur est très peuplé. Vous y croiserez sans problème une bonne centaine de personnes par jour. Mais c’est vraiment magnifique, donc pas d’hésitation.&lt;/p&gt;
+
+&lt;h3 id=&quot;difficult&quot;&gt;Difficulté&lt;/h3&gt;
+
+&lt;p&gt;TODO: Add pic&lt;/p&gt;
+
+&lt;p&gt;Le trek est entièrement balisé par des piquets, et il est presque impossible de
+se perdre. Attention quand même aux jours de brouillard, ou ça peut devenir
+délicat. Par ailleurs, les moutons sont joueurs et ont parfois tendance à
+creuser des petits sentiers trompeurs. Il y a deux passages délicats en
+descendant de Fimmvorduhals vers Thorsmork, mais à part ça, aucun problème. En
+prenant les étapes les unes après les autres, n’importe qui à peu près en forme
+devrait arriver au bout. En cas de souci, on est jamais à plus d’une étape d’un
+bus.&lt;/p&gt;
+
+&lt;h3 id=&quot;etapes&quot;&gt;Etapes&lt;/h3&gt;
+
+&lt;h4 id=&quot;liste&quot;&gt;Liste&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;TODO : Laugavegur (KML)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;D+ et D- donnés pour le sens S-N; inversez si vous faites le parcours N-S.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Etape&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Distance&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;D +&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;D -&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Total&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;78.0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3225&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2671&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Skogar-Fimmvorduhals&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;13.2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;983&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;52&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Fimmvorduhals-Thorsmork&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;10.4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;213&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;988&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Thorsmork-Emstrur&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;15.9&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;730&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;440&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Emstrur-Alftavatn&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;18.2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;392&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;368&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Alftavatn-Hraftinnusker&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;10.3&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;634&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;144&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hraftinnusker-Landmannalaugar&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;10.0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;273&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;679&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Beaucoup de gens ne font pas le tronçon Skogar-Thorsmork (je ne suis pas sur que
+« techniquement » parlant, ce tronçon fasse partie du Laugavegur). Dommage,
+c’est très beau (probablement assez éprouvant dans le sens nord-sud)&lt;/p&gt;
+
+&lt;h4 id=&quot;dans-quel-sens-&quot;&gt;Dans quel sens ?&lt;/h4&gt;
+
+&lt;p&gt;L’éternelle question. Pour moi, c’est sud-nord, sans aucun doute. Ne serait-ce que parce que les bains chauds sont à l’arrivée. Il y a du ravitaillement à Landmannalaugar (à Skogar un peu, et pas à Thorsmork).&lt;/p&gt;
+
+&lt;p&gt;Ça a tout de même quelques inconvénients : les plus beaux points de vue sont
+derrière (il suffit de se retourner de temps en temps) et on croise plus de
+monde (la plupart des gens font nord-sud). Pour ce dernier point, un conseil:
+préparez tout votre matos la veille pour percuter tôt la matin et partir dès que
+possible. Vous ferez alors la plus grande partie de l’étape sans croiser
+personne.&lt;/p&gt;
+
+&lt;h4 id=&quot;doubler-les-tapes-&quot;&gt;Doubler les étapes ?&lt;/h4&gt;
+
+&lt;p&gt;C’est possible. Certains doublent toutes les étapes. Elles sont courtes, donc,
+pourquoi pas. Enfin si, pourquoi ? Si vous venez pour l’exploit sportif, c’est
+dommage. L’étape qui me parait la plus longue est Thorsmork – Emstrur. Elle est
+un peu dure à doubler me semble t’il. Le kilométrage ne paye pas de mine, mais
+les petites collines de votre carte sont bien plus raides que ce que vous
+imaginez, ne les sous estimez pas…&lt;/p&gt;
+
+&lt;h3 id=&quot;progression&quot;&gt;Progression&lt;/h3&gt;
+
+&lt;h4 id=&quot;exposition-terrain-instable&quot;&gt;Exposition, Terrain instable&lt;/h4&gt;
+
+&lt;p&gt;Pour le peu que j’ai vu en Islande, le terrain est globalement instable. Les
+rochers s’effritent, ça s’éboule, les pentes glissent, la mousse cache des
+trous, bref, regardez ou vous mettez vos pieds. Certains chemins sont indiqués
+sur des cartes, mais ne sont pas recommandés. Je pense en particulier au sentier
+en balcon au sud d’Uxatindar plutôt flippant, en particulier quand il pleut. A
+éviter… Il y a un ou deux passages légèrement exposés en descendant de
+Fimmvorduhals vers Thorsmork. Rien de bien méchant toutefois. Si on évite de
+tomber pile poil à ce moment, pas de problème :)&lt;/p&gt;
+
+&lt;h4 id=&quot;nvs&quot;&gt;Névés&lt;/h4&gt;
+
+&lt;p&gt;Vous croiserez des petits névés en route. Pas de quoi chausser des crampons,
+mais là aussi, il faut être vigilant. Le plus gros risque survient quand le névé
+est en fond de civette et est creusé par un cours d’eau (très fréquent en zone
+géothermique). Le risque de passer au travers est très présent et augment dans
+la saison, soyez donc prudents, n’hésitez pas à faire un détour. On ne risque
+généralement pas la mort (sauf si le cours d’eau est important), mais si on se
+fait une cheville, c’est terminé pour la rando.&lt;/p&gt;
+
+&lt;h4 id=&quot;gus&quot;&gt;Gués&lt;/h4&gt;
+
+&lt;p&gt;Pour traverser les gués, il faut impérativement défaire la ceinture ventrale du
+sac-à-dos : si vous partez à l’eau, ça vous permettra de vous débarrasser du sac
+avant qu’il vous fasse couler. A cet effet, les Islandais recommandent
+d’ailleurs de quitter une bretelle… mais ne le font pas. C’est vrai qu’en
+théorie ça permet de se libérer encore plus facilement, mais ça pose tout de
+même de sérieux problèmes d’équilibre.&lt;/p&gt;
+
+&lt;p&gt;Il faut traverser à l’endroit le plus large : le courant est moins fort et c’est
+moins profond. Quand à la position, les avis divergent : certains légèrement
+tourné vers l’amont (un peu face au courant), d’autres disent vers l’aval.
+Personnellement je me sens plus en équilibre en résistant de face au courant,
+donc je traverse en dévers en remontant légèrement le courant. David (BigFoot)
+semble faire pareil, ce qui est plutôt bon signe. A vous de tester et de choisir
+votre méthode !&lt;/p&gt;
+
+&lt;p&gt;Dans tous les cas, ne traversez pas pieds nus (j’en ai vu…). Prenez des Crocs
+(ou des clones), ça ne pèse presque rien, et ca vous permet de vous balader dans
+les campings en vous aérant les pieds sans remettre vos pompes de marche qui
+daubent. De mon coté j’ai pris une taille au dessous, ca serre un peu, mais
+c’est plus stable dans les gués et je risque moins de les perdre… On peut
+aussi bricoler un système de strap avec du velcro qui, d’après ceux qui ont
+essayé, donne entière satisfaction. En tout cas, ne faites pas ça pieds nus,
+c’est débile. Vous ne voulez pas rentrer en bus à cause d’une fracture d’orteil.&lt;/p&gt;
+
+&lt;p&gt;Certains mettent des néoprènes en plus. Ça me parait un peu overkill vu que ça
+met quand même un certain temps à chauffer. Les gués (du Laugavegur) étant très
+courts, je ne vois pas l’intérêt.&lt;/p&gt;
+
+&lt;p&gt;Il y a pas mal de gamberge ici et là sur des systèmes plus rapides à mettre en
+œuvre qu’un déchaussage / séchage / chaussage. Par exemple des surbotes, sacs
+poubelles (durée de vie ?)… attention avec ces systèmes à la prise
+supplémentaire offerte au courant (Olivier en parle d’ailleurs). Les Islandais
+que j’ai vu font comme tout le monde : ils quittent leur pompes et mettent
+d’autres chaussures pour traverser. A bon entendeur.&lt;/p&gt;
+
+&lt;h3 id=&quot;lquipement&quot;&gt;L’équipement&lt;/h3&gt;
+
+&lt;h4 id=&quot;vtements&quot;&gt;Vétements&lt;/h4&gt;
+
+&lt;p&gt;Autant vous faire à l’idée: vous aurez de la pluie.&lt;/p&gt;
+
+&lt;p&gt;Quoi que vous fassiez, sauf si vous êtes verni, vous serez mouillé. Même avec
+une Goretex sous un poncho intégral (sac + moi), j’ai fini à torde un jour de
+pluie avec vent de face. Prévoyez donc du change, faites sécher dès que
+l’occasion se présente (soleil, vent, chauffage) et économisez 400g de poncho.&lt;/p&gt;
+
+&lt;p&gt;Laissez tomber les sursac (pour sac à dos) soi disant étanches. C’est étanche
+1/2 heure. Après, c’est fini. Rien ne vaut un bon sac poubelle de 100L de
+jardinage qui fera office de doublage intérieur pour votre sac à dos. C’est
+moins lourd et beaucoup plus efficace. C’est un peu plus fragile, mais 1 sac
+pour deux semaines ça devrait faire l’affaire.&lt;/p&gt;
+
+&lt;h4 id=&quot;sac-de-couchage&quot;&gt;Sac de couchage&lt;/h4&gt;
+
+&lt;p&gt;Votre sac de couchage, c’est un équipement de survie, c’est votre dernier
+refuge. Il faudra se débrouiller pour le garder au sec. Toujours. Prenez un sac
+de compression étanche, type Dry Sack pour mettre votre sac à l’intérieur, et le
+Dry Sack dans un sac pouvelle dédié.&lt;/p&gt;
+
+&lt;p&gt;Les avis divergent sur le choix duvet / synthétique. De mon coté, je n’ai jamais
+eu de problème d’humidité avec mon sac en plumes. Même humide après la
+condensation de la nuit, je le fourrais dans le DrySack et l’humidité se
+répartissait dans tout le sac, qui séchait ensuite en un clin d’oeil dès que je
+le sortais au vent. Je trimballe mon petit astazou de chez TZ depuis quelques
+années, et, même s’il a quelques défauts, je ne partirai pas sans lui.&lt;/p&gt;
+
+&lt;p&gt;Sur les performances du sac, un -5°C / -10°C me semble l’idéal pour une personne
+normalement constituée qui ne veut pas dormir habillée. Ajustez en fonction de
+votre capacité à supporter le froid.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez avoir des températures négatives même en été, donc à vous de voir en
+fonction de votre vécu avec votre duvet.&lt;/p&gt;
+
+&lt;h4 id=&quot;tente&quot;&gt;Tente&lt;/h4&gt;
+
+&lt;p&gt;Prenez une tente qui résiste au vent si vous ne voulez pas aller chercher votre
+double toit au Groenland. Si vous n’aimez pas les compromis: Hilleberg.&lt;/p&gt;
+
+&lt;p&gt;Après vous avez toute une gamme de jouets chez d’autres fabricants. &lt;/p&gt;
+
+&lt;p&gt;Un Islandais m’avait dit en plantant la tente :
+« Always prepare for the worst ». J’ai fini par me rendre compte qu’il avait
+bien raison… Alors haubanez votre tente, même s’il fait beau, ça vous évitera
+de devoir sortir du duvet pour aller chercher des cailloux au milieu de la nuit
+avec 3° et 20 m/s de vent.&lt;/p&gt;
+
+&lt;p&gt;Prévoyez des sardines type cornières ou Y. Perso, je préfère de bonnes cornières
+larges plutôt que des Y. Le sol est souvent très meuble. Marteau inutile, on
+enfonce généralement à la main, et il y a toujours un caillou pas loin.&lt;/p&gt;
+
+&lt;h3 id=&quot;liste-de-matriel&quot;&gt;Liste de matériel&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2010 : à retrouver&lt;/li&gt;
+  &lt;li&gt;2011 : à venir&lt;/li&gt;
+  &lt;li&gt;2013 : quelle liste ?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Quelques autres listes : &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.andrewskurka.com/IS08/gearlist.php&quot;&gt;Andrew Skurka, le pape du trek longue-distance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.expemag.com/technique/liste-materiel-trek.html&quot;&gt;La liste de la rédaction de l’excellent Carnets d’Aventures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Celle d’&lt;a href=&quot;http://www.randonner-leger.org/perso/doku.php?id=liste_equipement_islande&quot;&gt;Olivier, du forum randonner léger&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Et toutes les autres&lt;/p&gt;
+
+&lt;h3 id=&quot;leau&quot;&gt;L’eau&lt;/h3&gt;
+
+&lt;p&gt;Traiter ou ne pas traiter ? Et comment ? Gros dilemme… En 2010, après
+l’éruption de l’Eyjafjallajökull, la question en se posait pas trop : il était
+préférable de filtrer dans le sud à cause des cendres. En 2013, pareil avec le
+Grimsvotn.&lt;/p&gt;
+
+&lt;p&gt;Après, dans d’autres circonstances, je ne suis pas sûr. L’eau est claire dans la
+plupart des cas. Les Islandais avec qui j’ai marché buvaient sans aucun
+traitement ou filtrage. Par contre, la pompe s’avère pratique dans des endroits
+ou la profondeur du cours d’eau est faible : on plonge le tuyau dans le filet
+d’eau et hop ! Donc c’est une question de choix.Le bétail est présent, mais très
+dispersé, le risque de contamination est probablement très faible (il provient
+certainement plus de la fréquentation des trekkeurs que du bétail d’ailleurs).&lt;/p&gt;
+
+&lt;p&gt;Dans le doute, quelques pastilles de Micropur ne pèseront pas très lourd dans le
+sac et permettront d’avoir l’esprit tranquille. Et une pompe ce n’est pas bien
+lourd non plus. Ma Katadyn Mini Ceramic fait 250g (je vois d’ici les MUL froncer
+du sourcil).&lt;/p&gt;
+
+&lt;p&gt;En résumé, je n’ai traité que la première fois. Jamais ensuite. En puisant dans
+de l’eau courant, qui descend des collines, et à l’écart du bétail et des
+sentiers, aucun souci.&lt;/p&gt;
+
+&lt;p&gt;Attention si vous allez à Fimmvörðuháls : il n’y a pas d’eau en haut. Il est
+possible de faire fondre de la neige mais c’est aléatoire (je ne parle même pas
+de l’état de la neige après l’éruption, remplie de cendres) et ça pompe
+sérieusement sur le gaz (le votre, ou celui du refuge). Donc il faut arriver
+avec ses réserves que l’on peut faire pendant la première partie de la montée
+(en venant du sud, et la Krossa en venant du nord). Tant que l’on parle de ce
+refuge, si vous y allez, proposez au &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; de lui redescendre quelques déchets
+dans la vallée, ça fait toujours plaisir.&lt;/p&gt;
+
+&lt;p&gt;Si vous avez un « dépot de bilan » à faire, éloignez vous le plus possible des
+cours d’eau (faites un trou, brulez le PQ et rebouchez). Les suivants vous
+remercient… Le mieux est bien sûr de ramener, mais cela demande une
+organisation sans faille… et surtout, d’ajouter quelques centaines de grammes
+(je parle des contenus, avec le contenant, ça peut chiffrer encore plus) au sac
+à dos.&lt;/p&gt;
+
+&lt;h3 id=&quot;autres-infos&quot;&gt;Autres infos&lt;/h3&gt;
+
+&lt;p&gt;Le site de référence, c’est celui de Dieter. Tout y est… malheureusement presque exclusivement en allemand.&lt;/p&gt;
+
+&lt;p&gt;Olivier à plein d’infos sur le matériel chez lui (en version MUL).&lt;/p&gt;
+
+&lt;p&gt;David (a.k.a. BigFoot) a vu du pays, et vous en parle sur son blog.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/pratique/le_laugavegur/&quot;&gt;Fjallabak et le trek du Laugavegur&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;Islande&lt;/a&gt; on July 16, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Conseils pratiques pour la randonnée en Islande]]></title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:4000/pratique/conseils-pratiques/" />
+  <id>http://127.0.0.1:4000/pratique/conseils-pratiques</id>
+  <published>2014-07-16T00:00:00+02:00</published>
+  <updated>2014-07-16T00:00:00+02:00</updated>
+  <author>
+    <name>Michel Blanc</name>
+    <uri>http://127.0.0.1:4000</uri>
+    <email>mb@mbnet.fr</email>
+  </author>
+  <content type="html">&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+  &lt;header&gt;
+    &lt;h3&gt;Sommaire&lt;/h3&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#dernires-mises--jour&quot;&gt;Dernières mises à jour&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#prambule&quot;&gt;Préambule&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#argent&quot;&gt;Argent&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#ou-changer-&quot;&gt;Ou changer ?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#paiements&quot;&gt;Paiements&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#la-dtaxe&quot;&gt;La détaxe&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#transport&quot;&gt;Transport&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#formalits&quot;&gt;Formalités&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#venir&quot;&gt;Venir&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#keflavik&quot;&gt;Keflavik&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#le-bsi&quot;&gt;Le BSI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#les-bus-reykjavik-excursion&quot;&gt;Les bus Reykjavik Excursion&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#les-bus-municipaux-strtis&quot;&gt;Les bus municipaux (Strætó.is)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#partir-enfin-rentrer&quot;&gt;Partir (enfin, rentrer)&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#achats&quot;&gt;Achats&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#nourriture&quot;&gt;Nourriture&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#gaz&quot;&gt;Gaz&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cartes-tlphoniques&quot;&gt;Cartes téléphoniques&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#matriel&quot;&gt;Matériel&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#avant-de-rentrer-en-france&quot;&gt;Avant de rentrer en France&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dormir&quot;&gt;Dormir&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#en-refuge&quot;&gt;En refuge&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#fimmvruhls-tivist&quot;&gt;Fimmvörðuháls (Útivist)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#fimmvruhls-f&quot;&gt;Fimmvörðuháls (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#basr-rsmrk-tivist&quot;&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Útivist)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#skagfjordsskali-rsmrk-f&quot;&gt;Skagfjordsskali-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#hsadalur-rsmrk-volcano-huts&quot;&gt;Húsadalur-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Volcano Huts)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#emstrur-botnar-f&quot;&gt;Emstrur-Botnar (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#hvanngil-f&quot;&gt;&lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#alftavatn-f&quot;&gt;Alftavatn (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#hskuldskali-alias-hraftinnusker-f&quot;&gt;Höskuldskali, alias Hraftinnusker (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#landmannalaugar&quot;&gt;Landmannalaugar&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#alftavatnkrokur-lftavtn&quot;&gt;Alftavatnkrokur (Álftavötn)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#holaskjol&quot;&gt;Holaskjol&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /#table-of-contents --&gt;
+
+&lt;h3 id=&quot;dernires-mises--jour&quot;&gt;Dernières mises à jour&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;12 juin 2014 : boutique gas, coquilles diverses, WOW air, mise à jour des prix des bus et petits ajustements&lt;/li&gt;
+  &lt;li&gt;11 juillet 2013 : lien vers le plan de la ligne Straeto 14&lt;/li&gt;
+  &lt;li&gt;8 juillet 2013 : mise à jour de quelques prix&lt;/li&gt;
+  &lt;li&gt;18 mai 2012 : ajout de Kirkjubæjarklaustur, de « Fjallabak Nature Reserve » et de quelques photos&lt;/li&gt;
+  &lt;li&gt;29 juin 2011 : ajout Hljóðheimurinn Sangitamaya&lt;/li&gt;
+  &lt;li&gt;28 juin 2011 : ajout de l’atlas et de la carte de Reykjavik&lt;/li&gt;
+  &lt;li&gt;13 avril 2011 : ajout d’une boutique en ligne de cartes&lt;/li&gt;
+  &lt;li&gt;1er avril 2011 : paragraphe sur les SAR; ajouts sur la Smyril; actualisation des prix des billets d’avion; filmage de sac; velcro pour Crocs; listes de matériel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;prambule&quot;&gt;Préambule&lt;/h2&gt;
+
+&lt;p&gt;Variez vos sources. Je n’ai pas la science infuse et n’ai vu qu’une infime
+partie de l’ile pendant seulement 3×20 jours (2010, 2011 et 2013). Lisez les
+récits, notamment ceux de &lt;a href=&quot;http://bigfoot.over-blog.org/&quot;&gt;David&lt;/a&gt; qui commence à
+accumuler une sérieuse expérience de la question. Ne prenez pas ces lignes
+comme la sainte parole de Michel, croisez vos informations. Vous êtes sous
+votre responsabilité, pas sous la mienne. Si vous vous retrouvez à la porte
+close d’un refuge, ou que vous vous paumez en utilisant mes traces ou points
+GPS, ou qu’un macareux vous fiente dessus, ne venez pas me voir ! Si vous êtes
+inquiet, jetez un œil sur la page dédié de « Journal du Trek », qui a un
+&lt;a href=&quot;http://www.journaldutrek.com/trekking/islande/&quot;&gt;comparateur d’agences de trek&lt;/a&gt;
+très pratique.&lt;/p&gt;
+
+&lt;p&gt;Je ne suis sponsorisé par personne, et les avis exprimés ici sont personnels.&lt;/p&gt;
+
+&lt;h2 id=&quot;argent&quot;&gt;Argent&lt;/h2&gt;
+
+&lt;p&gt;1€ vaut environ 160 ISK (couronnes islandaises) à ce jour. Il suffit de taper «
+&lt;a href=&quot;https://www.google.fr/search?q=11+euros+in+isk&quot;&gt;1 euros in ISK&lt;/a&gt;» dans Google
+pour avoir instantanément le cours (oula, attention, j’ai l’impression que
+Google raconte n’importe quoi; bon ça se trouve sans problème de toute façon).&lt;/p&gt;
+
+&lt;h3 id=&quot;ou-changer-&quot;&gt;Ou changer ?&lt;/h3&gt;
+
+&lt;p&gt;A la sortie de l’aéroport de Keflavik, il y a un bureau de change. Je m’étais
+penché sur les différentes stratégies pour obtenir des ISK les moins chers
+possible, et finalement, je ne me suis pas cassé la tête et j’ai changé au
+bureau de change. Ca vaut peut être le coup de se renseigner mieux mais bon, je
+ne suis pas un grand stratège financier, et compte tenu des dépenses
+relativement modiques en trek, le gain sera probablement faible. La file
+d’attente est un peu longue, mais pas de panique, le bus pour Reykjavik attend
+tout le monde. Pas la peine donc de rusher avec sa valise. Il y a aussi un
+distributeur de billets à coté.&lt;/p&gt;
+
+&lt;p&gt;Dans les forums, les gens affirment qu’il est impossible d’avoir des ISK à sa
+banque sous prétexte qu’ils ne sont pas « exportés ». C’est faux. La Caisse
+d’Épargne, par exemple, le fait. Après, faut voir à quel prix, ils ont pas mal
+de trous à boucher.&lt;/p&gt;
+
+&lt;p&gt;Il y a quelques distributeurs dans Reykjavik en cas de besoin. Ailleurs, il ne
+faut pas y compter. Les Islandais manipulent assez peu de cash.&lt;/p&gt;
+
+&lt;h3 id=&quot;paiements&quot;&gt;Paiements&lt;/h3&gt;
+
+&lt;p&gt;Du coup la carte bleue est acceptée partout, même dans les bus (pas ceux de la
+municipalité de Reykjavik). Attention cependant, votre banque va vous prendre
+des frais fixes + un pourcentage sur CHAQUE paiement (de l’ordre de 3% + 2€ par
+transaction à la CE…). Votre hotdog peut vous revenir très cher… Il ne faut
+sortir sa carte qu’en dernier recours !&lt;/p&gt;
+
+&lt;p&gt;En Islande par contre, pas besoin de taper de code : zip dans la fente, une
+petite griffe et terminé &lt;sup id=&quot;fnref:cb&quot;&gt;&lt;a href=&quot;#fn:cb&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;la-dtaxe&quot;&gt;La détaxe&lt;/h3&gt;
+
+&lt;p&gt;On peut (théoriquement…) se faire rembourser la TVA de ce que l’on achète et que
+l’on ramène. A chaque achat, demandez un «VAT refund ticket». Vous pourrez
+vous faire rembourser à l’office de tourisme (queue très longue, tickets comme à
+la CAF) ou à l’aéroport (sans-le-sou qui prenez des vols de nuit passez votre
+chemin, ça ferme à 17h). &lt;/p&gt;
+
+&lt;p&gt;Si vous n’avez pu vous faire rembourser sur place, vous
+pouvez renvoyer vos tickets à l’adresse mentionnée dessus sous 3 mois et croiser
+les doigts. De mon coté, on m’a remboursé une misère sur ce que j’avais 
+acheté… Pas super fiable donc, ne comptez pas trop là-dessus.&lt;/p&gt;
+
+&lt;h2 id=&quot;transport&quot;&gt;Transport&lt;/h2&gt;
+
+&lt;h3 id=&quot;formalits&quot;&gt;Formalités&lt;/h3&gt;
+
+&lt;p&gt;Pour venir, une simple carte d’identité suffit. Pas de passeport ou de carnet de
+vaccinations.&lt;/p&gt;
+
+&lt;p&gt;Demandez votre Carte Vitale Européenne à votre caisse un bon mois en avance.
+L’Islande a des accords avec la CEE et elle fonctionne là-bas.&lt;/p&gt;
+
+&lt;p&gt;Pensez aussi à prendre une assurance pour couvrir les frais de recherche et de
+secours. Le vieux campeur propose une carte à 25€. La couverture de base suffit,
+et couvre jusqu’à 11 400€ de frais de secours.&lt;/p&gt;
+
+&lt;p&gt;Évidement, les restrictions habituelles concernant les voyages en avion sont de
+rigueur : les cartouches de gaz pour votre réchaud ne sont pas les bienvenues
+dans l’avion, y compris en soute. De même, la sécurité fait une fixette sur tous
+les liquides… Coté sac à dos, évitez les bretelles volantes et bouts de sangle
+qui trainent. Les tapis roulants des aéroports détestent ça. À Kéflavik, les
+hôtesses d’accueil vous demandent d’ailleurs de faire le ménage. À CDG vous avez
+un service d’emballage de sac (filmage). Un peu cher me semble-t’il. Et bon,
+vous ne voulez pas commencer votre voyage en jetant 5m² de plastique en Islande
+non ?&lt;/p&gt;
+
+&lt;h3 id=&quot;venir&quot;&gt;Venir&lt;/h3&gt;
+
+&lt;p&gt;Pour le billet d’avion, le plus simple, me semble-t’il, c’est d’aller
+directement sur le site d’Icelandair. Le site est très bien fait, on peut
+choisir sa place dans l’avion, ça prend 5 minutes, et on reçoit un billet
+électronique. Il faut faire une confirmation 36h avant le départ sur le site
+d’Icelandair (pas nécessaire pour le retour). Imprimez votre billet électronique
+en double. La courge du comptoir à l’aller me l’a déchiré. Merci le double.&lt;/p&gt;
+
+&lt;p&gt;Attention, les prix montent en flèche à partir de mi-janvier. D’une consultation
+à l’autre, les billets prennent 10€. Très tôt on s’en tire à 280€ (soit aussi
+bon marché qu’un low-cost, l’escale à Londres en moins), au dernier moment en
+explose sa tirelire : 558€ (soit le double) fin mars par exemple. Il ne faut pas
+y aller trop tôt non plus. Fin 2012, un AR en été coûtait pas loin de 450€ mini.
+Icelandair a fait une offre EarlyBird mi-janvier et là on trouvait des AR à
+320€… Je me suis fait avoir…&lt;/p&gt;
+
+&lt;p&gt;En cours de test : Iceland Express / WOW Air. Retour d’expérience d’ici quelques
+mois. (màj : RAS, ça s’est très bien passé !).&lt;/p&gt;
+
+&lt;p&gt;L’avantage de s’y prendre tôt (fin janvier maximum) c’est que l’on peut choisir
+sa place d’ans l’avion, être du bon coté (à droite  à l’aller, et à gauche au
+retour pour voir l’Islande si la météo le permet), et éviter les ailes ou les
+sorties des réacteurs.&lt;/p&gt;
+
+&lt;p&gt;Les départs (terminal 1) étant invariablement aux aurores, les sans-le-sou sont
+condamnés à déployer leur sac de couchage dans l’aérogare. Le sous-sol du
+terminal 1 se prête bien au camping. C’est théoriquement interdit, mais vous ne
+serez pas le seul.&lt;/p&gt;
+
+&lt;p&gt;On peut aussi venir par la mer avec la &lt;a href=&quot;http://www.smyrilline.com/&quot;&gt;Smyril
+Line&lt;/a&gt;, avec l’avantage d’une petite escale aux îles
+Féroé, et un mode de voyage plus doux. Mais ce bateau s’est transformé en navire
+plutôt luxe il y a quelques années, et les prix y sont maintenant quasi-
+prohibitifs (environ 500€ l’A/R sans voiture, sans repas, et avec le service
+minimum).&lt;/p&gt;
+
+&lt;h3 id=&quot;keflavik&quot;&gt;Keflavik&lt;/h3&gt;
+
+&lt;p&gt;L’arrivée à Keflavik est assez rapide. L’aéroport est petit, les bagages
+arrivent vite (rien à voir avec CDG).&lt;/p&gt;
+
+&lt;p&gt;A coté du bureau de change, la petite boutique (pas forcément donnée) permet de
+faire deux trois emplettes. Ils acceptent les euros, donc c’est l’occasion de
+s’alléger de sa monnaie.&lt;/p&gt;
+
+&lt;p&gt;Coté importation de nourriture, vois avez droit à 3 kg par personne. On avait un
+peu plus… et en général ça passe. Il semble qu’en cas de contrôle, vous ne
+soyez redevable que d’une amende pas très élevée (environ 15€). Tout cela est du
+conditionnel.&lt;/p&gt;
+
+&lt;p&gt;En revanche, l’importation de produits d’origine animale frais (laitages,
+viandes crue, charcuterie) est strictement interdite pour des raisons
+sanitaires. Il est donc de bon ton de la respecter.&lt;/p&gt;
+
+&lt;p&gt;Pour rejoindre Reykjavik, le plus simple est de prendre le
+&lt;a href=&quot;https://www.re.is/flybus/#Schedule&quot;&gt;FlyBus&lt;/a&gt;. Ça prend 1 heure environ, et ça
+coute 1950 ISK. Dans le FlyBus, vous trouverez les horaires de toutes les lignes
+Reykjavik Excursions de l’île, ainsi qu’un plan de Reykjavik (vous pouvez le
+prendre, mais vous en trouverez plein partout, notamment au camping).&lt;/p&gt;
+
+&lt;h3 id=&quot;le-bsi&quot;&gt;Le BSI&lt;/h3&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/bsi.jpg&quot; title=&quot;BSI&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/bsi.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;http://www.bsi.is/&quot; title=&quot;BSI&quot;&gt;BSI&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Le BSI c’est la gare routière de Reykjavik, siège de la société Reykjavik
+Excursions qui a des lignes de bus parcourant toute l’île. Il est situé juste à
+coté de l’aéroport de Reykjavik (aéroport « domestique », pour les lignes
+intérieures). Les horaires d’ouverture ont l’air assez larges, j’ai même
+l’impression que c’est ouvert H24. Le site du BSI annonce 04:30-24:00 7/7, mais
+il semblerait que la cafétéria à l’intérieur du BSI soit ouverte 24/24. A voir
+donc.&lt;/p&gt;
+
+&lt;p&gt;Afin d’être complet, on y trouve aussi la compagnie &lt;a href=&quot;http://trex.is/&quot;&gt;Trek&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pour prendre les tickets de bus, il faut s’adresser au comptoir. C’est une
+exception, puisque dans le reste de l’île (en tout cas le peu que j’en ai vu),
+c’est au chauffeur qu’il faut s’adresser.&lt;/p&gt;
+
+&lt;p&gt;Le BSI fournit deux services d’importance pour les randonneurs : le stockage de
+bagages et l’envoi de colis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stockage de bagages&lt;/strong&gt; : vous pouvez demander au comptoir de stocker vos bagages.
+Vous leur donnez la date de récupération prévue, vous payez (je ne sais plus les
+prix) et ils vous remettent un ticket en échange qu’il faudra éviter de
+perdre…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Envoi de colis&lt;/strong&gt; : il est possible d’expédier des colis dans les refuges desservis
+par les bus (Landmannalaugar par exemple). Vous vous adressez au guichet, payez
+le transport, donnez la date de livraison voulue, et vous pourrez récupérer
+votre colis à destination. Sur votre colis, marquez en gros votre nom, la
+destination, et la date de récupération.&lt;/p&gt;
+
+&lt;p&gt;Depuis l’arrêt de bus municipal, la ligne 14 permet de rejoindre le camping de
+Reykjavik (arrêt : &lt;em&gt;Laugardalslaug&lt;/em&gt;, continuer 200 m à pied).&lt;/p&gt;
+
+&lt;p&gt;On peut se rendre à pied dans le centre ville de Reykjavik très rapidement en
+traversant la rue longeant l’arrêt de bus municipal (en passant devant la
+&lt;a href=&quot;http://fr.wikipedia.org/wiki/Hallgr%C3%ADmskirkja&quot;&gt;Hallgrímskirkja&lt;/a&gt;). Mais si
+vous avez pris la carte de Reykjavik dans le FlyBus en venant, vous vous
+débrouillerez bien.&lt;/p&gt;
+
+&lt;h3 id=&quot;les-bus-reykjavik-excursion&quot;&gt;Les bus Reykjavik Excursion&lt;/h3&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/bus_bsi.jpg&quot; title=&quot;Bus au repos au BSI&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/bus_bsi.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;http://www.re.is/&quot; title=&quot;BSI&quot;&gt;Bus au repos au BSI&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;C’est la compagnie qui dessert toute l’ile. Vous trouverez leurs horaires et
+tarifs sur &lt;a href=&quot;http://www.re.is&quot;&gt;leur site&lt;/a&gt; ou sur 
+&lt;a href=&quot;http://www.nat.is/travelguideeng/bus_stop_the_real_icelandic.htm&quot;&gt;celui-ci&lt;/a&gt;.
+J’aime bien le dernier qui est pratique, concis, et qui donne plein d’autres
+infos (sur les refuges notamment), même s’il ne donne pas les prix des bus. En
+fonction de votre destination, vous aurez un bus traditionnel, ou  un bus tout-
+terrain :)&lt;/p&gt;
+
+&lt;p&gt;Le bus en Islande, c’est un vrai budget. Il vaut mieux s’y préparer
+psychologiquement.&lt;/p&gt;
+
+&lt;p&gt;A titre d’information, à ce jour, quelques tarifs (aller simple) :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reykjavik – Skógar / Vík : 11000 ISK (env. 71€)&lt;/li&gt;
+  &lt;li&gt;Reykjavík – Skaftafell : 21500 A/R ISK (env. 140€)&lt;/li&gt;
+  &lt;li&gt;Reykjavík – Landmannalaugar : 7100 ISK (env. 50€) ooops, c’est 8500 ISK 
+maintenant (2013) ah ben non c’est 9000 ISK maintenant (2014)…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On peut faire du stop, ça marche, faut avoir le temps… Le problème en l’Islande
+c’est que la «route n°1» (la principale), a le même débit de voitures qu’un
+départementale de campagne. Au moins il y en a au mieux on se porte c’est sûr,
+mais pas quand on fait du stop. L’avantage des bus c’est qu’on est sûr de
+l’heure de départ (pas forcément de celle d’arrivée par contre…).&lt;/p&gt;
+
+&lt;h3 id=&quot;les-bus-municipaux-strtis&quot;&gt;Les bus municipaux (Strætó.is)&lt;/h3&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/straeto.jpg&quot; title=&quot;Bus Strætó&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/straeto.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;http://www.straeto.is/&quot; title=&quot;Strætó&quot;&gt;Strætó&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Les bus de la municipalité de Reykjavik (jaunes, 
+&lt;a href=&quot;http://www.straeto.is/english/&quot;&gt;Strætó.is&lt;/a&gt;) ne prennent pas la CB et ne rendent 
+pas la monnaie ! Il faut arriver avec l’appoint, sous peine de payer beaucoup 
+plus cher que prévu. Donc pensez-y quand vous vous baladez, et prévoyez de la 
+petite monnaie en fonction ds déplacements que vous avez à faire.
+Le prix est actuellement de 350ISK. Vérifiez tout de même sur &lt;a href=&quot;http://www.straeto.is/english/buy-tickets/&quot;&gt;le site de la
+société&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;partir-enfin-rentrer&quot;&gt;Partir (enfin, rentrer)&lt;/h3&gt;
+
+&lt;p&gt;Si vous avez un billet Icelandair, vous pouvez utiliser le self-check-in : vous
+tapez votre numéro de billet électronique sur une borne, et elle vous sort
+directement les étiquettes pour les bagages. Vous n’avez plus qu’à les poser
+ensuite sur le tapis, en regardant narquois les pauvres hères qui font la queue
+devant le comptoir IcelandExpress (rachetée par Wow Air en octobre 2012).&lt;/p&gt;
+
+&lt;h2 id=&quot;achats&quot;&gt;Achats&lt;/h2&gt;
+
+&lt;h3 id=&quot;nourriture&quot;&gt;Nourriture&lt;/h3&gt;
+
+&lt;p&gt;Avant de partir il vaut mieux faire le plein de lyophilisés si vous avez
+l’intention d’en manger. Sur place, c’est probablement possible mais le choix
+sera plus restreint. Ben nous a fait découvrir la marque 
+&lt;a href=&quot;http://www.mountainhouse.com/&quot;&gt;Mountain House&lt;/a&gt;. Parts généreuses, calories, que
+du bon, mieux que MX3 à mon goût. MX3 est pas mal (évitez le poisson chez eux, 
+ça se reconstitue mal) et se trouve plus facilement en magasin en France 
+apparemment. Testez avant de faire le plein…&lt;/p&gt;
+
+&lt;p&gt;Toutes ces marques sont en vente en ligne sur 
+&lt;a href=&quot;http://www.lyophilise.fr/&quot;&gt;lyophilise.fr&lt;/a&gt;.
+Sur place on trouve à manger dans toutes les stations service. Les boutiques les
+moins chères semblent être les Bonus (le cochon rose qui a l’air content). Il y
+a un bonus dans la rue Laugavegur à Reykjavik.&lt;/p&gt;
+
+&lt;h3 id=&quot;gaz&quot;&gt;Gaz&lt;/h3&gt;
+
+&lt;p&gt;On peut trouver du gaz dans une petit boutique de bricolage dans la rue
+Laugavegur, avant la boutique Bonus me semble t’il (en venant du nord). Je ne me
+souviens plus s’ils ont la norme camping gaz, mais de toutes façons, il vaut
+mieux éviter ce système franco-français. Vous trouverez des cartouche
+abandonnées dans certains campings (Reykjavik, Skogar, …) mais ne comptez pas
+trop dessus. Vous risquez de ne trouver que du quasi-vide. On trouve aussi du
+gaz au camping de Reykjavik ou à &lt;a href=&quot;https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,258.35h,79.19t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0&quot;&gt;FjallaKofinn&lt;/a&gt; 
+près du centre commercial Kringlan.&lt;/p&gt;
+
+&lt;p&gt;De nôtre coté, on a consommé quasiment 2 x 750g à 3 pendant 2 semaines (on a
+régulièrement profité du gaz des refuges la première semaine).&lt;/p&gt;
+
+&lt;h3 id=&quot;cartes-tlphoniques&quot;&gt;Cartes téléphoniques&lt;/h3&gt;
+
+&lt;p&gt;Si vous avez besoin d’une carte téléphonique 3G, la seule option semble être la
+boutique Vodafone au centre commercial &lt;a href=&quot;https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,154.8h,68.39t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0&quot;&gt;Kringlan&lt;/a&gt;.
+On peut s’y rendre à pied depuis le BSI, ça prend environ 45 minutes (aller). Si
+vous voulez juste une carte téléphonique, vous pourrez en trouver au 
+&lt;a href=&quot;http://www.visitreykjavik.is/travel/tourist-information-centre&quot;&gt;Tourist Information Center&lt;/a&gt; &lt;a href=&quot;https://www.google.fr/maps/place/Snooker+and+Poollounge/@64.148224,-21.941446,249m/data=!3m1!1e3!4m2!3m1!1s0x0:0xb0c935f5e953375e&quot;&gt;ici&lt;/a&gt;
+(là ou est écrit « Centerhotel Plazza »).&lt;/p&gt;
+
+&lt;h3 id=&quot;matriel&quot;&gt;Matériel&lt;/h3&gt;
+
+&lt;p&gt;Là aussi, direction &lt;a href=&quot;https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,154.8h,68.39t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0&quot;&gt;Kringlan&lt;/a&gt;
+ou &lt;a href=&quot;https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,258.35h,79.19t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0&quot;&gt;FjallaKofinn&lt;/a&gt;.
+Il y a bien la boutique 66°North dans la rue Bankstraeti, mais elle n’était pas 
+très bien achalandée niveau matériel lors de ma visite.&lt;/p&gt;
+
+&lt;h3 id=&quot;avant-de-rentrer-en-france&quot;&gt;Avant de rentrer en France&lt;/h3&gt;
+
+&lt;p&gt;Ne rater «Hljóðheimurinn Sangitamiya» (situé au &lt;a href=&quot;https://www.google.com/maps/preview?q=grettisgata+7,+reykjavik,+iceland&amp;amp;hl=fr&amp;amp;ll=64.14371,-21.921898&amp;amp;spn=0.002108,0.008256&amp;amp;sll=64.144114,-21.921158&amp;amp;sspn=0.004216,0.016512&amp;amp;t=h&amp;amp;z=18&quot;&gt;7 rue Grettisgata&lt;/a&gt; 
+sous aucun prétexte !&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/sangitamiya.jpg&quot; title=&quot;Hljóðheimurinn Sangitamiya&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/sangitamiya.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;http://www.re.is/&quot; title=&quot;Hljóðheimurinn Sangitamiya&quot;&gt;Hljóðheimurinn Sangitamiya&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Un super magasin de musique qui vend tout, sauf des instruments conventionnels.
+Super vendeur, on peut tout essayer. On rage juste d’avoir un si petit sac à dos
+pour mettre le chouette Ukulélé bass.&lt;/p&gt;
+
+&lt;h2 id=&quot;dormir&quot;&gt;Dormir&lt;/h2&gt;
+
+&lt;h3 id=&quot;en-refuge&quot;&gt;En refuge&lt;/h3&gt;
+
+&lt;p&gt;Les refuges sont gérés la plupart du temps par &lt;a href=&quot;http://fi.is&quot;&gt;Ferðafélag Íslands
+(FÍ)&lt;/a&gt; ou par &lt;a href=&quot;http://utivist.is&quot;&gt;Útivist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pour les refuges du Laugavegur, il faut impérativement réserver, et assez à
+l’avance (les réservations ne sont pas confirmées avant janvier, mais elles sont
+traitées dans l’ordre d’arrivée). A titre d’exemple, au 1er février, certains
+jours sont déjà complets à Fimmvörðuháls (à noter depuis que FÍ a contruit un
+autre refuge en 2013, celui mentionné précédemment étant géré par Útivist;
+depuis 2013, il est possible de parcourir le Laugavegur uniquement en refuges FÍ
+puisque cet organisme a aussi racheté celui d’Husadalur à Thorsmork). Pour les
+autres refuges, j’ai vu pas mal de place à chaque fois.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tarifs : en 2010, Ferðafélag Íslands (FÍ) demandait 4200 ISK par nuit, Útivist
+2500 ISK. On tourne plus dans les 4500 ISK de nos jours. Douches :  les refuges
+sont en général bien équipés, permettent de prendre des douches chaudes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Douches : l’eau chaude dans les douche est presque toujours délivrée par un
+minuteur. Prenez un chronomètre pour vous laver ! Vous pouvez toujours attaquer
+à l’eau froide pour commencer et gagner un peu de temps. En général les douches
+coutent 400 ISK et les &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; ont la monnaie. Mais ayez quelques pièces d’avance,
+on ne sait jamais.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Eau : sauf indication contraire, l’eau et les WC sont toujours disponibles. Les
+toilettes et les douches sont toujours dans un bâtiment différent des couchages.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Divers : notez qu’il n’y a pas (ou que rarement) de couvertures dans les
+refuges.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bivouac : des emplacements de tente permettent de camper autour des refuges.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quiet hours : dans les refuges il y a des quiet hours: 24h-7h.  Pas très 
+pratique pour les couche-tôt / lève-tôt.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Une troisième possibilité de couchage existe à Thorsmok, non citée ici (voir
+là). Il ne faut pas se braquer sur l’accueil décrit : les wardens changent
+plusieurs fois par saison (et, en passant, sont souvent bénévoles).&lt;/p&gt;
+
+&lt;p&gt;TODO: KML de quelques refuges en Islande&lt;/p&gt;
+
+&lt;div id=&quot;jekyll-mapping&quot; style=&quot;height:500px;width:500px;&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;fimmvruhls-tivist&quot;&gt;Fimmvörðuháls (Útivist)&lt;/h4&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/fimm1.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, à deux pas de l&#39;Eyjafjallajökull&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/fimm1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/fimm2.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, l&#39;intérieur&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/fimm2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/fimm3.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, la cuisine&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/fimm3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Fimmvörðuháls&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.utivist.is/english/fimmvorduhals-hut/&quot;&gt;Útivist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Eau : aucune, neige à fondre éventuellement&lt;/li&gt;
+  &lt;li&gt;Douche : aucune&lt;/li&gt;
+  &lt;li&gt;Électricité : néant&lt;/li&gt;
+  &lt;li&gt;WC : deux cuvettes séparées pour éviter la fermentation de l’urine dans les containers&lt;/li&gt;
+  &lt;li&gt;Cuisine : gaz, à utiliser avec parcimonie&lt;/li&gt;
+  &lt;li&gt;Couchage : 23 lits, la salle à manger est au milieu, pas pratique quand il y a des anglais bruyants&lt;/li&gt;
+  &lt;li&gt;Situation exceptionnelle, vue magnifique sur le laugavegur si le temps est avec vous. Un &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; très sympa garde régulièrement ce refuge : c’est Uwe.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;fimmvruhls-f&quot;&gt;Fimmvörðuháls (FÍ)&lt;/h4&gt;
+
+&lt;p&gt;Il semble qu’il y ait un refuge FÍ à Fimmvörðuháls depuis très récemment. Je 
+n’ai pas trouvé d’infos directes dessus.&lt;/p&gt;
+
+&lt;h4 id=&quot;basr-rsmrk-tivist&quot;&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Útivist)&lt;/h4&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/basar1.jpg&quot; title=&quot;Refuge Útivist de Basár-Þórsmörk, la cuisine&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/basar1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/basar2.jpg&quot; title=&quot;Refuge Útivist de Basár-Þórsmörk, la cuisine&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/basar2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/basar4.jpg&quot; title=&quot;Il y a plein de randos superbes aux alentours de Þórsmörk&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/basar4.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt;, la cuisine&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/basar3.jpg&quot; title=&quot;Bazar à Basár&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/basar3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Bazar à Basár&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.utivist.is/english/basar-hut/&quot;&gt;Útivist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Douche : 400kr/4 min (attention ! c’est 4 minutes et non 5 comme ailleurs).&lt;/li&gt;
+  &lt;li&gt;Électricité : possible le soir chez les &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;, gratuit&lt;/li&gt;
+  &lt;li&gt;Cuisine : le grand luxe, gaz, cafetière, …&lt;/li&gt;
+  &lt;li&gt;Couchage : 80 places.&lt;/li&gt;
+  &lt;li&gt;Poubelles : géantes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;N’achetez « la » carte du coin ici (sauf si vous n’avez pas le choix). Allez 
+plutôt à Húsadalur (a.k.a. Assa) si vous pouvez (20% moins cher).&lt;/p&gt;
+
+&lt;p&gt;En ce qui nous concerne, l’accueil a été glacial…&lt;/p&gt;
+
+&lt;h4 id=&quot;skagfjordsskali-rsmrk-f&quot;&gt;Skagfjordsskali-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (FÍ)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.fi.is/en/huts/thorsmork/&quot;&gt;FÍ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Racheté en 2012 par FÍ. Je n’ai fais que passer devant, aucune info.&lt;/p&gt;
+
+&lt;h4 id=&quot;hsadalur-rsmrk-volcano-huts&quot;&gt;Húsadalur-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Volcano Huts)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.volcanohuts.com/&quot;&gt;Volcano Huts&lt;/a&gt; (anciennement 
+Hostelling International), 
+&lt;a href=&quot;https://www.facebook.com/Husadalur?ref=stream&quot;&gt;page facebook&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Peu d’infos, je n’ai fait que passer. Mais visiblement, il y a tout le confort
+(et même un restau). Ca semble assez familial. On peut y acheter des cartes
+postales, des timbres et poster sur place. Pratique pour faire son devoir quand
+on parcours le Laugavegur, même si c’est légèrement excentré par rapport à la
+route normale.&lt;/p&gt;
+
+&lt;p&gt;Il y a aussi une mini-hot pool. Bon, vraiment mini…&lt;/p&gt;
+
+&lt;p&gt;Ils sont sur &lt;a href=&quot;https://www.facebook.com/Husadalur?ref=stream&quot;&gt;facebook&lt;/a&gt; et 
+postent régulièrement, ce qui permet par exemple d’avoir des infos sur le 
+niveau de la Krossá (la rivière de la vallée de &lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt;).&lt;/p&gt;
+
+&lt;h4 id=&quot;emstrur-botnar-f&quot;&gt;Emstrur-Botnar (FÍ)&lt;/h4&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/emstrur1.jpg&quot; title=&quot;Emstrur, vue générale&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/emstrur1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/emstrur2.jpg&quot; title=&quot;Emstrur, la cabine du Warden&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/emstrur2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/emstrur3.jpg&quot; title=&quot;Emstrur. En cas d&#39;incendie, sautez par la fenêtre&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/emstrur3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Emstrur-Botnar (FÍ)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : FÍ&lt;/li&gt;
+  &lt;li&gt;Douche : 400 ISK / 5 minutes, une seule douche, longue file d’attente…&lt;/li&gt;
+  &lt;li&gt;Cuisine : bien équipée&lt;/li&gt;
+  &lt;li&gt;Électricité : non&lt;/li&gt;
+  &lt;li&gt;Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
+(Álftavatn - &lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 15h10. Ce bus circule tous les jours depuis 
+2014 et permet de rentrer sur Reykjavik en cas de souci. Attention, l’arrêt du 
+bus n’est pas au refuge mais à un endroit appellé «Crossroads» (croisement).
+Il faudra se renseigner auprès du Warden pour voir de quel croisement on parle. 
+C’est le dernier bus échappatoire si vous allez vers le sud.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ne pas rater la vue sur le canyon de la Markarfljot (demander au &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;). Vous 
+me raconterez (je l’ai ratée…). Kristina, la &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; qui porte des chaussettes 
+Quechua, nous a accueillis avec un grand sourire.&lt;/p&gt;
+
+&lt;h4 id=&quot;hvanngil-f&quot;&gt;&lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; (FÍ)&lt;/h4&gt;
+
+&lt;p&gt;La solution alternative à Alftavatn (5 km avant). Dans un cadre superbe, et 
+visiblement désert (tout le monde va à Alftavatn). Certainement un bon plan si 
+vous cherchez le calme. Il y a (comme partout ailleurs) des balades sympas dans 
+les environs, notamment sur Hvanngilshausar, la montagne qui domine le refuge à 
+l’est. MOntez au sommet, suivez la crête (balisé), et revenez par la vallée, ça 
+vaut vraiment le coup.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/hvangillshausar.jpg&quot; title=&quot;Vue depuis Hvanngilshausar&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/hvangillshausar.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Vue depuis Hvanngilshausar&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Une autre balade permet de croiser quelques cascades.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/hvangill1.jpg&quot; title=&quot;Balade des cascades à Hvangill&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/hvangill1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Balade des cascades à Hvangill&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.fi.is/en/huts/hvanngil/&quot;&gt;FÍ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
+(Álftavatn - &lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 14h30. Ce bus circule tous les jours (depuis 
+2014) et permet de rentrer sur Reykjavik en cas de souci.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;alftavatn-f&quot;&gt;Alftavatn (FÍ)&lt;/h4&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/alftavatn1.jpg&quot; title=&quot;Alftavatn : cuisine et dépendance&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/alftavatn1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/alftavatn2.jpg&quot; title=&quot;Alftavatn : une des chambres&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/alftavatn2.jpg&quot; title=&quot;Alftavatn : une des chambres&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Alftavatn&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/alftavatn3.jpg&quot; title=&quot;Alftavatn : la maison blanche&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/alftavatn3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Alftavatn : la maison blanche&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.fi.is/en/huts/alftavatn/&quot;&gt;FÍ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Douche : 400 ISK / 5 minutes&lt;/li&gt;
+  &lt;li&gt;Électricité : possible le soir chez les &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;, 500 ISK&lt;/li&gt;
+  &lt;li&gt;Cuisine : incroyable… plein de matos tout neuf (n 2010), nickel chrome (ceci 
+vaut pour la maison blanche; l’autre est très correcte aussi, plus dans le 
+style Emstrur)&lt;/li&gt;
+  &lt;li&gt;Couchage : 72 places&lt;/li&gt;
+  &lt;li&gt;Poubelles : géantes&lt;/li&gt;
+  &lt;li&gt;Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
+(Álftavatn - &lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 13h00. Ce bus circule tous les jours (depuis 
+2014) et permet de rentrer sur Reykjavik en cas de souci.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Desservi par un bus qui boucle sur Reykjavik. Si vous devez craquer sur le 
+Laugavegur, craquez ici, il n’y a pas d’autre échappatoire avant 
+Landmannalaugar (depuis le sud). De plus, le trajet en bus est vraiment 
+grandiose.&lt;/p&gt;
+
+&lt;p&gt;Si vous pouvez, essayez d’être installé dans la maison blanche par la &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;, 
+c’est vraiment nickel. Le soir, balade romantique au bord du lac de rigueur.&lt;/p&gt;
+
+&lt;h4 id=&quot;hskuldskali-alias-hraftinnusker-f&quot;&gt;Höskuldskali, alias Hraftinnusker (FÍ)&lt;/h4&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/hraf1.jpg&quot; title=&quot;Une des quelques tables en terrasse à Hraftinnusker&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/hraf1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2014-07-16-conseils-pratiques/hraf2.jpg&quot; title=&quot;Hraftinnusker dans la brume&quot;&gt;&lt;img src=&quot;/images/2014-07-16-conseils-pratiques/hraf2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Hraftinnusker&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Gérant : FÍ
+Eau : oui, parfois chaude au robinet (ou c’était un impression due au froid !)
+Douche : oui, pas vu
+Électricité : probablement pas
+WC : toilettes sèches
+Cuisine : oui
+Couchage : 52 lits
+Je n’ai fait que passer. Il vaut mieux se référer à la fiche descriptive chez FÍ. Notez que la météo est souvent très exacerbée ici. Camper ici peut tenir de la survie si vous n’êtes pas équipé correctement.&lt;/p&gt;
+
+&lt;h4 id=&quot;landmannalaugar&quot;&gt;Landmannalaugar&lt;/h4&gt;
+
+&lt;p&gt;Landmannalaugar, le refuge
+Refuge de Landmannalaugar, les bas flancs des randonneurs d’en bas&lt;/p&gt;
+
+&lt;p&gt;Les sanitaires de Landmannalaugar et les très prisés tuyaux d’eau chaude
+La maison des wardens à gauche (on apercoit le toit du refuge derrière) et les sanitaires sur la droite.&lt;/p&gt;
+
+&lt;p&gt;Gérant : FÍ
+Eau : oui, chaude au robinet dans le refuge et aux lavabos à l’extérieur et dans les sanitaires
+Douche : 400kr/5 minutes
+Électricité : recharge payante chez les &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;
+WC : une bonne 20aine
+Cuisine : oui
+Couchage : 75 lits
+Je ne suis pas fan de l’endroit. Le camping est moche, l’endroit est surpeuplé, et adieu les quiet hours, c’est très bruyant tard et tôt. Par contre, dès que l’on s’éloigne un peu, c’est paradisiaque. Évidemment, ne pas rater (comment serait-ce possible !) le bain dans les sources d’eau chaude; même s’il fait froid dehors, on est super bien dedans et on a pas froid en sortant. Le plus dur, c’est de se décider à passer en maillot.
+Possibilité de ravitaillement (ne révez pas tout de même…) dans le « Mountain Mall ». C’est un bus aménagé en petit magasin, donc vous ne trouverez pas votre marque de chocolat favorite. Il y a du gaz la plupart du temps.
+Le Mountain Mall&lt;/p&gt;
+
+&lt;h4 id=&quot;alftavatnkrokur-lftavtn&quot;&gt;Alftavatnkrokur (Álftavötn)&lt;/h4&gt;
+
+&lt;p&gt;Gérant : Útivist
+Douche : non
+Électricité : non
+Cuisine : ce qu’il faut, pas plus
+Couchage : 20 places
+Poubelles : il faudra les remporter
+Refait à neuf à l’intérieur, murs de pierre à la base, c’est vraiment très beau. En plus le cadre est splendide, je n’en sais pas plus, je n’ai fait que passer en courant sous des trombes d’eau. Pas très loin d’un canyon parcouru par la Sydri-Ofaera. Magnifique.&lt;/p&gt;
+
+&lt;h4 id=&quot;holaskjol&quot;&gt;Holaskjol&lt;/h4&gt;
+
+&lt;p&gt;Holaskjol
+Hoslaskjol, béni soit ton poêle à gaz !
+La salle à manger du bâtiment principal à Holaskjol&lt;/p&gt;
+
+&lt;p&gt;Un batiment principal et quelques cabanons individuels.
+Douche : 400kr, mais no limits !
+Électricité : probablement, pas vu
+Couchage : une bonne trentaine de place dans le batiment principal
+Poubelles : oui
+Poeles au gaz pour faire sécher les affaires !
+Il y a une etite cascade à quelques mibnutes du refuge. Pas vue. Si vue en 2011, cf photo ci-dessous.
+Désert…
+Desservi par le bus Skaftafell-Landmannalaugar&lt;/p&gt;
+
+&lt;p&gt;« Lítla Goðafoss » comme l’appelle le &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; d’Holaskjol&lt;/p&gt;
+
+&lt;p&gt;Skaelingar (Stóragil)
+Base en pierre du refuge
+Refuge de Skaelingar
+Skaelingar
+Gérant : Útivist
+Douche : non
+Électricité : non
+Cuisine : ce qu’il faut, pas plus
+Couchage : 20 places
+Poubelles : il faudra les remporter
+Refait à neuf à l’intérieur, murs de pierre à la base (oui, ce refuge ressemble beaucoup a Alftavatnkrokur. Autour du refuge il y a quelques étonnants « troncs de lave »
+A deux heures d’Eldgja par la piste de 4×4.
+Campings
+Kirkjubæjarklaustur
+Douches : 400ISK / 5mins.
+Électricité : dans les sanitaires, on doit pouvoir demander au gardien aussi.
+Cuisine : rien. Deux trois éviers, c’est tout.
+Eau : à volonté, chaude et gratuite aux robinets.
+Lave linge, sèche linge.
+Ravitaillement : la station service est à 5 minutes à pied.
+Plein de balades dans le coin.
+Super accueil, bons conseils.
+Emplacement géniaux, très bon planté du piquet !
+Piscine déserte (et chaude, bien sûr) à 10 minutes à pied.
+Point de départ des Laki tours, si l’envie vous prend (faut aimer le bus, vous êtes prévenus).
+En bref, il y a tout ce qu’il faut ici pour y faire un break détente et quelques emplettes.
+Kirkjubæjarklaustur
+Camping de Kirkjubæjarklaustur&lt;/p&gt;
+
+&lt;p&gt;Reykjavik
+Depuis le camping, vous pouvez prendre la ligne 14 pour vous rendre au centre-ville. Sortez à Hllemur.&lt;/p&gt;
+
+&lt;p&gt;Pas de commentaires. Y’a tout. Même les douches gratuites. Assez peuplé, mais globalement pas très bruyant. Les tables « hors d’eau » sont cependant assez rare. Pas simple pour manger quand il pleut.&lt;/p&gt;
+
+&lt;p&gt;Horaires de la ligne 14 (sens Camping -&amp;gt; BSI)
+Horaires de la ligne 14 (sens Camping -&amp;gt; BSI)&lt;/p&gt;
+
+&lt;p&gt;Skaftafell
+Douches : 400ISK / 5mins. Astuce : plutôt que de faire la queue devant les trois douches à coté de la machine à laver, allez au milieu du camping, il y en a 6, et elles sont bien moins fréquentées.
+Électricité : dans les sanitaires. Attention aux vols…
+Cuisine : rien. Deux trois éviers, c’est tout.
+Eau : à volonté, chaude et gratuite aux robinets.
+Lave linge, sèche linge. Tous deux très fréquentés…
+Ravitaillement : on peut manger à la cafet. Mais pour la ravitaillement, il faut allet à la station service située à 5km.
+Super accueil, tenancière charmante(ok, c’est complètement subjectif)
+Skógar
+Camping de Skogar&lt;/p&gt;
+
+&lt;p&gt;C’est le minimum syndical. Le camping est très exposé au vents du sud. Par contre, vue imprenable sur la cascade. Ne plantez pas la tente trop près si vous ne voulez pas que le bruit vous empêche de dormir.
+Il y a un petit truc pour s’approvisionner à coté, mais en comptez pas trop dessus, les rayons étaient déserts quand j’y suis allé.
+Plantage facile, le sol est assez meuble.&lt;/p&gt;
+
+&lt;p&gt;La météo
+Vous pouvez vous renseigner sur la météo auprès des &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;. Ils sont en général assez au courant. La plupart du temps, les prévisions locales pour les jours à venir sont affichées quelque part. Quand j’y étais, je n’ai pas été renversé par leur fiabilité, à prendre avec des pincettes donc.&lt;/p&gt;
+
+&lt;p&gt;Le site de l’Institut Météo Islandais (IMO) est remarquablement bien fait. Météo France ferait bien de s’en inspirer, c’est simple interactif, et très complet.&lt;/p&gt;
+
+&lt;p&gt;Si le climat islandais vous intéresse, vous trouverez quelques informations de fond ici.&lt;/p&gt;
+
+&lt;p&gt;Les nuages en Islande ont la faculté de s’amonceler et de se disperser rapidement. si vous renoncez à un sommet parce qu’il est dans les nuages, vous faites peut-être un erreur. Pendant la descente vous le verrez peut-être apparaitre, et l’amertume n’en sera que plus grande. Donc, si cela ne pose pas de problèmes de sécurité, montez quand même, on ne sait jamais.&lt;/p&gt;
+
+&lt;p&gt;Sachez qu’il peut neiger et faire des températures négatives l’été. Ajoutez à cela presque 90% d’humidité et 60km/h de vent, et vous aurez un idée de la météo que vous pourrez avoir. En gros, c’est du début novembre en moyenne montagne.&lt;/p&gt;
+
+&lt;p&gt;Marcher
+En préambule : il faut rappeler que la végétation est très fragile. La moindre mousse en bave des ronds de chapeau, entre le froid, le vent, les cendres des éruptions. Bref, c’est un enfer pour la végétation. Alors essayons de ne pas en rajouter en restant sur les chemins quand c’est possible, et en évitant de piétiner la mousse et la végétation. Idem pour la préservation du paysage. Essayons de ne pas laisser des traces de pompes n’importe ou. La colline est plus belle vierge, que maculée de traces de 46…&lt;/p&gt;
+
+&lt;p&gt;Cartes
+On trouve plusieurs types de cartes. Pour avoir acheté les deux les plus courantes, je préfère la série Íslandskort (disponible en ligne ici) par rapport à Serkort. Elles sont beaucoup plus claires à mon goût. Vous pouvez aussi trouver des 50 000e sous forme papier ou CD. Un autre magasin plein de cartes ici.&lt;/p&gt;
+
+&lt;p&gt;Pour le secteur de Landmannalaugar, vous pouvez trouver des cartes PDF à téléchargersur le site du « Mountain Mall » (le bus qui permet de faire des petites courses). Par ailleurs, un guide général de la région écrit par Ólafur Örn Haraldsson et édité par FI est disponible chez les &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; à Landmannalaugar. Il y a deux versions : une conséquence en Islandais, et un résumé en anglais : « Fjallabak Nature Reserve ». Il y a des cartes et plein d’infos intéressantes dedans.&lt;/p&gt;
+
+&lt;p&gt;L’Islande a aussi son Google Maps national (sans l’API) : Já. Très pratique pour localiser des endroits, ou avoir un aperçu général, mais nettement moins précis que l’excellent Atlas !&lt;/p&gt;
+
+&lt;p&gt;Si vous avez un GPS Garmin, ne partez surtout pas sans la carte d’OurFootprints !&lt;/p&gt;
+
+&lt;p&gt;Il existe un topoguide publié par rother recensant 50 randonnées à la journée de difficultés variées. On y trouvera notamment l’étape Skógar-Fimmvörðuháls.&lt;/p&gt;
+
+&lt;p&gt;Un carte en ligne  sympa de Reykjavik est ici : http://www.reykjavikcentermap.com/&lt;/p&gt;
+
+&lt;p&gt;Enfin, pour Skaftafell, le site propose une carte (assez moyenne) ici tandis que l’UST propose des cartes très utiles ici et là (la meilleure étant à mon avis cette dernière).&lt;/p&gt;
+
+&lt;p&gt;Sécurité
+Vous avez probablement entendu parler de l’efficacité presque légendaire des ICE-SAR (« Search And Rescue Islandais »). Chaque année, ils viennent au secours de randonneurs et skieurs perdus ou blessés. Pour qu’ils soient efficaces, encore faut-il qu’ils puisse savoir ou vous trouver.&lt;/p&gt;
+
+&lt;p&gt;Ils proposent donc un service d’enregistrement : avant votre trek, vous passez les voir, vous leur laissez votre trajet, la liste de votre matériel, et si possible une photo de vous avec votre veste et à coté de votre tente. Avant de partir, vous repssez chez eux ou leur donnez un coup de fil pour leur dire que c’est ok.&lt;/p&gt;
+
+&lt;p&gt;S’ils n’ont pas de nouvelles, ou s’ils sont alertés, ils sauront ou vous chercher pour peu que vous ayez suivi votre planning initial.&lt;/p&gt;
+
+&lt;p&gt;Ils louent aussi des PLB (« Personal Locator Beacon ») pour 5€/jour, qui leur permettront de vous retrouver facilement en cas de problème. David (BigFoot) emporte avec lui une balise SPOT.&lt;/p&gt;
+
+&lt;p&gt;Leur bureau se trouve au Skógarhlíð 14, 105 Reykjavík, à quelques pas du BSÍ.&lt;/p&gt;
+
+&lt;p&gt;Laugavegur
+Généralités
+C’est le trek le plus couru en Islande. Le Laugavegur est très peuplé. Vous y croiserez sans problème une bonne centaine de personnes par jour. Mais c’est vraiment magnifique, donc pas d’hésitation.&lt;/p&gt;
+
+&lt;p&gt;Difficulté
+Quelques conseils pour le Laugavegur&lt;/p&gt;
+
+&lt;p&gt;Le trek est entièrement balisé par des piquets, et il est presque impossible de se perdre. Attention quand même aux jours de brouillard, ou ça peut devenir délicat. Par ailleurs, les moutons sont joueurs et ont parfois tendance à creuser des petits sentiers trompeurs.
+Il y a deux passages délicats en descendant de Fimmvorduhals vers Thorsmork, mais à part ça, aucun problème.
+En prenant les étapes les unes après les autres, n’importe qui à peu près en forme devrait arriver au bout. En cas de souci, on est jamais à plus d’une étape d’un bus.&lt;/p&gt;
+
+&lt;p&gt;Etapes
+Laugavegur (KML)
+D+ et D- donnés pour le sens S-N; inversez si vous faites le parcours N-S&lt;/p&gt;
+
+&lt;p&gt;Modifier
+Etape Distance  Dénivellée +  Dénivellée -
+Total 78.0  3225  2671
+Skogar-Fimmvorduhals  13.2  983 52
+Fimmvorduhals-Thorsmork 10.4  213 988
+Thorsmork-Emstrur 15.9  730 440
+Emstrur-Alftavatn 18.2  392 368
+Alftavatn-Hraftinnusker 10.3  634 144
+Hraftinnusker-Landmannalaugar 10.0  273 679
+Beaucoup de gens ne font pas le tronçon Skogar-Thorsmork (je ne suis pas sur que « techniquement » parlant, ce tronçon fasse partie du Laugavegur). Dommage, c’est très beau (probablement assez éprouvant dans le sens nord-sud)&lt;/p&gt;
+
+&lt;p&gt;Dans quel sens ?
+L’éternelle question. Pour moi, c’est sud-nord, sans aucun doute. Ne serait-ce que parce que les bains chauds sont à l’arrivée. Il y a du ravitaillement à Landmannalaugar (à Skogar un peu, et pas à Thorsmork).&lt;/p&gt;
+
+&lt;p&gt;Ça a tout de même quelques inconvénients : on croise plus de monde (la plupart des gens font nord-sud), et les plus beaux points de vue sont derrière (il suffit de se retourner de temps en temps).&lt;/p&gt;
+
+&lt;p&gt;Doubler les étapes ?
+C’est possible. Certains doublent toutes les étapes. Elles sont courtes, donc, pourquoi pas. Enfin si, pourquoi ? Si vous venez pour l’exploit sportif, c’est dommage. L’étape qui me parait la plus longue est Thorsmork – Emstrur. Elle est un peu dure à doubler me semble t’il. Le kilométrage ne paye pas de mine, mais les petites collines de votre carte sont bien plus raides que ce que vous imaginez, ne les sous estimez pas…&lt;/p&gt;
+
+&lt;p&gt;Un conseil
+Préparez tout votre matos la veille pour percuter tôt la matin et partir dès que possible. Vous ferez alors la plus grande partie de l’étape sans croiser personne.&lt;/p&gt;
+
+&lt;p&gt;Région de Fjallabak
+Exposition, Terrain instable
+Pour le peu que j’ai vu en Islande, le terrain est globalement instable. Les rochers s’effritent, ça s’éboule, les pentes glissent, la mousse cache des trous, bref, regardez ou vous mettez vos pieds. Certains chemins sont indiqués sur des cartes, mais ne sont pas recommandés. Je pense en particulier au sentier en balcon au sud d’Uxatindar plutôt flippant, en particulier quand il pleut. A éviter…
+Il y a un ou deux passages exposés en descendant de Fimmvorduhals vers Thorsmork. Rien d’insurmontable toutefois. Si on évite de tomber pile poil à ce moment, pas de problème :)&lt;/p&gt;
+
+&lt;p&gt;Névés
+Vous croiserez des petits névés en route. Pas de quoi chausser des crampons, mais là aussi, il faut être vigilant.&lt;/p&gt;
+
+&lt;p&gt;Gués
+Pour traverser les gués, il faut impérativement défaire la ceinture ventrale du sac-à-dos : si vous partez à l’eau, ça vous permettra de vous débarrasser du sac avant qu’il vous fasse couler. A cet effet, les Islandais recommandent d’ailleurs de quitter une bretelle… mais ne le font pas. C’est vrai qu’en théorie ça permet de se libérer encore plus facilement, mais ça pose tout de même de sérieux problèmes d’équilibre.&lt;/p&gt;
+
+&lt;p&gt;Il faut traverser à l’endroit le plus large : le courant est moins fort et c’est moins profond. Quand à la position, les avis divergent : certains légèrement tourné vers l’amont (un peu face au courant), d’autres disent vers l’aval. Personnellement je me sens plus en équilibre en résistant de face au courant, donc je traverse en dévers en remontant légèrement le courant. David (BigFoot) semble faire pareil, ce qui est plutôt bon signe. A vous de tester et de choisir votre méthode !&lt;/p&gt;
+
+&lt;p&gt;Dans tous les cas, ne traversez pas pieds nus (j’en ai vu…). Prenez des Crocs (ou des clones), ça ne pèse presque rien, et ca vous permet de vous balader dans les campings en vous aérant les pieds sans remettre vos pompes de marche qui daubent. De mon coté j’ai pris une taille au dessous, ca serre un peu, mais c’est plus stable dans les gués et je risque moins de les perdre… On peut aussi bricoler un système de strap avec du velcro qui, d’après ceux qui ont essayé, donne entière satisfaction.&lt;/p&gt;
+
+&lt;p&gt;Il y a pas mal de  gamberge ici et là sur des systèmes plus rapides à mettre en œuvre qu’un déchaussage / séchage / chaussage. Par exemple des surbotes, sacs poubelles (durée de vie ?)… attention avec ces systèmes à la prise supplémentaire offerte au courant (Olivier en parle d’ailleurs). Les Islandais que j’ai vu font comme tout le monde : ils quittent leur pompes et mettent d’autres chaussures pour traverser. A bon entendeur.&lt;/p&gt;
+
+&lt;p&gt;L’équipement
+Vétements
+Quoi que vous fassiez, sauf si vous êtes verni, vous serez mouillé. Même avec une Goretex sous un poncho intégral (sac + moi), j’ai fini à torde un jour de pluie avec vent de face. Prévoyez donc du change, faites sécher dès que l’occasion se présente (soleil, vent, chauffage) et économisez 400g de poncho.&lt;/p&gt;
+
+&lt;p&gt;Sac de couchage
+Considerez votre sac de couchage, c’est un équipement de survie, c’est votre dernier refuge. Il faudra se débrouiller pour le garder au sec. Prenez un sac de compression étanche, type Dry Sack pour mettre votre sac à l’intérieur.
+Les avis divergent sur le choix duvet / synthétique. De mon coté, je n’ai jamais eu de problème d’humidité avec mon sac en plumes. Même humide après la condensation de la nuit, je le fourrais dans le DrySack et l’humidité se répartissait dans tout le sac, qui séchait ensuite en un clin d’oeil dès que je le sortais au vent.&lt;/p&gt;
+
+&lt;p&gt;Sur les performances du sac, un -10°C me semble l’idéal pour une personne normalement constitué qui ne veut pas dormir habillée. Ajustez en fonction de votre capacité à supporter le froid.&lt;/p&gt;
+
+&lt;p&gt;Tente
+Prenez une tente qui résiste au vent si vous ne voulez pas aller chercher votre double toit au Groenland. Les meilleures (mais un peu plus lourdes) ont celles qui ont une armature extérieure.
+Un Islandais m’avait dit en plantant la tente : « Always prepare for the worst ». J’ai fini par me rendre compte qu’il avait bien raison… Alors haubanez votre tente, même s’il fait beau, ça vous évitera de devoir sortir du duvet pour aller chercher des cailloux au milieu de la nuit avec 3° et 100km/h de vent.&lt;/p&gt;
+
+&lt;p&gt;Liste de matériel
+2011 : à venir…
+2010 : à retrouver…
+Les autres listes
+Andrew Skurka, le pape du trek longue-distance : http://www.andrewskurka.com/IS08/gearlist.php
+La liste de la rédaction de l’excellent Carnets d’Aventures : http://www.expemag.com/technique/liste-materiel-trek.html
+Celle d’Olivier, du forum randonner léger : http://www.randonner-leger.org/perso/doku.php?id=liste_equipement_islande
+Et toutes les autres
+L’eau
+Traiter ou ne pas traiter ? Gros dilemme… En 2010, après l’éruption de l’Eyjafjallajökull, la question en se posait pas trop : il était préférable de filtrer dans le sud  à cause des cendres.&lt;/p&gt;
+
+&lt;p&gt;Après, dans d’autres circonstances, je ne suis pas sûr. L’eau est claire dans la plupart des cas. Les Islandais avec qui j’ai marché buvaient sans aucun traitement ou filtrage. Par contre, la pompe s’avère pratique dans des endroits ou la profondeur du cours d’eau est faible : on plonge le tuyau dans le filet d’eau et hop ! Donc c’est une question de choix.Le bétail est présent, mais très dispersé, le risque de contamination est probablement très faible (il provient certainement plus de la fréquentation des trekkeurs que du bétail d’ailleurs).&lt;/p&gt;
+
+&lt;p&gt;Dans le doute, quelques pastilles de Micropur ne pèseront pas très lourd dans le sac et permettront d’avoir l’esprit tranquille. Et une pompe ce n’est pas bien lourd non plus. Ma Katadyn Mini Ceramic fait 250g (je vois d’ici les MUL froncer du sourcil).&lt;/p&gt;
+
+&lt;p&gt;Si vous avez un « dépot de bilan » à faire, éloignez vous le plus possible des cours d’eau (faites un trou, brulez le PQ et vous rebouchez). Les suivants vous remercient… Le mieux est bien sûr de ramener, mais cela demande une organisation sans faille… et surtout, ajouter quelques centaines de grammes (je parle des contenus, avec le contenu, ça peut chiffrer encore plus…) au sac à dos.&lt;/p&gt;
+
+&lt;p&gt;Attention si vous allez à Fimmvörðuháls : il n’y a pas d’eau en haut. Il est possible de faire fondre de la neige mais c’est aléatoire (je ne parle même pas de l’état de la neige après l’éruption, remplie de cendres) et ça pompe sérieusement sur le gaz (le votre, ou celui du refuge). Donc il faut arriver avec ses réserves. Tant que l’on parle de ce refuge, si vous y allez, proposez au Warden de lui redescendre quelques déchets dans la vallée, ça fait toujours plaisir.&lt;/p&gt;
+
+&lt;p&gt;Divers
+Le blue lagoon
+On nous avait déconseillé d’y aller… on y est allé… et bon… ce n’est pas transcendant. C’est sûr, c’est le cliché principal Islandais. Si vous allez en Islande, et que vous n’allez pas au BlueLagoon, c’est comme venir à Paris sans monter dans la Tour Eiffel : on va vous traiter de menteur et vous dire que vous n’y êtes pas allé :) Mais ça ne vaut pas Laugardalslaug et coûte… 10 fois plus cher !&lt;/p&gt;
+
+&lt;p&gt;Le seul truc sympa là-bas c’est le bar dans l’eau. A part ça… bof. Strutslaug est 10 fois mieux, c’est gratuit, et désert..&lt;/p&gt;
+
+&lt;p&gt;La piscine Laugardalslaug
+Laugardalslaug
+Laugardalslaug&lt;/p&gt;
+
+&lt;p&gt;C’est la piscine à coté du camping de Reykjavik, juste à l’arrêt de bus. Aucune excuse pour passer à coté donc. Si vous avez le choix entre la piscine et le Blue Lagoon, choisissez la piscine sans hésiter. Il y a un hammam et plusieurs bains à température différente (de 38°C, 40°C, 42°C et 42°C pour les plus téméraires). Ça vaut vraiment le coup, et l’entrée ne coute que 450 ISK. Rien que pour prendre une douche, c’est un affaire. Les horaires d’ouverture sont très larges en été :&lt;/p&gt;
+
+&lt;p&gt;Jours de la semaine : 6h30-22h30
+Week-ends : 8h00-22h00
+Rien de mieux, après le café du matin, d’aller se prélasser là-bas. Si on y va tôt, c’est complètement désert.&lt;/p&gt;
+
+&lt;p&gt;A ne pas rater : le sèche maillot du futur qui centrifuge la moindre goutte d’au de votre bikini en 5 secondes.&lt;/p&gt;
+
+&lt;p&gt;Autres infos
+Le site de référence, c’est celui de Dieter. Tout y est… malheureusement presque exclusivement en allemand.&lt;/p&gt;
+
+&lt;p&gt;Olivier à plein d’infos sur le matériel chez lui (en version MUL).&lt;/p&gt;
+
+&lt;p&gt;David (a.k.a. BigFoot) a vu du pays, et vous en parle sur son blog.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:cb&quot;&gt;
+      &lt;p&gt;c’est visiblement en voie de disparition quand même &lt;a href=&quot;#fnref:cb&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/pratique/conseils-pratiques/&quot;&gt;Conseils pratiques pour la randonnée en Islande&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;Islande&lt;/a&gt; on July 16, 2014.&lt;/p&gt;</content>
+</entry>
+
 </feed>

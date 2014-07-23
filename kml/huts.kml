@@ -1303,6 +1303,28 @@ Source : http://www.nat.is/fjallaskalareng/skalar_fi_hvanngil_eng.htm</descripti
 			</Point>
 		</Placemark>
 		<Placemark>
+			<name>Hloduvellir Hut</name>
+			<description>The Hloduvellir hut is the property of the Iceland Touring Association and Laugadaela County.  It was built in 1970 and is located in the lava field at the southern foot of Mt Hlodufell.  It comprises a large entrance and a sleeping hall with a kitchenette (gas-stove).  It accommodates 15 people in bunks.  Water is collected from the roof of the huthe attractions in the neighbourhood are Mt. Hlodufell, Eldborgin in the Lamb Lava Field, Mt Kalfstindur, Mt Hognhofdi, Mt Skrida and Mt Skjaldbreid.  The hiking trail across Rotarsandur to Gorge Bruararskord is popular and interesting.
+
+The hut is accessible on foot or by jeeps or other robust 4wd vehicles from lake Laugarvatn or the Kaldidalur Route in the West.  Other 4wd access tracks start in valley Haukadalur forest near the Geysir area, and from the southernmost part of the Kjolur route.
+Source:  The ITA website.  fi@fi.is Tel.: 568 2533 
+
+Source : http://www.fi.is/en/huts/hloduvellir/</description>
+			<LookAt>
+				<longitude>-18.73134349932089</longitude>
+				<latitude>64.08184977893535</latitude>
+				<altitude>0</altitude>
+				<heading>1.359180768512837</heading>
+				<tilt>0</tilt>
+				<range>147035.3537410055</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-diamond120</styleUrl>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
 			<name>Holaskjol</name>
 			<description>Holaskjol, sheltered by Mounds Lambaskardsholar, offers mountain hut accommodation in a beautiful location just off the Landmanna Route, near the rivers Sydri Ofaera and Skafta and the magnificent fissure Eldgja.  It is and excellent spot for a further exploration of the area on foot and then enjoy the services of the Bus Company Kynnisferdir and its daily schedule on the Landmanna Route during summers.
 

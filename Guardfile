@@ -6,3 +6,7 @@ guard 'jekyll' do
   ignore /_site/
 end
 
+guard 'livereload' do
+    watch(%r{_site/.+})
+end
+

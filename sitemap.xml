@@ -1,21 +1,58 @@
----
-layout: nil
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>{{ site.url }}</loc>
+        <loc>http://127.0.0.1:4000</loc>
     </url>
     
-    {% for page in site.pages %}
+    
     <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
+        <loc>http://127.0.0.1:4000/theme-setup/</loc>
     </url>
-    {% endfor %}
+    
+    <url>
+        <loc>http://127.0.0.1:4000/sitemap.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/pratique/</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/posts/</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/index.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/feed.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/categories/</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/about/</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/404.html</loc>
+    </url>
+    
 
-    {% for post in site.posts %}
+    
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>http://127.0.0.1:4000/pratique/refuges/</loc>
     </url>
-    {% endfor %}
+    
+    <url>
+        <loc>http://127.0.0.1:4000/pratique/le_laugavegur/</loc>
+    </url>
+    
+    <url>
+        <loc>http://127.0.0.1:4000/pratique/conseils-pratiques/</loc>
+    </url>
+    
 </urlset>
