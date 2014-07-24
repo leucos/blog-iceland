@@ -25,6 +25,21 @@ task :generate do
   })).process
 end
 
+desc "Generate blog files for link checking"
+task :generate_check do
+  Jekyll::Site.new(Jekyll.configuration({
+    "source"      => ".",
+    "destination" => "_site",
+    "url" => "http://127.0.0.1:4000",
+    "owner" => { "facebook" => nil }
+  })).process
+end
+
+desc "Checks links"
+task :check => [:generate_check] do
+  system "check-links ./_site/"  
+end
+
 desc "Generate and publish blog to gh-pages"
 task :publish do
   Dir.mktmpdir do |tmp|

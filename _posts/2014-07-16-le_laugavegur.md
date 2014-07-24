@@ -51,13 +51,13 @@ D+ et D- donnés pour le sens S-N; inversez si vous faites le parcours N-S.
 
 Etape | Distance | D + | D -
 :---- | -------: | --: | --:
-Total | 78.0 | 3225 | 2671
 Skogar-Fimmvorduhals | 13.2 | 983 | 52
 Fimmvorduhals-Thorsmork | 10.4 | 213 | 988
 Thorsmork-Emstrur | 15.9 | 730 | 440
 Emstrur-Alftavatn | 18.2 | 392 | 368
 Alftavatn-Hraftinnusker | 10.3 | 634 | 144
 Hraftinnusker-Landmannalaugar | 10.0 | 273 | 679
+Total | 78.0 | 3225 | 2671
 
 Beaucoup de gens ne font pas le tronçon Skogar-Thorsmork (je ne suis pas sur que
 « techniquement » parlant, ce tronçon fasse partie du Laugavegur). Dommage,
@@ -206,7 +206,7 @@ enfonce généralement à la main, et il y a toujours un caillou pas loin.
 
 Quelques autres listes : 
 
-- [Andrew Skurka, le pape du trek longue-distance](http://www.andrewskurka.com/IS08/gearlist.php)
+- [Andrew Skurka, le pape du trek longue-distance](http://andrewskurka.com/adventures/iceland-traverse/gear-list/)
 - [La liste de la rédaction de l’excellent Carnets d’Aventures](http://www.expemag.com/technique/liste-materiel-trek.html)
 - Celle d’[Olivier, du forum randonner léger](http://www.randonner-leger.org/perso/doku.php?id=liste_equipement_islande)
 

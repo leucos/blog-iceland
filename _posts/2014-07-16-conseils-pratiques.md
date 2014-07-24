@@ -233,8 +233,10 @@ le transport, donnez la date de livraison voulue, et vous pourrez récupérer
 votre colis à destination. Sur votre colis, marquez en gros votre nom, la
 destination, et la date de récupération.
 
-Depuis l’arrêt de bus municipal, la ligne 14 permet de rejoindre le camping de
-Reykjavik (arrêt : _Laugardalslaug_, continuer 200 m à pied).
+Depuis l’arrêt de bus municipal, la ligne 14 ([horaires](http://www.straeto.is/media/reykjavik-2014/leid-14.pdf) et 
+[plan](http://www.straeto.is/media/kort/14.pdf)) permet de rejoindre le 
+camping de Reykjavik (arrêt : _Laugardalslaug_, continuer 200 m à pied).
+
 
 On peut se rendre à pied dans le centre ville de Reykjavik très rapidement en
 traversant la rue longeant l’arrêt de bus municipal (en passant devant la
@@ -246,12 +248,12 @@ débrouillerez bien.
 
 <figure>
   <a href="{{ site.url }}/images/2014-07-16-conseils-pratiques/bus_bsi.jpg" title="Bus au repos au BSI"><img src="{{ site.url }}/images/2014-07-16-conseils-pratiques/bus_bsi.jpg"></a>
-  <figcaption><a href="http://www.re.is/" title="BSI">Bus au repos au BSI</a>.</figcaption>
+  <figcaption><a href="https://www.re.is/" title="BSI">Bus au repos au BSI</a>.</figcaption>
 </figure>
 - - -
 
 C’est la compagnie qui dessert toute l’ile. Vous trouverez leurs horaires et
-tarifs sur [leur site](http://www.re.is) ou sur 
+tarifs sur [leur site](https://www.re.is) ou sur 
 [celui-ci](http://www.nat.is/travelguideeng/bus_stop_the_real_icelandic.htm).
 J’aime bien le dernier qui est pratique, concis, et qui donne plein d’autres
 infos (sur les refuges notamment), même s’il ne donne pas les prix des bus. En
@@ -289,7 +291,7 @@ Les bus de la municipalité de Reykjavik (jaunes,
 pas la monnaie ! Il faut arriver avec l’appoint, sous peine de payer beaucoup 
 plus cher que prévu. Donc pensez-y quand vous vous baladez, et prévoyez de la 
 petite monnaie en fonction ds déplacements que vous avez à faire.
-Le prix est actuellement de 350ISK. Vérifiez tout de même sur 
+Le prix est actuellement de 350 ISK. Vérifiez tout de même sur 
 [le site de la société](http://www.straeto.is/english/buy-tickets/).
 
 ### Partir (enfin, rentrer)
@@ -320,13 +322,14 @@ a un bonus dans la rue Laugavegur à Reykjavik.
 
 ### Gaz
 
-On peut trouver du gaz dans une petit boutique de bricolage dans la rue
-Laugavegur, avant la boutique Bonus me semble t’il (en venant du nord). Je ne me
-souviens plus s’ils ont la norme camping gaz, mais de toutes façons, il vaut
-mieux éviter ce système franco-français. Vous trouverez des cartouche
-abandonnées dans certains campings (Reykjavik, Skogar, ...) mais ne comptez pas
-trop dessus. Vous risquez de ne trouver que du quasi-vide. On trouve aussi du
-gaz au camping de Reykjavik ou à [FjallaKofinn](https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,258.35h,79.19t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0) 
+On peut trouver du gaz dans une petit boutique de bricolage
+[Brynja](http://www.brynja.is/) dans la rue Laugavegur, avant la boutique Bonus
+me semble t’il (en venant du nord). Je ne me souviens plus s’ils ont la norme
+camping gaz, mais de toutes façons, il vaut mieux éviter ce système franco-
+français. Vous trouverez des cartouche abandonnées dans certains campings
+(Reykjavik, Skogar, ...) mais ne comptez pas trop dessus. Vous risquez de ne
+trouver que du quasi-vide. On trouve aussi du gaz au camping de Reykjavik ou à 
+[FjallaKofinn](https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,258.35h,79.19t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0) 
 près du centre commercial Kringlan.
 
 De nôtre coté, on a consommé quasiment 2 x 750g à 3 pendant 2 semaines (on a
@@ -361,7 +364,7 @@ sous aucun prétexte !
 
 <figure>
   <a href="{{ site.url }}/images/2014-07-16-conseils-pratiques/sangitamiya.jpg" title="Hljóðheimurinn Sangitamiya"><img src="{{ site.url }}/images/2014-07-16-conseils-pratiques/sangitamiya.jpg"></a>
-  <figcaption><a href="http://www.re.is/" title="Hljóðheimurinn Sangitamiya">Hljóðheimurinn Sangitamiya</a>.</figcaption>
+  <figcaption><a href="https://www.re.is/" title="Hljóðheimurinn Sangitamiya">Hljóðheimurinn Sangitamiya</a>.</figcaption>
 </figure>
 - - -
 
