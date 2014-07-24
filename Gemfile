@@ -9,5 +9,5 @@ gem 'activesupport'
 gem 'stringex'
 gem 'link-checker'
 
-gem 'jgd', :git => 'https://github.com/leucos/jekyll-github-deploy'
+gem 'jgd'
 

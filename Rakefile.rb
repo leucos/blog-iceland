@@ -56,7 +56,7 @@ task :publish do
     # system "echo yolo"
   end
 end
-
+task :deploy => :publish
 task :default => :publish
 
 #############################

@@ -10,7 +10,9 @@ image:
   feature: 2014-07-16-le_laugavegur/pano_alftavatn2_lzn.jpg
   credit: Michel Blanc
   legend: Alftavatn depuis le Laugavegur
-
+mapping:
+  layers:
+    - /kml/laugavegur.kml
 ---
 <section id="table-of-contents" class="toc">
   <header>
@@ -26,26 +28,38 @@ image:
 
 ### Généralités
 
-C’est le trek le plus couru en Islande. Le Laugavegur est très peuplé. Vous y croiserez sans problème une bonne centaine de personnes par jour. Mais c’est vraiment magnifique, donc pas d’hésitation.
+C’est le trek le plus couru en Islande. Le Laugavegur est très peuplé. Vous y
+croiserez sans problème une bonne centaine de personnes par jour. Mais c’est
+vraiment magnifique, donc pas d’hésitation.
 
 ### Difficulté
 
-TODO: Add pic
+<figure>
+  <a href="{{ site.url }}/images/2014-07-16-le_laugavegur/morinsheidi.jpg" title="Bazar à Basár"><img src="{{ site.url }}/images/2014-07-16-le_laugavegur/morinsheidi.jpg"></a>
+  <figcaption>Passage vers Morinsheidi</figcaption>
+</figure>
 
+- - -
 Le trek est entièrement balisé par des piquets, et il est presque impossible de
-se perdre. Attention quand même aux jours de brouillard, ou ça peut devenir
-délicat. Par ailleurs, les moutons sont joueurs et ont parfois tendance à
-creuser des petits sentiers trompeurs. Il y a deux passages délicats en
-descendant de Fimmvorduhals vers Thorsmork, mais à part ça, aucun problème. En
-prenant les étapes les unes après les autres, n’importe qui à peu près en forme
-devrait arriver au bout. En cas de souci, on est jamais à plus d’une étape d’un
-bus.
+se perdre, sauf... les jours de brouillard, ou ça peut devenir délicat. Par
+ailleurs, les moutons sont joueurs et ont parfois tendance à creuser des petits
+sentiers trompeurs. Il y a deux passages délicats en descendant de Fimmvorduhals
+vers Thorsmork, mais à part ça, aucun problème. En prenant les étapes les unes
+après les autres, n’importe qui _à peu près en forme_ devrait arriver au bout.
+En cas de souci, on est jamais à plus d’une étape d’un bus.
+
+### Parcours
+
+Téléchargez le tracé au format :
+
+- [KML]({{ site.url }}/kml/laugavegur.kml)
+- [GPX]({{ site.url }}/kml/laugavegur.gpx)
+
+{% render_map %}
 
 ### Etapes
 
 #### Liste
-
-_TODO : Laugavegur (KML)_
 
 D+ et D- donnés pour le sens S-N; inversez si vous faites le parcours N-S.
 
@@ -101,7 +115,7 @@ tomber pile poil à ce moment, pas de problème :)
 Vous croiserez des petits névés en route. Pas de quoi chausser des crampons,
 mais là aussi, il faut être vigilant. Le plus gros risque survient quand le névé
 est en fond de civette et est creusé par un cours d'eau (très fréquent en zone
-géothermique). Le risque de passer au travers est très présent et augment dans
+géothermique). Le risque de passer au travers est très présent et augmente dans
 la saison, soyez donc prudents, n'hésitez pas à faire un détour. On ne risque
 généralement pas la mort (sauf si le cours d'eau est important), mais si on se
 fait une cheville, c'est terminé pour la rando.

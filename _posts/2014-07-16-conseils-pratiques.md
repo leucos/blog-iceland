@@ -194,8 +194,9 @@ sanitaires. Il est donc de bon ton de la respecter.
 Pour rejoindre Reykjavik, le plus simple est de prendre le
 [FlyBus](https://www.re.is/flybus/#Schedule). Ça prend 1 heure environ, et ça
 coute 1950 ISK. Dans le FlyBus, vous trouverez les horaires de toutes les lignes
-Reykjavik Excursions de l’île, ainsi qu’un plan de Reykjavik (vous pouvez le
-prendre, mais vous en trouverez plein partout, notamment au camping).
+Reykjavik Excursions de l’île, ainsi qu’un plan de 
+[Reykjavik](http://www.reykjavikcentermap.com/) (vous pouvez le prendre, mais 
+vous en trouverez plein partout, notamment au camping).
 
 ### Le BSI
 
@@ -206,12 +207,12 @@ prendre, mais vous en trouverez plein partout, notamment au camping).
 - - -
 
 Le BSI c’est la gare routière de Reykjavik, siège de la société Reykjavik
-Excursions qui a des lignes de bus parcourant toute l’île. Il est situé juste à
-coté de l’aéroport de Reykjavik (aéroport « domestique », pour les lignes
-intérieures). Les horaires d’ouverture ont l’air assez larges, j’ai même
-l’impression que c’est ouvert H24. Le site du BSI annonce 04:30-24:00 7/7, mais
-il semblerait que la cafétéria à l’intérieur du BSI soit ouverte 24/24. A voir
-donc.
+Excursions qui a des lignes de bus parcourant toute l’île. Il est situé [juste à
+coté de l’aéroport de Reykjavik](https://www.google.fr/maps/@64.1371228,-21.9338
+719,560m/data=!3m1!1e3)  (aéroport « domestique », pour les lignes intérieures).
+Les horaires d’ouverture ont l’air assez larges, j’ai même l’impression que
+c’est ouvert H24. Le site du BSI annonce 04:30-24:00 7/7, mais il semblerait que
+la cafétéria à l’intérieur du BSI soit ouverte 24/24. A voir donc.
 
 Afin d'être complet, on y trouve aussi la compagnie [Trek](http://trex.is/).
 
@@ -236,7 +237,6 @@ destination, et la date de récupération.
 Depuis l’arrêt de bus municipal, la ligne 14 ([horaires](http://www.straeto.is/media/reykjavik-2014/leid-14.pdf) et 
 [plan](http://www.straeto.is/media/kort/14.pdf)) permet de rejoindre le 
 camping de Reykjavik (arrêt : _Laugardalslaug_, continuer 200 m à pied).
-
 
 On peut se rendre à pied dans le centre ville de Reykjavik très rapidement en
 traversant la rue longeant l’arrêt de bus municipal (en passant devant la
@@ -374,41 +374,70 @@ pour mettre le chouette Ukulélé bass.
 
 ### Dormir
 
-Une page dédiée décrit les hébergements en [refuges et en
-camings](/pratique/refuges/)
+Une page dédiée décrit les hébergements en 
+[refuges et en camings](/pratique/refuges/)
 
 ### Randonner
 
-Une page dédiée à la randonnée.
+Une page dédiée à la [randonnée](/pratique/randonner/).
 
 ### Divers
 
 #### Le blue lagoon
 
-On nous avait déconseillé d’y aller… on y est allé… et bon… ce n’est pas transcendant. C’est sûr, c’est le cliché principal Islandais. Si vous allez en Islande, et que vous n’allez pas au BlueLagoon, c’est comme venir à Paris sans monter dans la Tour Eiffel : on va vous traiter de menteur et vous dire que vous n’y êtes pas allé :) Mais ça ne vaut pas Laugardalslaug et coûte… 10 fois plus cher !
+On nous avait déconseillé d’y aller… on y est allé… et bon… ce n’est pas
+transcendant. C’est sûr, c’est le cliché principal Islandais. Si vous allez en
+Islande, et que vous n’allez pas au BlueLagoon, c’est comme venir à Paris sans
+monter dans la Tour Eiffel : on va vous traiter de menteur et vous dire que vous
+n’y êtes pas allé :) Mais ça ne vaut pas Laugardalslaug et coûte… 10 fois plus
+cher !
 
-Le seul truc sympa là-bas c’est le bar dans l’eau. A part ça… bof. Strutslaug est 10 fois mieux, c’est gratuit, et désert..
+<figure>
+  <a href="{{ site.url }}/images/2014-07-16-conseils-pratiques/bluelagoon.jpg" title="Le Blue Lagoon"><img src="{{ site.url }}/images/2014-07-16-conseils-pratiques/bluelagoon.jpg"></a>
+  <figcaption><a href="https://www.re.is/" title="Le Blue Lagoon">Le Blue Lagoon</a>.</figcaption>
+</figure>
+- - -
+
+Le seul truc sympa là-bas c’est le bar dans l’eau. A part ça… bof. Strutslaug
+est 10 fois mieux, c’est gratuit, et désert..
 
 #### La piscine Laugardalslaug
 
-Laugardalslaug
-Laugardalslaug
+<figure>
+  <a href="{{ site.url }}/images/2014-07-16-conseils-pratiques/laugardalslaug.jpg" title="Piscine de Laugardalslaug"><img src="{{ site.url }}/images/2014-07-16-conseils-pratiques/laugardalslaug.jpg"></a>
+  <figcaption><a href="https://www.re.is/" title="Piscine de Laugardalslaug">Piscine de Laugardalslaug</a>.</figcaption>
+</figure>
+- - -
 
-C’est la piscine à coté du camping de Reykjavik, juste à l’arrêt de bus. Aucune excuse pour passer à coté donc. Si vous avez le choix entre la piscine et le Blue Lagoon, choisissez la piscine sans hésiter. Il y a un hammam et plusieurs bains à température différente (de 38°C, 40°C, 42°C et 42°C pour les plus téméraires). Ça vaut vraiment le coup, et l’entrée ne coute que 450 ISK. Rien que pour prendre une douche, c’est un affaire. Les horaires d’ouverture sont très larges en été :
+C’est la piscine à coté du camping de Reykjavik, juste à l’arrêt de bus. Aucune
+excuse pour passer à coté donc. Si vous avez le choix entre la piscine et le
+Blue Lagoon, choisissez la piscine sans hésiter. Il y a un hammam et plusieurs
+bains à température différente (de 38°C, 40°C, 42°C et 42°C pour les plus
+téméraires). Ça vaut vraiment le coup, et l’entrée ne coute que 450 ISK. Rien
+que pour prendre une douche, c’est un affaire. 
 
-Jours de la semaine : 6h30-22h30
-Week-ends : 8h00-22h00
-Rien de mieux, après le café du matin, d’aller se prélasser là-bas. Si on y va tôt, c’est complètement désert.
+Les horaires d’ouverture sont très larges en été :
 
-A ne pas rater : le sèche maillot du futur qui centrifuge la moindre goutte d’au de votre bikini en 5 secondes.
+- Jours de la semaine : 6h30-22h30
+- Week-ends : 8h00-22h00
+
+Rien de mieux, après le café du matin, d’aller se prélasser là-bas. Si on y va
+tôt, c’est complètement désert.
+
+A ne pas rater : le sèche maillot du futur qui centrifuge la moindre goutte d’au
+de votre bikini en 5 secondes.
 
 ### Autres infos
 
-Le site de référence, c’est celui de Dieter. Tout y est… malheureusement presque exclusivement en allemand.
+Le site de référence, c’est celui de [Dieter](http://www.isafold.de/). Tout y 
+est... malheureusement presque exclusivement en allemand.
 
-Olivier à plein d’infos sur le matériel chez lui (en version MUL).
+Olivier à plein d’infos sur le matériel 
+[chez lui](http://randonner-leger.org/perso/doku.php?id=liste_equipement_islande) 
+(en version MUL).
 
-David (a.k.a. BigFoot) a vu du pays, et vous en parle sur son blog.
+David (a.k.a. BigFoot) a vu du pays, et 
+[vous en parle sur son blog](http://bigfoot.over-blog.org/article-sommaire-islande-40908174.html).
 
 [^cb]: c'est visiblement en voie de disparition quand même
 
