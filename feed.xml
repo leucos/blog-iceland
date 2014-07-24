@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://leucos.github.io/blog-iceland/feed.xml" />
 <link rel="alternate" type="text/html" href="http://leucos.github.io/blog-iceland" />
-<updated>2014-07-24T14:51:52+02:00</updated>
+<updated>2014-07-24T22:36:09+02:00</updated>
 <id>http://leucos.github.io/blog-iceland/</id>
 <author>
   <name>Michel Blanc</name>
@@ -27,7 +27,7 @@
   </author>
   <content type="html">&lt;h2 id=&quot;marcher&quot;&gt;Marcher&lt;/h2&gt;
 
-&lt;h3 id=&quot;prambule&quot;&gt;Préambule&lt;/h3&gt;
+&lt;h3 id=&quot;environnement&quot;&gt;Environnement&lt;/h3&gt;
 
 &lt;p&gt;Il faut rappeler que la végétation est très fragile. La moindre mousse en bave
 des ronds de chapeau, entre le froid, le vent, les cendres des éruptions. Bref,
@@ -37,6 +37,14 @@ mousse et la végétation. Idem pour la préservation du paysage. Essayons de ne
 pas laisser des traces de pompes n’importe ou. La colline est plus belle vierge,
 que maculée de traces de 46…&lt;/p&gt;
 
+&lt;p&gt;Evidemment, je ne parle même pas des déchets, quels qu’ils soient. Comme
+ailleurs, il faut absolument tout ramener, y compris ce que l’on trouve par
+terre, laissé par des voyageurs distraits ou indélicats.&lt;/p&gt;
+
+&lt;p&gt;Pour le delestage, ça n’est pas simple. Le sol est trés pauvre. Les excréments
+sont difficile à dégrader. Profitez de votre passage dans les secteurs équipés
+pour faire la commission.&lt;/p&gt;
+
 &lt;h3 id=&quot;la-mto&quot;&gt;La météo&lt;/h3&gt;
 
 &lt;p&gt;Vous pouvez vous renseigner sur la météo auprès des warden. Ils sont en général
@@ -44,11 +52,12 @@ assez au courant. La plupart du temps, les prévisions locales pour les jours à
 venir sont affichées quelque part. Quand j’y étais, je n’ai pas été renversé par
 leur fiabilité, à prendre avec des pincettes donc.&lt;/p&gt;
 
-&lt;p&gt;Le site de l’Institut Météo Islandais (IMO) est remarquablement bien fait. Météo
-France ferait bien de s’en inspirer, c’est simple interactif, et très complet.&lt;/p&gt;
+&lt;p&gt;Le &lt;a href=&quot;http://en.vedur.is/&quot;&gt;site de l’Institut Météo Islandais (IMO)&lt;/a&gt; est
+remarquablement bien fait. Météo France ferait bien de s’en inspirer, c’est
+simple interactif, et très complet.&lt;/p&gt;
 
 &lt;p&gt;Si le climat islandais vous intéresse, vous trouverez quelques informations de
-fond ici.&lt;/p&gt;
+fond &lt;a href=&quot;http://notendur.hi.is/oi/climate_in_iceland.htm&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Les nuages en Islande ont la faculté de s’amonceler et de se disperser
 rapidement. si vous renoncez à un sommet parce qu’il est dans les nuages, vous
@@ -63,34 +72,41 @@ que vous pourrez avoir. En gros, c’est du début novembre en moyenne montagne.
 &lt;h3 id=&quot;cartes&quot;&gt;Cartes&lt;/h3&gt;
 
 &lt;p&gt;On trouve plusieurs types de cartes. Pour avoir acheté les deux les plus
-courantes, je préfère la série Íslandskort (disponible en ligne ici) par rapport
-à Serkort. Elles sont beaucoup plus claires à mon goût. Vous pouvez aussi
-trouver des 1/50 000e sous forme papier ou CD. Un autre magasin plein de cartes
-ici.&lt;/p&gt;
+courantes, je préfère la série «Mal and Menning» (disponible 
+sur &lt;a href=&quot;http://shopicelandic.com/store/maps-of-iceland&quot;&gt;shopicelandic&lt;/a&gt; ou chez 
+&lt;a href=&quot;http://www.nordicstore.net/icelandic_travel_maps_1154_ctg.htm&quot;&gt;nordic store&lt;/a&gt;) 
+par rapport à &lt;a href=&quot;http://www.ferdakort.is/&quot;&gt;Ferðakort&lt;/a&gt;. Elles sont beaucoup plus 
+claires à mon goût. Vous pouvez aussi trouver des 1/50 000e sous forme papier 
+ou CD. Un autre magasin plein de cartes 
+&lt;a href=&quot;http://www.carte-guide-plan.com/search.php?saisie=islande&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Pour le secteur de Landmannalaugar, vous pouvez trouver des cartes PDF à
-télécharger sur le site du « Mountain Mall » (le bus qui permet de faire des
-petites courses). Par ailleurs, un guide général de la région écrit par Ólafur
-Örn Haraldsson et édité par FI est disponible chez les warden à Landmannalaugar.
-Il y a deux versions : une conséquente en Islandais, et un résumé en anglais : «
-Fjallabak Nature Reserve ». Il y a des cartes et plein d’infos intéressantes
-dedans.&lt;/p&gt;
+&lt;p&gt;Pour le secteur de Landmannalaugar, on trouvait il y a quelques années des
+cartes PDF à télécharger sur le site du « Mountain Mall » (le bus qui permet de
+faire des petites courses). Ce n’est apparemment plus le cas maintenant. &lt;/p&gt;
 
-&lt;p&gt;L’Islande a aussi son Google Maps national (sans l’API) : Já. Très pratique pour
-localiser des endroits, ou avoir un aperçu général, mais nettement moins précis
-que l’excellent Atlas !&lt;/p&gt;
+&lt;p&gt;Par ailleurs, un guide général de la région écrit par Ólafur Örn Haraldsson et
+&lt;a href=&quot;http://www.fi.is/en/hiking-trails/fjallabak-nature-reserve/&quot;&gt;édité par FI&lt;/a&gt; est 
+disponible chez les warden à Landmannalaugar. Il y a deux versions : une 
+conséquente en Islandais, et un résumé en anglais : « Fjallabak Nature Reserve 
+». Il y a des cartes et plein d’infos intéressantes dedans.&lt;/p&gt;
 
-&lt;p&gt;Si vous avez un GPS Garmin, ne partez surtout pas sans la carte d’OurFootprints
-!&lt;/p&gt;
+&lt;p&gt;L’Islande a aussi son Google Maps national (sans l’API) : 
+&lt;a href=&quot;http://en.ja.is/kort/&quot;&gt;Já&lt;/a&gt;. Très pratique pour localiser des endroits, ou 
+avoir un aperçu général, mais moins précis que l’excellent 
+&lt;a href=&quot;http://atlas.lmi.is/kortasja_en/&quot;&gt;Atlas&lt;/a&gt; !&lt;/p&gt;
 
-&lt;p&gt;Il existe un topoguide publié par rother recensant 50 randonnées à la journée de
-difficultés variées. On y trouvera notamment l’étape Skógar-Fimmvörðuháls.&lt;/p&gt;
+&lt;p&gt;Si vous avez un GPS Garmin, ne partez surtout pas sans la carte 
+d’&lt;a href=&quot;http://www.ourfootprints.de/gps/mapsource-island_e.html&quot;&gt;OurFootprints&lt;/a&gt; !&lt;/p&gt;
 
-&lt;p&gt;Un carte en ligne  sympa de Reykjavik est ici : http://www.reykjavikcentermap.com/&lt;/p&gt;
+&lt;p&gt;Il existe un 
+&lt;a href=&quot;http://www.rother.de/titpage/4924.htm&quot;&gt;topoguide publié par rother&lt;/a&gt; recensant 
+50 randonnées à la journée de difficultés variées mais couvrant la totalité de 
+l’île. On y trouvera notamment l’étape Skógar-Fimmvörðuháls.&lt;/p&gt;
 
-&lt;p&gt;Enfin, pour Skaftafell, le site propose une carte (assez moyenne) ici tandis que
-l’UST propose des cartes très utiles ici et là (la meilleure étant à mon avis
-cette dernière).&lt;/p&gt;
+&lt;p&gt;Un carte en ligne très sympa de Reykjavik est disponible sur 
+&lt;a href=&quot;http://www.reykjavikcentermap.com/&quot;&gt;reykjavikcentermap.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enfin, pour Skaftafell, le site propose &lt;a href=&quot;http://www.vatnajokulsthjodgardur.is/english/hiking/skaftafell/&quot;&gt;deux cartes&lt;/a&gt; très correctes, et une &lt;a href=&quot;http://english.ust.is/media/fraedsluefni/UST_Skaftafell_enska.pdf&quot;&gt;brochure&lt;/a&gt; (&lt;a href=&quot;http://english.ust.is/media/fraedsluefni/Skaftafellsbaklingur_enska_2006.pdf&quot;&gt;ancienne version&lt;/a&gt;) sur le secteur.&lt;/p&gt;
 
 &lt;h3 id=&quot;scurit&quot;&gt;Sécurité&lt;/h3&gt;
 
@@ -99,11 +115,31 @@ ICE-SAR (« Search And Rescue Islandais »). Chaque année, ils viennent au seco
 de randonneurs et skieurs perdus ou blessés. Pour qu’ils soient efficaces,
 encore faut-il qu’ils puisse savoir ou vous trouver.&lt;/p&gt;
 
-&lt;p&gt;Ils proposent donc un service d’enregistrement : avant votre trek, vous passez
-les voir, vous leur laissez votre trajet, la liste de votre matériel, et si
-possible une photo de vous avec votre veste et à coté de votre tente. Avant de
-partir, vous repssez chez eux ou leur donnez un coup de fil pour leur dire que
-c’est ok.&lt;/p&gt;
+&lt;p&gt;Ils proposent donc un 
+&lt;a href=&quot;http://www.safetravel.is/travel-plan/&quot;&gt;service d’enregistrement&lt;/a&gt; en ligne.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez aussi passer les voir avant votre trek, vous leur laissez :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;votre nom&lt;/li&gt;
+  &lt;li&gt;votre adresse (chez vous)&lt;/li&gt;
+  &lt;li&gt;votre adresse en Islande si possible&lt;/li&gt;
+  &lt;li&gt;vos téléphones (domicile et en Islande si possible)&lt;/li&gt;
+  &lt;li&gt;date de naissance&lt;/li&gt;
+  &lt;li&gt;le nom de contacts en France et en Islande (si possible)&lt;/li&gt;
+  &lt;li&gt;la liste de votre équipement (évidemment, pas la brosse à dents, juste les 
+trucs qui ont un intérêt : GPS, tente, vestes) avec la couleur de l’équipement&lt;/li&gt;
+  &lt;li&gt;des informations honnêtes sur votre expérience, votre niveau et votre forme&lt;/li&gt;
+  &lt;li&gt;votre planning de trek&lt;/li&gt;
+  &lt;li&gt;votre vol retour&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;et si possible une photo de vous avec votre veste et à coté de votre tente.
+Avant departir, vous repassez chez eux ou leur donnez un coup de fil pour leur
+dire que c’est ok.&lt;/p&gt;
+
+&lt;p&gt;Dans tous les cas, le plus simple est de remplir le nouveau formulaire en ligne
+mentionné plus ahut.&lt;/p&gt;
 
 &lt;p&gt;S’ils n’ont pas de nouvelles, ou s’ils sont alertés, ils sauront ou vous
 chercher pour peu que vous ayez suivi votre planning initial.&lt;/p&gt;
@@ -112,7 +148,15 @@ chercher pour peu que vous ayez suivi votre planning initial.&lt;/p&gt;
 permettront de vous retrouver facilement en cas de problème. David (BigFoot)
 emporte avec lui une balise SPOT (et nous pareil depuis 2013).&lt;/p&gt;
 
-&lt;p&gt;Leur bureau se trouve au Skógarhlíð 14, 105 Reykjavík, à quelques pas du BSÍ.&lt;/p&gt;
+&lt;p&gt;Enfin, depuis 2014 ils ont même 
+&lt;a href=&quot;http://www.safetravel.is/112-iceland-app/&quot;&gt;une app pour smartphone&lt;/a&gt;: vous 
+pouvez faire des check-in de temps en temps, ça sème des petits cailloux et ça
+leur donne une indication s’ils doivent vous chercher. Evidemment, il faut un
+minimum de réseau, donc ne comptez pas trop la dessus si vous êtes vraiment dans
+la pampa.&lt;/p&gt;
+
+&lt;p&gt;Leur bureau se trouve à &lt;a href=&quot;https://www.google.fr/maps/@64.133226,-21.918442,3a,75y,165.63h,84.28t/data=!3m4!1e1!3m2!1soJ5fxLoHn369SYt_y00cTg!2e0?hl=fr&quot;&gt;Skógarhlíð 14, 105 Reykjavík&lt;/a&gt;, 
+à quelques pas du BSÍ.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://leucos.github.io/blog-iceland/pratique/randonner/&quot;&gt;Randonner en Islande&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://leucos.github.io/blog-iceland&quot;&gt;Islande&lt;/a&gt; on July 22, 2014.&lt;/p&gt;</content>
 </entry>
@@ -184,8 +228,8 @@ emporte avec lui une balise SPOT (et nous pareil depuis 2013).&lt;/p&gt;
 
 &lt;h3 id=&quot;gnralits&quot;&gt;Généralités&lt;/h3&gt;
 
-&lt;p&gt;Les refuges sont gérés la plupart du temps par &lt;a href=&quot;http://fi.is&quot;&gt;Ferðafélag Íslands
-(FÍ)&lt;/a&gt; ou par &lt;a href=&quot;http://utivist.is&quot;&gt;Útivist&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Les refuges sont gérés la plupart du temps par &lt;a href=&quot;http://www.fi.is/en/home/&quot;&gt;Ferðafélag Íslands
+(FÍ)&lt;/a&gt; ou par &lt;a href=&quot;http://www.utivist.is&quot;&gt;Útivist&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Pour les refuges du Laugavegur, il faut impérativement réserver, et assez à
 l’avance (les réservations ne sont pas confirmées avant janvier, mais elles sont
@@ -537,7 +581,7 @@ besoin de réserver, et toujours eu de la place.&lt;/p&gt;
 
 &lt;p&gt;Desservi par le bus &lt;em&gt;10&lt;/em&gt; Skaftafell-Landmannalaugar (vers 10h) et &lt;em&gt;10a&lt;/em&gt;
 Landmannalaugar-Skaftafell (18h). Horaires changeants d’une année sur l’autre,
-vérifiez chez &lt;a href=&quot;http://www.re.is&quot;&gt;Reykjavik Excursions&lt;/a&gt;.&lt;/p&gt;
+vérifiez chez &lt;a href=&quot;https://www.re.is&quot;&gt;Reykjavik Excursions&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;skaelingar-stragil&quot;&gt;Skaelingar (Stóragil)&lt;/h4&gt;
 
@@ -574,7 +618,7 @@ de lave » A deux heures d’Eldgja par la piste de 4×4.&lt;/p&gt;
 &lt;h4 id=&quot;dalakofinn&quot;&gt;Dalakofinn&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Gérant : [Útivist](http://www.utivist.is/english/dalakofinn-hut/&lt;/li&gt;
+  &lt;li&gt;Gérant : &lt;a href=&quot;http://www.utivist.is/english/dalakofinn-hut/&quot;&gt;Útivist&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Je ne sais rien de celui là. Je l’ai vu de loin deux fois. Le secteur est
@@ -584,38 +628,68 @@ renversant avec quelques sources chaudes cachées à creuser soi-même.&lt;/p&gt
 
 &lt;h4 id=&quot;reykjavik&quot;&gt;Reykjavik&lt;/h4&gt;
 
-&lt;p&gt;Depuis le camping, vous pouvez prendre la ligne 14 pour vous rendre au centre-ville. Sortez à Hllemur.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Site : &lt;a href=&quot;http://www.reykjavikcampsite.is/&quot;&gt;reykjavikcampsite.is&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Pas de commentaires. Y’a tout. Même les douches gratuites. Assez peuplé, mais globalement pas très bruyant. Les tables « hors d’eau » sont cependant assez rare. Pas simple pour manger quand il pleut.&lt;/p&gt;
+&lt;p&gt;Depuis le camping, vous pouvez prendre la &lt;a href=&quot;http://www.straeto.is/media/reykjavik-2014/leid-14.pdf&quot;&gt;ligne 14&lt;/a&gt; pour vous rendre au centre-ville (sortez à Hllemur) ou au BSI.&lt;/p&gt;
 
-&lt;p&gt;Horaires de la ligne 14 (sens Camping -&amp;gt; BSI)
-Horaires de la ligne 14 (sens Camping -&amp;gt; BSI)&lt;/p&gt;
+&lt;p&gt;Pas de commentaires. Il y’a tout. Même les douches gratuites. Assez peuplé, mais
+globalement pas très bruyant. Les tables « hors d’eau » sont cependant assez
+rares. Pas simple pour manger quand il pleut.&lt;/p&gt;
+
+&lt;p&gt;Lave linge et sèche linge sont disponibles à l’auberge de jeunesse juste à coté.
+Ils vendent de la lessive à l’accueil (de l’auberge, pas du camping) et font la
+monnaie.&lt;/p&gt;
+
+&lt;p&gt;Une superette se trouve à 300 m à pied. Il y a un plan des environs à l’accueil
+du camping ou elle est indiquée (ainsi que l’emplacement des ATM aux alentours).&lt;/p&gt;
+
+&lt;p&gt;Il y a de l’électricité à l’accueil (généralement blindé) ou dans les toilettes
+(attention aux vols, vécu).&lt;/p&gt;
+
+&lt;p&gt;Laugardalslaug (la piscine) est à 100 m, vous n’avez &lt;em&gt;aucune&lt;/em&gt; excuse pour ne pas
+y aller !&lt;/p&gt;
 
 &lt;h4 id=&quot;kirkjubjarklaustur&quot;&gt;Kirkjubæjarklaustur&lt;/h4&gt;
 
-&lt;p&gt;Douches : 400 ISK / 5mins.
-Électricité : dans les sanitaires, on doit pouvoir demander au gardien aussi.
-Cuisine : rien. Deux trois éviers, c’est tout.
-Eau : à volonté, chaude et gratuite aux robinets.
-Lave linge, sèche linge.
-Ravitaillement : la station service est à 5 minutes à pied.
-Plein de balades dans le coin.
+&lt;ul&gt;
+  &lt;li&gt;Douches : 400 ISK / 5mins.&lt;/li&gt;
+  &lt;li&gt;Électricité : dans les sanitaires, on doit pouvoir demander au gardien aussi.&lt;/li&gt;
+  &lt;li&gt;Cuisine : rien. Deux trois éviers, c’est tout.&lt;/li&gt;
+  &lt;li&gt;Eau : à volonté, chaude et gratuite aux robinets.&lt;/li&gt;
+  &lt;li&gt;Laverie : lave linge, sèche linge.&lt;/li&gt;
+  &lt;li&gt;Ravitaillement : la station service est à 5 minutes à pied.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Plein de balades dans le coin.
 Super accueil, bons conseils.
-Emplacement géniaux, très bon planté du piquet !
+Emplacement géniaux, très bon planté de piquet !
 Piscine déserte (et chaude, bien sûr) à 10 minutes à pied.
 Point de départ des Laki tours, si l’envie vous prend (faut aimer le bus, vous êtes prévenus).
 En bref, il y a tout ce qu’il faut ici pour y faire un break détente et quelques emplettes.&lt;/p&gt;
 
 &lt;h4 id=&quot;skaftafell&quot;&gt;Skaftafell&lt;/h4&gt;
 
-&lt;p&gt;Douches : 400ISK / 5mins. Astuce : plutôt que de faire la queue devant les trois douches à coté de la machine à laver, allez au milieu du camping, il y en a 6, et elles sont bien moins fréquentées.
-Électricité : dans les sanitaires. Attention aux vols…
-Cuisine : rien. Deux trois éviers, c’est tout.
-Eau : à volonté, chaude et gratuite aux robinets.
-Lave linge, sèche linge. Tous deux très fréquentés…
-Ravitaillement : on peut manger à la cafet. Mais pour la ravitaillement, il faut allet à la station service située à 5km.
-Super accueil, tenancière charmante(ok, c’est complètement subjectif)
-Sol gazon mais malgré tout très dur, amenez les pointes !&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Douches : 400 ISK / 5 mins (2010). Astuce : plutôt que de faire la queue
+devant les trois douches à coté de la machine à laver, allez au milieu du
+camping, il y en a 6, et elles sont bien moins fréquentées. &lt;/li&gt;
+  &lt;li&gt;Électricité : dans les sanitaires. Attention aux vols… &lt;/li&gt;
+  &lt;li&gt;Cuisine : rien. Deux trois éviers, c’est tout. &lt;/li&gt;
+  &lt;li&gt;Eau : à volonté, chaude et gratuite aux robinets. &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Laverie : lave linge, sèche linge. Tous deux très fréquentés…&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Ravitaillement : on peut manger à la cafet. Mais pour la ravitaillement, il
+faut aller à la station service située à 5 km. Super accueil, tenancière
+charmante (ok, c’est complètement subjectif), mais accès compliqué à pied.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sol gazon mais malgré tout très dur, amenez les pointes !&lt;/p&gt;
+
+&lt;p&gt;Randos grandioses au départ du camping (Svartifoss, Kristinartindar,
+Morsarjökul…).&lt;/p&gt;
 
 &lt;h4 id=&quot;skgar&quot;&gt;Skógar&lt;/h4&gt;
 
@@ -650,6 +724,7 @@ Plantage facile, le sol est assez meuble.&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;#laugavegur&quot;&gt;Laugavegur&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#gnralits&quot;&gt;Généralités&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#difficult&quot;&gt;Difficulté&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#parcours&quot;&gt;Parcours&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#etapes&quot;&gt;Etapes&lt;/a&gt;        &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;#liste&quot;&gt;Liste&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#dans-quel-sens-&quot;&gt;Dans quel sens ?&lt;/a&gt;&lt;/li&gt;
@@ -683,26 +758,40 @@ Plantage facile, le sol est assez meuble.&lt;/p&gt;
 
 &lt;h3 id=&quot;gnralits&quot;&gt;Généralités&lt;/h3&gt;
 
-&lt;p&gt;C’est le trek le plus couru en Islande. Le Laugavegur est très peuplé. Vous y croiserez sans problème une bonne centaine de personnes par jour. Mais c’est vraiment magnifique, donc pas d’hésitation.&lt;/p&gt;
+&lt;p&gt;C’est le trek le plus couru en Islande. Le Laugavegur est très peuplé. Vous y
+croiserez sans problème une bonne centaine de personnes par jour. Mais c’est
+vraiment magnifique, donc pas d’hésitation.&lt;/p&gt;
 
 &lt;h3 id=&quot;difficult&quot;&gt;Difficulté&lt;/h3&gt;
 
-&lt;p&gt;TODO: Add pic&lt;/p&gt;
+&lt;figure&gt;
+  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-le_laugavegur/morinsheidi.jpg&quot; title=&quot;Bazar à Basár&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-le_laugavegur/morinsheidi.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Passage vers Morinsheidi&lt;/figcaption&gt;
+&lt;/figure&gt;
 
+&lt;hr /&gt;
 &lt;p&gt;Le trek est entièrement balisé par des piquets, et il est presque impossible de
-se perdre. Attention quand même aux jours de brouillard, ou ça peut devenir
-délicat. Par ailleurs, les moutons sont joueurs et ont parfois tendance à
-creuser des petits sentiers trompeurs. Il y a deux passages délicats en
-descendant de Fimmvorduhals vers Thorsmork, mais à part ça, aucun problème. En
-prenant les étapes les unes après les autres, n’importe qui à peu près en forme
-devrait arriver au bout. En cas de souci, on est jamais à plus d’une étape d’un
-bus.&lt;/p&gt;
+se perdre, sauf… les jours de brouillard, ou ça peut devenir délicat. Par
+ailleurs, les moutons sont joueurs et ont parfois tendance à creuser des petits
+sentiers trompeurs. Il y a deux passages délicats en descendant de Fimmvorduhals
+vers Thorsmork, mais à part ça, aucun problème. En prenant les étapes les unes
+après les autres, n’importe qui &lt;em&gt;à peu près en forme&lt;/em&gt; devrait arriver au bout.
+En cas de souci, on est jamais à plus d’une étape d’un bus.&lt;/p&gt;
+
+&lt;h3 id=&quot;parcours&quot;&gt;Parcours&lt;/h3&gt;
+
+&lt;p&gt;Téléchargez le tracé au format :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://leucos.github.io/blog-iceland/kml/laugavegur.kml&quot;&gt;KML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://leucos.github.io/blog-iceland/kml/laugavegur.gpx&quot;&gt;GPX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div id=&quot;jekyll-mapping&quot; style=&quot;height:600px;width:800px;&quot;&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;etapes&quot;&gt;Etapes&lt;/h3&gt;
 
 &lt;h4 id=&quot;liste&quot;&gt;Liste&lt;/h4&gt;
-
-&lt;p&gt;&lt;em&gt;TODO : Laugavegur (KML)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;D+ et D- donnés pour le sens S-N; inversez si vous faites le parcours N-S.&lt;/p&gt;
 
@@ -716,12 +805,6 @@ bus.&lt;/p&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Total&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;78.0&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;3225&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;2671&lt;/td&gt;
-    &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Skogar-Fimmvorduhals&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;13.2&lt;/td&gt;
@@ -757,6 +840,12 @@ bus.&lt;/p&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;10.0&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;273&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;679&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Total&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;78.0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3225&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2671&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -803,7 +892,7 @@ tomber pile poil à ce moment, pas de problème :)&lt;/p&gt;
 &lt;p&gt;Vous croiserez des petits névés en route. Pas de quoi chausser des crampons,
 mais là aussi, il faut être vigilant. Le plus gros risque survient quand le névé
 est en fond de civette et est creusé par un cours d’eau (très fréquent en zone
-géothermique). Le risque de passer au travers est très présent et augment dans
+géothermique). Le risque de passer au travers est très présent et augmente dans
 la saison, soyez donc prudents, n’hésitez pas à faire un détour. On ne risque
 généralement pas la mort (sauf si le cours d’eau est important), mais si on se
 fait une cheville, c’est terminé pour la rando.&lt;/p&gt;
@@ -911,7 +1000,7 @@ enfonce généralement à la main, et il y a toujours un caillou pas loin.&lt;/p
 &lt;p&gt;Quelques autres listes : &lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.andrewskurka.com/IS08/gearlist.php&quot;&gt;Andrew Skurka, le pape du trek longue-distance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://andrewskurka.com/adventures/iceland-traverse/gear-list/&quot;&gt;Andrew Skurka, le pape du trek longue-distance&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.expemag.com/technique/liste-materiel-trek.html&quot;&gt;La liste de la rédaction de l’excellent Carnets d’Aventures&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Celle d’&lt;a href=&quot;http://www.randonner-leger.org/perso/doku.php?id=liste_equipement_islande&quot;&gt;Olivier, du forum randonner léger&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1205,8 +1294,9 @@ sanitaires. Il est donc de bon ton de la respecter.&lt;/p&gt;
 &lt;p&gt;Pour rejoindre Reykjavik, le plus simple est de prendre le
 &lt;a href=&quot;https://www.re.is/flybus/#Schedule&quot;&gt;FlyBus&lt;/a&gt;. Ça prend 1 heure environ, et ça
 coute 1950 ISK. Dans le FlyBus, vous trouverez les horaires de toutes les lignes
-Reykjavik Excursions de l’île, ainsi qu’un plan de Reykjavik (vous pouvez le
-prendre, mais vous en trouverez plein partout, notamment au camping).&lt;/p&gt;
+Reykjavik Excursions de l’île, ainsi qu’un plan de 
+&lt;a href=&quot;http://www.reykjavikcentermap.com/&quot;&gt;Reykjavik&lt;/a&gt; (vous pouvez le prendre, mais 
+vous en trouverez plein partout, notamment au camping).&lt;/p&gt;
 
 &lt;h3 id=&quot;le-bsi&quot;&gt;Le BSI&lt;/h3&gt;
 
@@ -1217,12 +1307,12 @@ prendre, mais vous en trouverez plein partout, notamment au camping).&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;Le BSI c’est la gare routière de Reykjavik, siège de la société Reykjavik
-Excursions qui a des lignes de bus parcourant toute l’île. Il est situé juste à
-coté de l’aéroport de Reykjavik (aéroport « domestique », pour les lignes
-intérieures). Les horaires d’ouverture ont l’air assez larges, j’ai même
-l’impression que c’est ouvert H24. Le site du BSI annonce 04:30-24:00 7/7, mais
-il semblerait que la cafétéria à l’intérieur du BSI soit ouverte 24/24. A voir
-donc.&lt;/p&gt;
+Excursions qui a des lignes de bus parcourant toute l’île. Il est situé &lt;a href=&quot;https://www.google.fr/maps/@64.1371228,-21.9338
+719,560m/data=!3m1!1e3&quot;&gt;juste à
+coté de l’aéroport de Reykjavik&lt;/a&gt;  (aéroport « domestique », pour les lignes intérieures).
+Les horaires d’ouverture ont l’air assez larges, j’ai même l’impression que
+c’est ouvert H24. Le site du BSI annonce 04:30-24:00 7/7, mais il semblerait que
+la cafétéria à l’intérieur du BSI soit ouverte 24/24. A voir donc.&lt;/p&gt;
 
 &lt;p&gt;Afin d’être complet, on y trouve aussi la compagnie &lt;a href=&quot;http://trex.is/&quot;&gt;Trek&lt;/a&gt;.&lt;/p&gt;
 
@@ -1244,8 +1334,9 @@ le transport, donnez la date de livraison voulue, et vous pourrez récupérer
 votre colis à destination. Sur votre colis, marquez en gros votre nom, la
 destination, et la date de récupération.&lt;/p&gt;
 
-&lt;p&gt;Depuis l’arrêt de bus municipal, la ligne 14 permet de rejoindre le camping de
-Reykjavik (arrêt : &lt;em&gt;Laugardalslaug&lt;/em&gt;, continuer 200 m à pied).&lt;/p&gt;
+&lt;p&gt;Depuis l’arrêt de bus municipal, la ligne 14 (&lt;a href=&quot;http://www.straeto.is/media/reykjavik-2014/leid-14.pdf&quot;&gt;horaires&lt;/a&gt; et 
+&lt;a href=&quot;http://www.straeto.is/media/kort/14.pdf&quot;&gt;plan&lt;/a&gt;) permet de rejoindre le 
+camping de Reykjavik (arrêt : &lt;em&gt;Laugardalslaug&lt;/em&gt;, continuer 200 m à pied).&lt;/p&gt;
 
 &lt;p&gt;On peut se rendre à pied dans le centre ville de Reykjavik très rapidement en
 traversant la rue longeant l’arrêt de bus municipal (en passant devant la
@@ -1257,12 +1348,12 @@ débrouillerez bien.&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bus_bsi.jpg&quot; title=&quot;Bus au repos au BSI&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bus_bsi.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;&lt;a href=&quot;http://www.re.is/&quot; title=&quot;BSI&quot;&gt;Bus au repos au BSI&lt;/a&gt;.&lt;/figcaption&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://www.re.is/&quot; title=&quot;BSI&quot;&gt;Bus au repos au BSI&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;C’est la compagnie qui dessert toute l’ile. Vous trouverez leurs horaires et
-tarifs sur &lt;a href=&quot;http://www.re.is&quot;&gt;leur site&lt;/a&gt; ou sur 
+tarifs sur &lt;a href=&quot;https://www.re.is&quot;&gt;leur site&lt;/a&gt; ou sur 
 &lt;a href=&quot;http://www.nat.is/travelguideeng/bus_stop_the_real_icelandic.htm&quot;&gt;celui-ci&lt;/a&gt;.
 J’aime bien le dernier qui est pratique, concis, et qui donne plein d’autres
 infos (sur les refuges notamment), même s’il ne donne pas les prix des bus. En
@@ -1305,7 +1396,7 @@ l’heure de départ (pas forcément de celle d’arrivée par contre…).&lt;/p
 pas la monnaie ! Il faut arriver avec l’appoint, sous peine de payer beaucoup 
 plus cher que prévu. Donc pensez-y quand vous vous baladez, et prévoyez de la 
 petite monnaie en fonction ds déplacements que vous avez à faire.
-Le prix est actuellement de 350ISK. Vérifiez tout de même sur 
+Le prix est actuellement de 350 ISK. Vérifiez tout de même sur 
 &lt;a href=&quot;http://www.straeto.is/english/buy-tickets/&quot;&gt;le site de la société&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;partir-enfin-rentrer&quot;&gt;Partir (enfin, rentrer)&lt;/h3&gt;
@@ -1336,13 +1427,14 @@ a un bonus dans la rue Laugavegur à Reykjavik.&lt;/p&gt;
 
 &lt;h3 id=&quot;gaz&quot;&gt;Gaz&lt;/h3&gt;
 
-&lt;p&gt;On peut trouver du gaz dans une petit boutique de bricolage dans la rue
-Laugavegur, avant la boutique Bonus me semble t’il (en venant du nord). Je ne me
-souviens plus s’ils ont la norme camping gaz, mais de toutes façons, il vaut
-mieux éviter ce système franco-français. Vous trouverez des cartouche
-abandonnées dans certains campings (Reykjavik, Skogar, …) mais ne comptez pas
-trop dessus. Vous risquez de ne trouver que du quasi-vide. On trouve aussi du
-gaz au camping de Reykjavik ou à &lt;a href=&quot;https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,258.35h,79.19t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0&quot;&gt;FjallaKofinn&lt;/a&gt; 
+&lt;p&gt;On peut trouver du gaz dans une petit boutique de bricolage
+&lt;a href=&quot;http://www.brynja.is/&quot;&gt;Brynja&lt;/a&gt; dans la rue Laugavegur, avant la boutique Bonus
+me semble t’il (en venant du nord). Je ne me souviens plus s’ils ont la norme
+camping gaz, mais de toutes façons, il vaut mieux éviter ce système franco-
+français. Vous trouverez des cartouche abandonnées dans certains campings
+(Reykjavik, Skogar, …) mais ne comptez pas trop dessus. Vous risquez de ne
+trouver que du quasi-vide. On trouve aussi du gaz au camping de Reykjavik ou à 
+&lt;a href=&quot;https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,258.35h,79.19t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0&quot;&gt;FjallaKofinn&lt;/a&gt; 
 près du centre commercial Kringlan.&lt;/p&gt;
 
 &lt;p&gt;De nôtre coté, on a consommé quasiment 2 x 750g à 3 pendant 2 semaines (on a
@@ -1377,7 +1469,7 @@ sous aucun prétexte !&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/sangitamiya.jpg&quot; title=&quot;Hljóðheimurinn Sangitamiya&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/sangitamiya.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;&lt;a href=&quot;http://www.re.is/&quot; title=&quot;Hljóðheimurinn Sangitamiya&quot;&gt;Hljóðheimurinn Sangitamiya&lt;/a&gt;.&lt;/figcaption&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://www.re.is/&quot; title=&quot;Hljóðheimurinn Sangitamiya&quot;&gt;Hljóðheimurinn Sangitamiya&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr /&gt;
 
@@ -1387,41 +1479,72 @@ pour mettre le chouette Ukulélé bass.&lt;/p&gt;
 
 &lt;h3 id=&quot;dormir&quot;&gt;Dormir&lt;/h3&gt;
 
-&lt;p&gt;Une page dédiée décrit les hébergements en &lt;a href=&quot;/pratique/refuges/&quot;&gt;refuges et en
-camings&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Une page dédiée décrit les hébergements en 
+&lt;a href=&quot;/pratique/refuges/&quot;&gt;refuges et en camings&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;randonner&quot;&gt;Randonner&lt;/h3&gt;
 
-&lt;p&gt;Une page dédiée à la randonnée.&lt;/p&gt;
+&lt;p&gt;Une page dédiée à la &lt;a href=&quot;/pratique/randonner/&quot;&gt;randonnée&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;divers&quot;&gt;Divers&lt;/h3&gt;
 
 &lt;h4 id=&quot;le-blue-lagoon&quot;&gt;Le blue lagoon&lt;/h4&gt;
 
-&lt;p&gt;On nous avait déconseillé d’y aller… on y est allé… et bon… ce n’est pas transcendant. C’est sûr, c’est le cliché principal Islandais. Si vous allez en Islande, et que vous n’allez pas au BlueLagoon, c’est comme venir à Paris sans monter dans la Tour Eiffel : on va vous traiter de menteur et vous dire que vous n’y êtes pas allé :) Mais ça ne vaut pas Laugardalslaug et coûte… 10 fois plus cher !&lt;/p&gt;
+&lt;p&gt;On nous avait déconseillé d’y aller… on y est allé… et bon… ce n’est pas
+transcendant. C’est sûr, c’est le cliché principal Islandais. Si vous allez en
+Islande, et que vous n’allez pas au BlueLagoon, c’est comme venir à Paris sans
+monter dans la Tour Eiffel : on va vous traiter de menteur et vous dire que vous
+n’y êtes pas allé :) Mais ça ne vaut pas Laugardalslaug et coûte… 10 fois plus
+cher !&lt;/p&gt;
 
-&lt;p&gt;Le seul truc sympa là-bas c’est le bar dans l’eau. A part ça… bof. Strutslaug est 10 fois mieux, c’est gratuit, et désert..&lt;/p&gt;
+&lt;figure&gt;
+  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bluelagoon.jpg&quot; title=&quot;Le Blue Lagoon&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bluelagoon.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://www.re.is/&quot; title=&quot;Le Blue Lagoon&quot;&gt;Le Blue Lagoon&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Le seul truc sympa là-bas c’est le bar dans l’eau. A part ça… bof. Strutslaug
+est 10 fois mieux, c’est gratuit, et désert..&lt;/p&gt;
 
 &lt;h4 id=&quot;la-piscine-laugardalslaug&quot;&gt;La piscine Laugardalslaug&lt;/h4&gt;
 
-&lt;p&gt;Laugardalslaug
-Laugardalslaug&lt;/p&gt;
+&lt;figure&gt;
+  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/laugardalslaug.jpg&quot; title=&quot;Piscine de Laugardalslaug&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/laugardalslaug.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://www.re.is/&quot; title=&quot;Piscine de Laugardalslaug&quot;&gt;Piscine de Laugardalslaug&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;C’est la piscine à coté du camping de Reykjavik, juste à l’arrêt de bus. Aucune excuse pour passer à coté donc. Si vous avez le choix entre la piscine et le Blue Lagoon, choisissez la piscine sans hésiter. Il y a un hammam et plusieurs bains à température différente (de 38°C, 40°C, 42°C et 42°C pour les plus téméraires). Ça vaut vraiment le coup, et l’entrée ne coute que 450 ISK. Rien que pour prendre une douche, c’est un affaire. Les horaires d’ouverture sont très larges en été :&lt;/p&gt;
+&lt;p&gt;C’est la piscine à coté du camping de Reykjavik, juste à l’arrêt de bus. Aucune
+excuse pour passer à coté donc. Si vous avez le choix entre la piscine et le
+Blue Lagoon, choisissez la piscine sans hésiter. Il y a un hammam et plusieurs
+bains à température différente (de 38°C, 40°C, 42°C et 42°C pour les plus
+téméraires). Ça vaut vraiment le coup, et l’entrée ne coute que 450 ISK. Rien
+que pour prendre une douche, c’est un affaire. &lt;/p&gt;
 
-&lt;p&gt;Jours de la semaine : 6h30-22h30
-Week-ends : 8h00-22h00
-Rien de mieux, après le café du matin, d’aller se prélasser là-bas. Si on y va tôt, c’est complètement désert.&lt;/p&gt;
+&lt;p&gt;Les horaires d’ouverture sont très larges en été :&lt;/p&gt;
 
-&lt;p&gt;A ne pas rater : le sèche maillot du futur qui centrifuge la moindre goutte d’au de votre bikini en 5 secondes.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Jours de la semaine : 6h30-22h30&lt;/li&gt;
+  &lt;li&gt;Week-ends : 8h00-22h00&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Rien de mieux, après le café du matin, d’aller se prélasser là-bas. Si on y va
+tôt, c’est complètement désert.&lt;/p&gt;
+
+&lt;p&gt;A ne pas rater : le sèche maillot du futur qui centrifuge la moindre goutte d’au
+de votre bikini en 5 secondes.&lt;/p&gt;
 
 &lt;h3 id=&quot;autres-infos&quot;&gt;Autres infos&lt;/h3&gt;
 
-&lt;p&gt;Le site de référence, c’est celui de Dieter. Tout y est… malheureusement presque exclusivement en allemand.&lt;/p&gt;
+&lt;p&gt;Le site de référence, c’est celui de &lt;a href=&quot;http://www.isafold.de/&quot;&gt;Dieter&lt;/a&gt;. Tout y 
+est… malheureusement presque exclusivement en allemand.&lt;/p&gt;
 
-&lt;p&gt;Olivier à plein d’infos sur le matériel chez lui (en version MUL).&lt;/p&gt;
+&lt;p&gt;Olivier à plein d’infos sur le matériel 
+&lt;a href=&quot;http://randonner-leger.org/perso/doku.php?id=liste_equipement_islande&quot;&gt;chez lui&lt;/a&gt; 
+(en version MUL).&lt;/p&gt;
 
-&lt;p&gt;David (a.k.a. BigFoot) a vu du pays, et vous en parle sur son blog.&lt;/p&gt;
+&lt;p&gt;David (a.k.a. BigFoot) a vu du pays, et 
+&lt;a href=&quot;http://bigfoot.over-blog.org/article-sommaire-islande-40908174.html&quot;&gt;vous en parle sur son blog&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
