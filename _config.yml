@@ -11,11 +11,11 @@ owner:
   bio:            "Just passing by"
   email:          mb@mbnet.fr
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: b9m
+#  twitter: b9m
   facebook: michel.blanc.3367
   github: leucos
-  stackoverflow: 467722/leucos
-  linkedin: michel-blanc/0/888/ab4
+#  stackoverflow: 467722/leucos
+#  linkedin: michel-blanc/0/888/ab4
   instagram:
   lastfm:
   tumblr:

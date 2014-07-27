@@ -87,6 +87,9 @@ var jekyllMapping = (function () {
                 }
             }
         },
+
+
+        
         mappingInitialize: function (set, siteurl) {
             settings = set;
             this.siteurl = siteurl;
@@ -98,6 +101,8 @@ var jekyllMapping = (function () {
                "http://b.tile.opencyclemap.org/cycle/${z}/${x}/${y}.png",
                "http://c.tile.opencyclemap.org/cycle/${z}/${x}/${y}.png"])
             );
+
+            // this.map.addLayer(new OpenLayers.Layer.OSM("4UMaps", "http://4umaps.eu/${z}/${x}/${y}.png", { numZoomLevels: 16, alpha: true, isBaseLayer: true, attribution: "(C) 4UMaps.eu <a href='http://4Umaps.eu/' target='_parent'>4UMaps</a> <br>Data CC-By-SA by OpenStreetMap" }));
             this.map.addLayer(this.markers);
 
             if (settings.pages) {

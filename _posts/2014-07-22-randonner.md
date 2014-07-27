@@ -103,7 +103,7 @@ ICE-SAR (« Search And Rescue Islandais »). Chaque année, ils viennent au seco
 de randonneurs et skieurs perdus ou blessés. Pour qu’ils soient efficaces,
 encore faut-il qu’ils puisse savoir ou vous trouver.
 
-Ils proposent donc un 
+Ils proposent un 
 [service d’enregistrement](http://www.safetravel.is/travel-plan/) en ligne.
 
 Vous pouvez aussi passer les voir avant votre trek, vous leur laissez :
@@ -125,7 +125,7 @@ Avant departir, vous repassez chez eux ou leur donnez un coup de fil pour leur
 dire que c’est ok.
 
 Dans tous les cas, le plus simple est de remplir le nouveau formulaire en ligne
-mentionné plus ahut.
+mentionné plus haut.
 
 S’ils n’ont pas de nouvelles, ou s’ils sont alertés, ils sauront ou vous
 chercher pour peu que vous ayez suivi votre planning initial.

@@ -35,16 +35,16 @@ vraiment magnifique, donc pas d’hésitation.
 ### Difficulté
 
 <figure>
-  <a href="{{ site.url }}/images/2014-07-16-le_laugavegur/morinsheidi.jpg" title="Bazar à Basár"><img src="{{ site.url }}/images/2014-07-16-le_laugavegur/morinsheidi.jpg"></a>
-  <figcaption>Passage vers Morinsheidi</figcaption>
+  <a href="{{ site.url }}/images/2014-07-16-le_laugavegur/morinsheidi.jpg" title="Morinsheidi"><img src="{{ site.url }}/images/2014-07-16-le_laugavegur/morinsheidi.jpg"></a>
+  <figcaption>A Morinsheidi, en descendant sur Þórsmörk. Pluie, brouillard et chemins escarpés font parfois équipe pour vous pourrir la vie</figcaption>
 </figure>
 
 - - -
 Le trek est entièrement balisé par des piquets, et il est presque impossible de
 se perdre, sauf... les jours de brouillard, ou ça peut devenir délicat. Par
 ailleurs, les moutons sont joueurs et ont parfois tendance à creuser des petits
-sentiers trompeurs. Il y a deux passages délicats en descendant de Fimmvorduhals
-vers Thorsmork, mais à part ça, aucun problème. En prenant les étapes les unes
+sentiers trompeurs. Il y a deux passages délicats en descendant de Fimmvörðuháls
+vers Þórsmörk, mais à part ça, aucun problème. En prenant les étapes les unes
 après les autres, n’importe qui _à peu près en forme_ devrait arriver au bout.
 En cas de souci, on est jamais à plus d’une étape d’un bus.
 
@@ -65,21 +65,24 @@ D+ et D- donnés pour le sens S-N; inversez si vous faites le parcours N-S.
 
 Etape | Distance | D + | D -
 :---- | -------: | --: | --:
-Skogar-Fimmvorduhals | 13.2 | 983 | 52
-Fimmvorduhals-Thorsmork | 10.4 | 213 | 988
-Thorsmork-Emstrur | 15.9 | 730 | 440
+Skogar-Fimmvörðuháls | 13.2 | 983 | 52
+Fimmvörðuháls-Þórsmörk | 10.4 | 213 | 988
+Þórsmörk-Emstrur | 15.9 | 730 | 440
 Emstrur-Alftavatn | 18.2 | 392 | 368
 Alftavatn-Hraftinnusker | 10.3 | 634 | 144
 Hraftinnusker-Landmannalaugar | 10.0 | 273 | 679
 Total | 78.0 | 3225 | 2671
 
-Beaucoup de gens ne font pas le tronçon Skogar-Thorsmork (je ne suis pas sur que
+Beaucoup de gens ne font pas le tronçon Skogar-Þórsmörk (je ne suis pas sur que
 « techniquement » parlant, ce tronçon fasse partie du Laugavegur). Dommage,
-c’est très beau (probablement assez éprouvant dans le sens nord-sud)
+c’est très beau (probablement assez éprouvant dans le sens nord-sud). A vous de
+voir en fonction de votre temps, de votre forme et votre expérience.
 
 #### Dans quel sens ?
 
-L’éternelle question. Pour moi, c’est sud-nord, sans aucun doute. Ne serait-ce que parce que les bains chauds sont à l’arrivée. Il y a du ravitaillement à Landmannalaugar (à Skogar un peu, et pas à Thorsmork).
+L’éternelle question. Pour moi, c’est sud-nord, sans aucun doute. Ne serait-ce
+que parce que les bains chauds sont à l’arrivée. Il y a du ravitaillement à
+Landmannalaugar (à Skogar un peu, et pas à Þórsmörk).
 
 Ça a tout de même quelques inconvénients : les plus beaux points de vue sont
 derrière (il suffit de se retourner de temps en temps) et on croise plus de
@@ -92,7 +95,7 @@ personne.
 
 C’est possible. Certains doublent toutes les étapes. Elles sont courtes, donc,
 pourquoi pas. Enfin si, pourquoi ? Si vous venez pour l’exploit sportif, c’est
-dommage. L’étape qui me parait la plus longue est Thorsmork – Emstrur. Elle est
+dommage. L’étape qui me parait la plus longue est Þórsmörk – Emstrur. Elle est
 un peu dure à doubler me semble t’il. Le kilométrage ne paye pas de mine, mais
 les petites collines de votre carte sont bien plus raides que ce que vous
 imaginez, ne les sous estimez pas...
@@ -107,7 +110,7 @@ trous, bref, regardez ou vous mettez vos pieds. Certains chemins sont indiqués
 sur des cartes, mais ne sont pas recommandés. Je pense en particulier au sentier
 en balcon au sud d’Uxatindar plutôt flippant, en particulier quand il pleut. A
 éviter... Il y a un ou deux passages légèrement exposés en descendant de
-Fimmvorduhals vers Thorsmork. Rien de bien méchant toutefois. Si on évite de
+Fimmvörðuháls vers Þórsmörk. Rien de bien méchant toutefois. Si on évite de
 tomber pile poil à ce moment, pas de problème :)
 
 #### Névés
@@ -148,11 +151,12 @@ c'est débile. Vous ne voulez pas rentrer en bus à cause d'une fracture d'ortei
 
 Certains mettent des néoprènes en plus. Ça me parait un peu overkill vu que ça
 met quand même un certain temps à chauffer. Les gués (du Laugavegur) étant très
-courts, je ne vois pas l'intérêt.
+courts, je ne vois pas trop l'intérêt.
 
 Il y a pas mal de gamberge ici et là sur des systèmes plus rapides à mettre en
-œuvre qu’un déchaussage / séchage / chaussage. Par exemple des surbotes, sacs
-poubelles (durée de vie ?)... attention avec ces systèmes à la prise
+œuvre qu’un déchaussage / séchage / chaussage. Par exemple des 
+[surbotes](http://randonner-leger.org/perso/doku.php?id=liste_equipement_islande#surbottes), 
+sacs poubelles (durée de vie ?)... attention avec ces systèmes à la prise
 supplémentaire offerte au courant (Olivier en parle d’ailleurs). Les Islandais
 que j’ai vu font comme tout le monde : ils quittent leur pompes et mettent
 d’autres chaussures pour traverser. A bon entendeur.
