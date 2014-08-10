@@ -8,6 +8,7 @@ gem 'thor'
 gem 'activesupport'
 gem 'stringex'
 gem 'link-checker'
+gem 'mini_magick'
 
 gem 'jgd'
 
