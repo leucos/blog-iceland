@@ -47,6 +47,13 @@ links:
   #   url: http://mademistakes.com
   #   external: true
 
+image:
+  source: images
+  presets:
+    headers:
+      height: 1900
+      width: 600
+
 mapping:
   provider: openstreetmap
   zoom: 8
