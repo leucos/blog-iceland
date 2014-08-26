@@ -2,27 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Islande</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://leucos.github.io/blog-iceland/feed.xml" />
-<link rel="alternate" type="text/html" href="http://leucos.github.io/blog-iceland" />
-<updated>2014-08-26T10:24:47+02:00</updated>
-<id>http://leucos.github.io/blog-iceland/</id>
+<link rel="self" type="application/atom+xml" href="http://island.mbnet.fr/feed.xml" />
+<link rel="alternate" type="text/html" href="http://island.mbnet.fr" />
+<updated>2014-08-26T10:37:07+02:00</updated>
+<id>http://island.mbnet.fr/</id>
 <author>
   <name>Michel Blanc</name>
-  <uri>http://leucos.github.io/blog-iceland/</uri>
+  <uri>http://island.mbnet.fr/</uri>
   <email>mb@mbnet.fr</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Randonner en Islande]]></title>
-  <link rel="alternate" type="text/html" href="http://leucos.github.io/blog-iceland/pratique/randonner/" />
-  <id>http://leucos.github.io/blog-iceland/pratique/randonner</id>
+  <link rel="alternate" type="text/html" href="http://island.mbnet.fr/pratique/randonner/" />
+  <id>http://island.mbnet.fr/pratique/randonner</id>
   <updated>2014-07-22 14:01:15 +0200T00:00:00-00:00</updated>
   <published>2014-07-22T00:00:00+02:00</published>
   
   <author>
     <name>Michel Blanc</name>
-    <uri>http://leucos.github.io/blog-iceland</uri>
+    <uri>http://island.mbnet.fr</uri>
     <email>mb@mbnet.fr</email>
   </author>
   <content type="html">&lt;h2 id=&quot;marcher&quot;&gt;Marcher&lt;/h2&gt;
@@ -158,19 +158,19 @@ la pampa.&lt;/p&gt;
 &lt;p&gt;Leur bureau se trouve à &lt;a href=&quot;https://www.google.fr/maps/@64.133226,-21.918442,3a,75y,165.63h,84.28t/data=!3m4!1e1!3m2!1soJ5fxLoHn369SYt_y00cTg!2e0?hl=fr&quot;&gt;Skógarhlíð 14, 105 Reykjavík&lt;/a&gt;, 
 à quelques pas du BSÍ.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://leucos.github.io/blog-iceland/pratique/randonner/&quot;&gt;Randonner en Islande&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://leucos.github.io/blog-iceland&quot;&gt;Islande&lt;/a&gt; on July 22, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://island.mbnet.fr/pratique/randonner/&quot;&gt;Randonner en Islande&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://island.mbnet.fr&quot;&gt;Islande&lt;/a&gt; on July 22, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Les refuges (et quelques campings) autour de Fjallabak et du Laugavegur]]></title>
-  <link rel="alternate" type="text/html" href="http://leucos.github.io/blog-iceland/pratique/refuges/" />
-  <id>http://leucos.github.io/blog-iceland/pratique/refuges</id>
+  <link rel="alternate" type="text/html" href="http://island.mbnet.fr/pratique/refuges/" />
+  <id>http://island.mbnet.fr/pratique/refuges</id>
   <published>2014-07-16T00:00:00+02:00</published>
   <updated>2014-07-16T00:00:00+02:00</updated>
   <author>
     <name>Michel Blanc</name>
-    <uri>http://leucos.github.io/blog-iceland</uri>
+    <uri>http://island.mbnet.fr</uri>
     <email>mb@mbnet.fr</email>
   </author>
   <content type="html">&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
@@ -282,9 +282,9 @@ plusieurs fois par saison (et, en passant, sont souvent bénévoles).&lt;/p&gt;
 &lt;h4 id=&quot;fimmvruhls-tivist&quot;&gt;Fimmvörðuháls (Útivist)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/fimm1.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, à deux pas de l&#39;Eyjafjallajökull&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/fimm1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/fimm2.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, l&#39;intérieur&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/fimm2.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/fimm3.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, la cuisine&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/fimm3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/fimm1.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, à deux pas de l&#39;Eyjafjallajökull&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/fimm1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/fimm2.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, l&#39;intérieur&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/fimm2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/fimm3.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, la cuisine&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/fimm3.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Fimmvörðuháls&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -307,14 +307,14 @@ n’ai pas trouvé d’infos directes dessus.&lt;/p&gt;
 &lt;h4 id=&quot;basr-rsmrk-tivist&quot;&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Útivist)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/basar1.jpg&quot; title=&quot;Refuge Útivist de Basár-Þórsmörk, la cuisine&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/basar1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/basar2.jpg&quot; title=&quot;Refuge Útivist de Basár-Þórsmörk, la cuisine&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/basar2.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/basar4.jpg&quot; title=&quot;Il y a plein de randos superbes aux alentours de Þórsmörk&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/basar4.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/basar1.jpg&quot; title=&quot;Refuge Útivist de Basár-Þórsmörk, la cuisine&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/basar1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/basar2.jpg&quot; title=&quot;Refuge Útivist de Basár-Þórsmörk, la cuisine&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/basar2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/basar4.jpg&quot; title=&quot;Il y a plein de randos superbes aux alentours de Þórsmörk&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/basar4.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt;, la cuisine&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/basar3.jpg&quot; title=&quot;Bazar à Basár&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/basar3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/basar3.jpg&quot; title=&quot;Bazar à Basár&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/basar3.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Bazar à Basár&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -363,9 +363,9 @@ niveau de la Krossá (la rivière de la vallée de &lt;abbr title=&quot;le Þ se
 &lt;h4 id=&quot;emstrur-botnar-f&quot;&gt;Emstrur-Botnar (FÍ)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/emstrur1.jpg&quot; title=&quot;Emstrur, vue générale&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/emstrur1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/emstrur2.jpg&quot; title=&quot;Emstrur, la cabine du Warden&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/emstrur2.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/emstrur3.jpg&quot; title=&quot;Emstrur. En cas d&#39;incendie, sautez par la fenêtre&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/emstrur3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/emstrur1.jpg&quot; title=&quot;Emstrur, vue générale&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/emstrur1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/emstrur2.jpg&quot; title=&quot;Emstrur, la cabine du Warden&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/emstrur2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/emstrur3.jpg&quot; title=&quot;Emstrur. En cas d&#39;incendie, sautez par la fenêtre&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/emstrur3.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Emstrur-Botnar (FÍ)&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -396,14 +396,14 @@ l’est. MOntez au sommet, suivez la crête (balisé), et revenez par la vallée
 vaut vraiment le coup.&lt;/p&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/hvangillshausar.jpg&quot; title=&quot;Vue depuis Hvanngilshausar&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/hvangillshausar.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/hvangillshausar.jpg&quot; title=&quot;Vue depuis Hvanngilshausar&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/hvangillshausar.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Vue depuis Hvanngilshausar&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Une autre balade permet de croiser quelques cascades.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/hvangill1.jpg&quot; title=&quot;Balade des cascades à Hvangill&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/hvangill1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/hvangill1.jpg&quot; title=&quot;Balade des cascades à Hvangill&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/hvangill1.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Balade des cascades à Hvangill&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -419,13 +419,13 @@ vaut vraiment le coup.&lt;/p&gt;
 &lt;h4 id=&quot;alftavatn-f&quot;&gt;Alftavatn (FÍ)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/alftavatn1.jpg&quot; title=&quot;Alftavatn : cuisine et dépendance&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/alftavatn1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/alftavatn2.jpg&quot; title=&quot;Alftavatn : une des chambres&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/alftavatn2.jpg&quot; title=&quot;Alftavatn : une des chambres&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/alftavatn1.jpg&quot; title=&quot;Alftavatn : cuisine et dépendance&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/alftavatn1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/alftavatn2.jpg&quot; title=&quot;Alftavatn : une des chambres&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/alftavatn2.jpg&quot; title=&quot;Alftavatn : une des chambres&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Alftavatn&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;images/2014-07-16-refuges/alftavatn3.jpg&quot; title=&quot;Alftavatn : la maison blanche&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/alftavatn3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;images/2014-07-16-refuges/alftavatn3.jpg&quot; title=&quot;Alftavatn : la maison blanche&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/alftavatn3.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Alftavatn : la maison blanche&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -454,8 +454,8 @@ c’est vraiment nickel. Le soir, balade romantique au bord du lac de rigueur.&l
 &lt;h4 id=&quot;hskuldskali-alias-hraftinnusker-f&quot;&gt;Höskuldskali, alias Hraftinnusker (FÍ)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/hraf1.jpg&quot; title=&quot;Une des quelques tables en terrasse à Hraftinnusker&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/hraf1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/hraf2.jpg&quot; title=&quot;Hraftinnusker dans la brume&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/hraf2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/hraf1.jpg&quot; title=&quot;Une des quelques tables en terrasse à Hraftinnusker&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/hraf1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/hraf2.jpg&quot; title=&quot;Hraftinnusker dans la brume&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/hraf2.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Hraftinnusker&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -482,9 +482,9 @@ favorable (grimper Hraftinnusker, Sodul, Reykjafjoll, Haskerdingur, Hvani).&lt;/
 &lt;h4 id=&quot;landmannalaugar&quot;&gt;Landmannalaugar&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/landmanna0.jpg&quot; title=&quot;La maison des wardens à gauche (on apercoit le toit du refuge derrière) et les sanitaires sur la droite.&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/landmanna0.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/landmanna1.jpg&quot; title=&quot;Le refuge&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/landmanna1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/landmanna2.jpg&quot; title=&quot;Le dortoir&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/landmanna2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/landmanna0.jpg&quot; title=&quot;La maison des wardens à gauche (on apercoit le toit du refuge derrière) et les sanitaires sur la droite.&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/landmanna0.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/landmanna1.jpg&quot; title=&quot;Le refuge&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/landmanna1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/landmanna2.jpg&quot; title=&quot;Le dortoir&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/landmanna2.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Landmannalaugar&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -505,7 +505,7 @@ dans les sanitaires&lt;/li&gt;
 est surpeuplé, et adieu les quiet hours, c’est très bruyant tard et tôt.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/landmanna_sanitaires.jpg&quot; title=&quot;Les sanitaires de Landmannalaugar et les très prisés tuyaux d&#39;eau chaude&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/landmanna_sanitaires.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/landmanna_sanitaires.jpg&quot; title=&quot;Les sanitaires de Landmannalaugar et les très prisés tuyaux d&#39;eau chaude&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/landmanna_sanitaires.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Les sanitaires de Landmannalaugar et les très prisés tuyaux d&#39;eau chaude&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -517,7 +517,7 @@ douche en sortant, et évitez de remuer les algues, il y a quelques habitants
 microscopiques qui on semble t’il importuné quelques voyageurs précédents.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/mountain_mall.jpg&quot; title=&quot;Le mountain mall&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/mountain_mall.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/mountain_mall.jpg&quot; title=&quot;Le mountain mall&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/mountain_mall.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Le mountain mall&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -551,13 +551,13 @@ ile. Magnifique.&lt;/p&gt;
 &lt;h4 id=&quot;holaskjol&quot;&gt;Holaskjol&lt;/h4&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/holaskj1.jpg&quot; title=&quot;Le refuge&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/holaskj1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/holaskj2.jpg&quot; title=&quot;Le dortoir et la salle à manger du bâtiment principal à Holaskjol (étage)&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/holaskj2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/holaskj1.jpg&quot; title=&quot;Le refuge&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/holaskj1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/holaskj2.jpg&quot; title=&quot;Le dortoir et la salle à manger du bâtiment principal à Holaskjol (étage)&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/holaskj2.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Holaskjol&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/holaskj3.jpg&quot; title=&quot;Hoslaskjol, béni soit ton poêle à gaz !&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/holaskj3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/holaskj3.jpg&quot; title=&quot;Hoslaskjol, béni soit ton poêle à gaz !&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/holaskj3.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Hoslaskjol, béni soit ton poêle à gaz !&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -586,9 +586,9 @@ vérifiez chez &lt;a href=&quot;https://www.re.is&quot;&gt;Reykjavik Excursions&
 &lt;h4 id=&quot;skaelingar-stragil&quot;&gt;Skaelingar (Stóragil)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/skaelingar1.jpg&quot; title=&quot;Le refuge&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/skaelingar1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/skaelingar2.jpg&quot; title=&quot;L&#39;intérieur&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/skaelingar2.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/skaelingar3.jpg&quot; title=&quot;Le refuge est à gauche, les toilettes au centre (le toit pointu) et le batiment à l&#39;avant doit être une bergerie (?)&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/skaelingar3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/skaelingar1.jpg&quot; title=&quot;Le refuge&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/skaelingar1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/skaelingar2.jpg&quot; title=&quot;L&#39;intérieur&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/skaelingar2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/skaelingar3.jpg&quot; title=&quot;Le refuge est à gauche, les toilettes au centre (le toit pointu) et le batiment à l&#39;avant doit être une bergerie (?)&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/skaelingar3.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Skaelingar&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -606,7 +606,7 @@ beaucoup a Alftavatnkrokur. Autour du refuge il y a quelques étonnants « tronc
 de lave ». A deux heures d’Eldgja par la piste de 4×4 (à pied).&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/skaelingar4.jpg&quot; title=&quot;« Troncs de lave »&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/skaelingar4.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/skaelingar4.jpg&quot; title=&quot;« Troncs de lave »&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/skaelingar4.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;« Troncs de lave »&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -622,14 +622,14 @@ de lave ». A deux heures d’Eldgja par la piste de 4×4 (à pied).&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/sveinstindur.jpg&quot; title=&quot;Sveinstindur&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/sveinstindur.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/sveinstindur.jpg&quot; title=&quot;Sveinstindur&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/sveinstindur.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Sveinstindur&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;L’endroit est magnifique. La vue depuis Sveinstindur (la montagne) magique.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/pano_sveinstindur2_lzn.jpg&quot; title=&quot;Sveinstindur&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/pano_sveinstindur2_lzn.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/pano_sveinstindur2_lzn.jpg&quot; title=&quot;Sveinstindur&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/pano_sveinstindur2_lzn.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Vue depuis Sveinstindur&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -647,8 +647,8 @@ renversant avec quelques sources chaudes cachées à creuser soi-même.&lt;/p&gt
 &lt;h4 id=&quot;reykjavik&quot;&gt;Reykjavik&lt;/h4&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/rkj1.jpg&quot; title=&quot;Les emplacements les plus proches de l&#39;acceuil (sommeil non garanti...)&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/rkj1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/rkj2.jpg&quot; title=&quot;Tables&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/rkj2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/rkj1.jpg&quot; title=&quot;Les emplacements les plus proches de l&#39;acceuil (sommeil non garanti...)&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/rkj1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/rkj2.jpg&quot; title=&quot;Tables&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/rkj2.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Camping de Reykjavik&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -687,7 +687,7 @@ y aller !&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/pano_kirkjubaejarklaustur_lzn.jpg&quot; title=&quot;Sveinstindur&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/pano_kirkjubaejarklaustur_lzn.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/pano_kirkjubaejarklaustur_lzn.jpg&quot; title=&quot;Sveinstindur&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/pano_kirkjubaejarklaustur_lzn.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Camping de Kirkjubæjarklaustur. Le Hvannadalshnjúkur (point culminant d&#39;Islande) au loin sur la gauche&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -723,7 +723,7 @@ Morsarjökul…).&lt;/p&gt;
 &lt;h4 id=&quot;skgar&quot;&gt;Skógar&lt;/h4&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/skogar.jpg&quot; title=&quot;Sveinstindur&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-refuges/skogar.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/skogar.jpg&quot; title=&quot;Sveinstindur&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-refuges/skogar.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Camping de Skogar, vu depuis la cascade.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -732,19 +732,19 @@ Il y a un petit truc pour s’approvisionner à coté, mais en comptez pas trop 
 Plantage facile, le sol est assez meuble.&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://leucos.github.io/blog-iceland/pratique/refuges/&quot;&gt;Les refuges (et quelques campings) autour de Fjallabak et du Laugavegur&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://leucos.github.io/blog-iceland&quot;&gt;Islande&lt;/a&gt; on July 16, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://island.mbnet.fr/pratique/refuges/&quot;&gt;Les refuges (et quelques campings) autour de Fjallabak et du Laugavegur&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://island.mbnet.fr&quot;&gt;Islande&lt;/a&gt; on July 16, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Fjallabak et le trek du Laugavegur]]></title>
-  <link rel="alternate" type="text/html" href="http://leucos.github.io/blog-iceland/pratique/le_laugavegur/" />
-  <id>http://leucos.github.io/blog-iceland/pratique/le_laugavegur</id>
+  <link rel="alternate" type="text/html" href="http://island.mbnet.fr/pratique/le_laugavegur/" />
+  <id>http://island.mbnet.fr/pratique/le_laugavegur</id>
   <published>2014-07-16T00:00:00+02:00</published>
   <updated>2014-07-16T00:00:00+02:00</updated>
   <author>
     <name>Michel Blanc</name>
-    <uri>http://leucos.github.io/blog-iceland</uri>
+    <uri>http://island.mbnet.fr</uri>
     <email>mb@mbnet.fr</email>
   </author>
   <content type="html">&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
@@ -797,7 +797,7 @@ vraiment magnifique, donc pas d’hésitation.&lt;/p&gt;
 &lt;h3 id=&quot;difficult&quot;&gt;Difficulté&lt;/h3&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-le_laugavegur/morinsheidi.jpg&quot; title=&quot;Morinsheidi&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-le_laugavegur/morinsheidi.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-le_laugavegur/morinsheidi.jpg&quot; title=&quot;Morinsheidi&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-le_laugavegur/morinsheidi.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;A Morinsheidi, en descendant sur Þórsmörk. Pluie, brouillard et chemins escarpés font parfois équipe pour vous pourrir la vie&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -815,8 +815,8 @@ En cas de souci, on est jamais à plus d’une étape d’un bus.&lt;/p&gt;
 &lt;p&gt;Téléchargez le tracé au format :&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://leucos.github.io/blog-iceland/kml/laugavegur.kml&quot;&gt;KML&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://leucos.github.io/blog-iceland/kml/laugavegur.gpx&quot;&gt;GPX&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://island.mbnet.fr/kml/laugavegur.kml&quot;&gt;KML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://island.mbnet.fr/kml/laugavegur.gpx&quot;&gt;GPX&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div id=&quot;jekyll-mapping&quot; style=&quot;height:600px;width:800px;&quot;&gt;&lt;/div&gt;
@@ -1092,19 +1092,19 @@ organisation sans faille… et surtout, d’ajouter quelques centaines de gramme
 &lt;p&gt;David (a.k.a. BigFoot) a vu du pays, et vous en parle sur son blog.&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://leucos.github.io/blog-iceland/pratique/le_laugavegur/&quot;&gt;Fjallabak et le trek du Laugavegur&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://leucos.github.io/blog-iceland&quot;&gt;Islande&lt;/a&gt; on July 16, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://island.mbnet.fr/pratique/le_laugavegur/&quot;&gt;Fjallabak et le trek du Laugavegur&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://island.mbnet.fr&quot;&gt;Islande&lt;/a&gt; on July 16, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Conseils pratiques pour la randonnée en Islande]]></title>
-  <link rel="alternate" type="text/html" href="http://leucos.github.io/blog-iceland/pratique/conseils-pratiques/" />
-  <id>http://leucos.github.io/blog-iceland/pratique/conseils-pratiques</id>
+  <link rel="alternate" type="text/html" href="http://island.mbnet.fr/pratique/conseils-pratiques/" />
+  <id>http://island.mbnet.fr/pratique/conseils-pratiques</id>
   <published>2014-07-16T00:00:00+02:00</published>
   <updated>2014-07-16T00:00:00+02:00</updated>
   <author>
     <name>Michel Blanc</name>
-    <uri>http://leucos.github.io/blog-iceland</uri>
+    <uri>http://island.mbnet.fr</uri>
     <email>mb@mbnet.fr</email>
   </author>
   <content type="html">&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
@@ -1337,7 +1337,7 @@ vous en trouverez plein partout, notamment au camping).&lt;/p&gt;
 &lt;h3 id=&quot;le-bsi&quot;&gt;Le BSI&lt;/h3&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bsi.jpg&quot; title=&quot;BSI&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bsi.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/bsi.jpg&quot; title=&quot;BSI&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/bsi.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;&lt;a href=&quot;http://www.bsi.is/&quot; title=&quot;BSI&quot;&gt;BSI&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr /&gt;
@@ -1383,7 +1383,7 @@ débrouillerez bien.&lt;/p&gt;
 &lt;h3 id=&quot;les-bus-reykjavik-excursion&quot;&gt;Les bus Reykjavik Excursion&lt;/h3&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bus_bsi.jpg&quot; title=&quot;Bus au repos au BSI&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bus_bsi.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/bus_bsi.jpg&quot; title=&quot;Bus au repos au BSI&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/bus_bsi.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;&lt;a href=&quot;https://www.re.is/&quot; title=&quot;BSI&quot;&gt;Bus au repos au BSI&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr /&gt;
@@ -1422,7 +1422,7 @@ l’heure de départ (pas forcément de celle d’arrivée par contre…).&lt;/p
 &lt;h3 id=&quot;les-bus-municipaux-strtis&quot;&gt;Les bus municipaux (Strætó.is)&lt;/h3&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/straeto.jpg&quot; title=&quot;Bus Strætó&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/straeto.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/straeto.jpg&quot; title=&quot;Bus Strætó&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/straeto.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;&lt;a href=&quot;http://www.straeto.is/&quot; title=&quot;Strætó&quot;&gt;Strætó&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr /&gt;
@@ -1504,7 +1504,7 @@ qui la jouxte.&lt;/p&gt;
 sous aucun prétexte !&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/sangitamiya.jpg&quot; title=&quot;Hljóðheimurinn Sangitamiya&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/sangitamiya.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/sangitamiya.jpg&quot; title=&quot;Hljóðheimurinn Sangitamiya&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/sangitamiya.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;&lt;a href=&quot;https://www.re.is/&quot; title=&quot;Hljóðheimurinn Sangitamiya&quot;&gt;Hljóðheimurinn Sangitamiya&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr /&gt;
@@ -1534,7 +1534,7 @@ n’y êtes pas allé :) Mais ça ne vaut pas Laugardalslaug et coûte… 10 foi
 cher !&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bluelagoon.jpg&quot; title=&quot;Le Blue Lagoon&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/bluelagoon.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/bluelagoon.jpg&quot; title=&quot;Le Blue Lagoon&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/bluelagoon.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;&lt;a href=&quot;https://www.re.is/&quot; title=&quot;Le Blue Lagoon&quot;&gt;Le Blue Lagoon&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr /&gt;
@@ -1545,7 +1545,7 @@ est 10 fois mieux, c’est gratuit, et désert..&lt;/p&gt;
 &lt;h4 id=&quot;la-piscine-laugardalslaug&quot;&gt;La piscine Laugardalslaug&lt;/h4&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/laugardalslaug.jpg&quot; title=&quot;Piscine de Laugardalslaug&quot;&gt;&lt;img src=&quot;http://leucos.github.io/blog-iceland/images/2014-07-16-conseils-pratiques/laugardalslaug.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/laugardalslaug.jpg&quot; title=&quot;Piscine de Laugardalslaug&quot;&gt;&lt;img src=&quot;http://island.mbnet.fr/images/2014-07-16-conseils-pratiques/laugardalslaug.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;&lt;a href=&quot;https://www.re.is/&quot; title=&quot;Piscine de Laugardalslaug&quot;&gt;Piscine de Laugardalslaug&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;hr /&gt;
@@ -1590,7 +1590,7 @@ est… malheureusement presque exclusivement en allemand.&lt;/p&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://leucos.github.io/blog-iceland/pratique/conseils-pratiques/&quot;&gt;Conseils pratiques pour la randonnée en Islande&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://leucos.github.io/blog-iceland&quot;&gt;Islande&lt;/a&gt; on July 16, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://island.mbnet.fr/pratique/conseils-pratiques/&quot;&gt;Conseils pratiques pour la randonnée en Islande&lt;/a&gt; was originally published by Michel Blanc at &lt;a href=&quot;http://island.mbnet.fr&quot;&gt;Islande&lt;/a&gt; on July 16, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
