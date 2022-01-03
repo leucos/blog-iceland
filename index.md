@@ -1,7 +1,7 @@
 ---
 layout: home
-description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+description: "Quelques notes sur la rando en Islande."
+tags: [islande, iceland, rando, trek, laugavegur]
 image:
   feature: site_header.jpg
   credit: Michel Blanc
