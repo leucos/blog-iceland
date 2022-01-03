@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://islande.mbnet.fr/feed.xml" />
 <link rel="alternate" type="text/html" href="http://islande.mbnet.fr" />
-<updated>2014-08-26T10:38:13+02:00</updated>
+<updated>2022-01-03T19:59:54+01:00</updated>
 <id>http://islande.mbnet.fr/</id>
 <author>
   <name>Michel Blanc</name>
@@ -45,7 +45,7 @@ terre, laissé par des voyageurs distraits ou indélicats.&lt;/p&gt;
 sont difficile à dégrader. Profitez de votre passage dans les secteurs équipés
 pour faire la commission.&lt;/p&gt;
 
-&lt;h3 id=&quot;la-mto&quot;&gt;La météo&lt;/h3&gt;
+&lt;h3 id=&quot;la-météo&quot;&gt;La météo&lt;/h3&gt;
 
 &lt;p&gt;Vous pouvez vous renseigner sur la météo auprès des warden. Ils sont en général
 assez au courant. La plupart du temps, les prévisions locales pour les jours à
@@ -82,7 +82,7 @@ ou CD. Un autre magasin plein de cartes
 
 &lt;p&gt;Pour le secteur de Landmannalaugar, on trouvait il y a quelques années des
 cartes PDF à télécharger sur le site du « Mountain Mall » (le bus qui permet de
-faire des petites courses). Ce n’est apparemment plus le cas maintenant. &lt;/p&gt;
+faire des petites courses). Ce n’est apparemment plus le cas maintenant.&lt;/p&gt;
 
 &lt;p&gt;Par ailleurs, un guide général de la région écrit par Ólafur Örn Haraldsson et
 &lt;a href=&quot;http://www.fi.is/en/hiking-trails/fjallabak-nature-reserve/&quot;&gt;édité par FI&lt;/a&gt; est 
@@ -108,7 +108,7 @@ l’île. On y trouvera notamment l’étape Skógar-Fimmvörðuháls.&lt;/p&gt;
 
 &lt;p&gt;Enfin, pour Skaftafell, le site propose &lt;a href=&quot;http://www.vatnajokulsthjodgardur.is/english/hiking/skaftafell/&quot;&gt;deux cartes&lt;/a&gt; très correctes, et une &lt;a href=&quot;http://english.ust.is/media/fraedsluefni/UST_Skaftafell_enska.pdf&quot;&gt;brochure&lt;/a&gt; (&lt;a href=&quot;http://english.ust.is/media/fraedsluefni/Skaftafellsbaklingur_enska_2006.pdf&quot;&gt;ancienne version&lt;/a&gt;) sur le secteur.&lt;/p&gt;
 
-&lt;h3 id=&quot;scurit&quot;&gt;Sécurité&lt;/h3&gt;
+&lt;h3 id=&quot;sécurité&quot;&gt;Sécurité&lt;/h3&gt;
 
 &lt;p&gt;Vous avez probablement entendu parler de l’efficacité presque légendaire des
 ICE-SAR (« Search And Rescue Islandais »). Chaque année, ils viennent au secours
@@ -179,35 +179,35 @@ la pampa.&lt;/p&gt;
   &lt;/header&gt;
 &lt;div id=&quot;drawer&quot; class=&quot;hidden&quot;&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#les-refuges&quot;&gt;Les refuges&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#dernires-mises--jour&quot;&gt;Dernières mises à jour&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#gnralits&quot;&gt;Généralités&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#les-refuges-du-laugavegur&quot;&gt;Les refuges du Laugavegur&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#fimmvruhls-tivist&quot;&gt;Fimmvörðuháls (Útivist)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#fimmvruhls-f&quot;&gt;Fimmvörðuháls (FÍ)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#basr-rsmrk-tivist&quot;&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Útivist)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#langidalur-skagfjordsskali-rsmrk-f&quot;&gt;Langidalur-Skagfjordsskali-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (FÍ)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#hsadalur-rsmrk-volcano-huts&quot;&gt;Húsadalur-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Volcano Huts)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#emstrur-botnar-f&quot;&gt;Emstrur-Botnar (FÍ)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#hvanngil-f&quot;&gt;&lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; (FÍ)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#alftavatn-f&quot;&gt;Alftavatn (FÍ)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#hskuldskali-alias-hraftinnusker-f&quot;&gt;Höskuldskali, alias Hraftinnusker (FÍ)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#landmannalaugar&quot;&gt;Landmannalaugar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#les-refuges&quot; id=&quot;markdown-toc-les-refuges&quot;&gt;Les refuges&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#dernières-mises-à-jour&quot; id=&quot;markdown-toc-dernières-mises-à-jour&quot;&gt;Dernières mises à jour&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#généralités&quot; id=&quot;markdown-toc-généralités&quot;&gt;Généralités&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#les-refuges-du-laugavegur&quot; id=&quot;markdown-toc-les-refuges-du-laugavegur&quot;&gt;Les refuges du Laugavegur&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#fimmvörðuháls-útivist&quot; id=&quot;markdown-toc-fimmvörðuháls-útivist&quot;&gt;Fimmvörðuháls (Útivist)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#fimmvörðuháls-fí&quot; id=&quot;markdown-toc-fimmvörðuháls-fí&quot;&gt;Fimmvörðuháls (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#basár-þórsmörk-útivist&quot; id=&quot;markdown-toc-basár-þórsmörk-útivist&quot;&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &apos;s&apos;. Prononcer &apos;Sorsmork&apos;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Útivist)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#langidalur-skagfjordsskali-þórsmörk-fí&quot; id=&quot;markdown-toc-langidalur-skagfjordsskali-þórsmörk-fí&quot;&gt;Langidalur-Skagfjordsskali-&lt;abbr title=&quot;le Þ se prononce comme &apos;s&apos;. Prononcer &apos;Sorsmork&apos;&quot;&gt;Þórsmörk&lt;/abbr&gt; (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#húsadalur-þórsmörk-volcano-huts&quot; id=&quot;markdown-toc-húsadalur-þórsmörk-volcano-huts&quot;&gt;Húsadalur-&lt;abbr title=&quot;le Þ se prononce comme &apos;s&apos;. Prononcer &apos;Sorsmork&apos;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Volcano Huts)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#emstrur-botnar-fí&quot; id=&quot;markdown-toc-emstrur-botnar-fí&quot;&gt;Emstrur-Botnar (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#hvanngil-fí&quot; id=&quot;markdown-toc-hvanngil-fí&quot;&gt;&lt;abbr title=&quot;la série &apos;hv&apos; se prononce &apos;kw&apos;. Prononcer &apos;Kwangil&apos;&quot;&gt;Hvanngil&lt;/abbr&gt; (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#alftavatn-fí&quot; id=&quot;markdown-toc-alftavatn-fí&quot;&gt;Alftavatn (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#höskuldskali-alias-hraftinnusker-fí&quot; id=&quot;markdown-toc-höskuldskali-alias-hraftinnusker-fí&quot;&gt;Höskuldskali, alias Hraftinnusker (FÍ)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#landmannalaugar&quot; id=&quot;markdown-toc-landmannalaugar&quot;&gt;Landmannalaugar&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#les-refuges-hors-laugavegur-mais-plus-ou-moins-dans-le-secteur-&quot;&gt;Les refuges hors Laugavegur (mais plus ou moins dans le secteur )&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#alftavatnkrokur-lftavtn&quot;&gt;Alftavatnkrokur (Álftavötn)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#holaskjol&quot;&gt;Holaskjol&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#skaelingar-stragil&quot;&gt;Skaelingar (Stóragil)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#sveinstindur&quot;&gt;Sveinstindur&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#dalakofinn&quot;&gt;Dalakofinn&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#les-refuges-hors-laugavegur-mais-plus-ou-moins-dans-le-secteur-&quot; id=&quot;markdown-toc-les-refuges-hors-laugavegur-mais-plus-ou-moins-dans-le-secteur-&quot;&gt;Les refuges hors Laugavegur (mais plus ou moins dans le secteur )&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#alftavatnkrokur-álftavötn&quot; id=&quot;markdown-toc-alftavatnkrokur-álftavötn&quot;&gt;Alftavatnkrokur (Álftavötn)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#holaskjol&quot; id=&quot;markdown-toc-holaskjol&quot;&gt;Holaskjol&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#skaelingar-stóragil&quot; id=&quot;markdown-toc-skaelingar-stóragil&quot;&gt;Skaelingar (Stóragil)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#sveinstindur&quot; id=&quot;markdown-toc-sveinstindur&quot;&gt;Sveinstindur&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#dalakofinn&quot; id=&quot;markdown-toc-dalakofinn&quot;&gt;Dalakofinn&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#campings&quot;&gt;Campings&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#reykjavik&quot;&gt;Reykjavik&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#kirkjubjarklaustur&quot;&gt;Kirkjubæjarklaustur&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#skaftafell&quot;&gt;Skaftafell&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#skgar&quot;&gt;Skógar&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#campings&quot; id=&quot;markdown-toc-campings&quot;&gt;Campings&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#reykjavik&quot; id=&quot;markdown-toc-reykjavik&quot;&gt;Reykjavik&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#kirkjubæjarklaustur&quot; id=&quot;markdown-toc-kirkjubæjarklaustur&quot;&gt;Kirkjubæjarklaustur&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#skaftafell&quot; id=&quot;markdown-toc-skaftafell&quot;&gt;Skaftafell&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#skógar&quot; id=&quot;markdown-toc-skógar&quot;&gt;Skógar&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -220,13 +220,13 @@ la pampa.&lt;/p&gt;
 
 &lt;h2 id=&quot;les-refuges&quot;&gt;Les refuges&lt;/h2&gt;
 
-&lt;h3 id=&quot;dernires-mises--jour&quot;&gt;Dernières mises à jour&lt;/h3&gt;
+&lt;h3 id=&quot;dernières-mises-à-jour&quot;&gt;Dernières mises à jour&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;21 juillet 2014 : Révision des informations sur les refuges&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;gnralits&quot;&gt;Généralités&lt;/h3&gt;
+&lt;h3 id=&quot;généralités&quot;&gt;Généralités&lt;/h3&gt;
 
 &lt;p&gt;Les refuges sont gérés la plupart du temps par &lt;a href=&quot;http://www.fi.is/en/home/&quot;&gt;Ferðafélag Íslands
 (FÍ)&lt;/a&gt; ou par &lt;a href=&quot;http://www.utivist.is&quot;&gt;Útivist&lt;/a&gt;.&lt;/p&gt;
@@ -279,11 +279,11 @@ plusieurs fois par saison (et, en passant, sont souvent bénévoles).&lt;/p&gt;
 
 &lt;h3 id=&quot;les-refuges-du-laugavegur&quot;&gt;Les refuges du Laugavegur&lt;/h3&gt;
 
-&lt;h4 id=&quot;fimmvruhls-tivist&quot;&gt;Fimmvörðuháls (Útivist)&lt;/h4&gt;
+&lt;h4 id=&quot;fimmvörðuháls-útivist&quot;&gt;Fimmvörðuháls (Útivist)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/fimm1.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, à deux pas de l&#39;Eyjafjallajökull&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/fimm1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/fimm2.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, l&#39;intérieur&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/fimm2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/fimm1.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, à deux pas de l&apos;Eyjafjallajökull&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/fimm1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/fimm2.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, l&apos;intérieur&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/fimm2.jpg&quot; /&gt;&lt;/a&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/fimm3.jpg&quot; title=&quot;Refuge Útivist de Fimmvörðuháls, la cuisine&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/fimm3.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Fimmvörðuháls&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -299,18 +299,18 @@ plusieurs fois par saison (et, en passant, sont souvent bénévoles).&lt;/p&gt;
   &lt;li&gt;Situation exceptionnelle, vue magnifique sur le laugavegur si le temps est avec vous. Un &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; très sympa garde régulièrement ce refuge : c’est Uwe.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;fimmvruhls-f&quot;&gt;Fimmvörðuháls (FÍ)&lt;/h4&gt;
+&lt;h4 id=&quot;fimmvörðuháls-fí&quot;&gt;Fimmvörðuháls (FÍ)&lt;/h4&gt;
 
 &lt;p&gt;Il semble qu’il y ait un refuge FÍ à Fimmvörðuháls depuis très récemment. Je 
 n’ai pas trouvé d’infos directes dessus.&lt;/p&gt;
 
-&lt;h4 id=&quot;basr-rsmrk-tivist&quot;&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Útivist)&lt;/h4&gt;
+&lt;h4 id=&quot;basár-þórsmörk-útivist&quot;&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &apos;s&apos;. Prononcer &apos;Sorsmork&apos;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Útivist)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/basar1.jpg&quot; title=&quot;Refuge Útivist de Basár-Þórsmörk, la cuisine&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/basar1.jpg&quot; /&gt;&lt;/a&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/basar2.jpg&quot; title=&quot;Refuge Útivist de Basár-Þórsmörk, la cuisine&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/basar2.jpg&quot; /&gt;&lt;/a&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/basar4.jpg&quot; title=&quot;Il y a plein de randos superbes aux alentours de Þórsmörk&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/basar4.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;Basár-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt;, la cuisine&lt;/figcaption&gt;
+  &lt;figcaption&gt;Basár-Þórsmörk, la cuisine&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
@@ -332,7 +332,7 @@ plutôt à Húsadalur (a.k.a. Assa) si vous pouvez (20% moins cher).&lt;/p&gt;
 
 &lt;p&gt;En ce qui nous concerne, l’accueil a été glacial…&lt;/p&gt;
 
-&lt;h4 id=&quot;langidalur-skagfjordsskali-rsmrk-f&quot;&gt;Langidalur-Skagfjordsskali-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (FÍ)&lt;/h4&gt;
+&lt;h4 id=&quot;langidalur-skagfjordsskali-þórsmörk-fí&quot;&gt;Langidalur-Skagfjordsskali-&lt;abbr title=&quot;le Þ se prononce comme &apos;s&apos;. Prononcer &apos;Sorsmork&apos;&quot;&gt;Þórsmörk&lt;/abbr&gt; (FÍ)&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Gérant : &lt;a href=&quot;http://www.fi.is/en/huts/thorsmork/&quot;&gt;FÍ&lt;/a&gt;&lt;/li&gt;
@@ -340,12 +340,12 @@ plutôt à Húsadalur (a.k.a. Assa) si vous pouvez (20% moins cher).&lt;/p&gt;
 
 &lt;p&gt;Racheté en 2012 par FÍ. Je n’ai fait que passer devant, aucune info.&lt;/p&gt;
 
-&lt;h4 id=&quot;hsadalur-rsmrk-volcano-huts&quot;&gt;Húsadalur-&lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Volcano Huts)&lt;/h4&gt;
+&lt;h4 id=&quot;húsadalur-þórsmörk-volcano-huts&quot;&gt;Húsadalur-&lt;abbr title=&quot;le Þ se prononce comme &apos;s&apos;. Prononcer &apos;Sorsmork&apos;&quot;&gt;Þórsmörk&lt;/abbr&gt; (Volcano Huts)&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Gérant : &lt;a href=&quot;http://www.volcanohuts.com/&quot;&gt;Volcano Huts&lt;/a&gt; (anciennement 
 Hostelling International), 
-&lt;a href=&quot;https://www.facebook.com/Husadalur?ref=stream&quot;&gt;page facebook&lt;/a&gt; &lt;/li&gt;
+&lt;a href=&quot;https://www.facebook.com/Husadalur?ref=stream&quot;&gt;page facebook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Peu d’infos, je n’ai fait que passer. Mais visiblement, il y a tout le confort
@@ -358,14 +358,14 @@ route normale.&lt;/p&gt;
 
 &lt;p&gt;Ils sont sur &lt;a href=&quot;https://www.facebook.com/Husadalur?ref=stream&quot;&gt;facebook&lt;/a&gt; et 
 postent régulièrement, ce qui permet par exemple d’avoir des infos sur le 
-niveau de la Krossá (la rivière de la vallée de &lt;abbr title=&quot;le Þ se prononce comme &#39;s&#39;. Prononcer &#39;Sorsmork&#39;&quot;&gt;Þórsmörk&lt;/abbr&gt;).&lt;/p&gt;
+niveau de la Krossá (la rivière de la vallée de &lt;abbr title=&quot;le Þ se prononce comme &apos;s&apos;. Prononcer &apos;Sorsmork&apos;&quot;&gt;Þórsmörk&lt;/abbr&gt;).&lt;/p&gt;
 
-&lt;h4 id=&quot;emstrur-botnar-f&quot;&gt;Emstrur-Botnar (FÍ)&lt;/h4&gt;
+&lt;h4 id=&quot;emstrur-botnar-fí&quot;&gt;Emstrur-Botnar (FÍ)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/emstrur1.jpg&quot; title=&quot;Emstrur, vue générale&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/emstrur1.jpg&quot; /&gt;&lt;/a&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/emstrur2.jpg&quot; title=&quot;Emstrur, la cabine du Warden&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/emstrur2.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/emstrur3.jpg&quot; title=&quot;Emstrur. En cas d&#39;incendie, sautez par la fenêtre&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/emstrur3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/emstrur3.jpg&quot; title=&quot;Emstrur. En cas d&apos;incendie, sautez par la fenêtre&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/emstrur3.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Emstrur-Botnar (FÍ)&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -375,7 +375,7 @@ niveau de la Krossá (la rivière de la vallée de &lt;abbr title=&quot;le Þ se
   &lt;li&gt;Cuisine : bien équipée&lt;/li&gt;
   &lt;li&gt;Électricité : non&lt;/li&gt;
   &lt;li&gt;Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
-(Álftavatn - &lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 15h10. Ce bus circule tous les jours depuis 
+(Álftavatn - &lt;abbr title=&quot;la série &apos;hv&apos; se prononce &apos;kw&apos;. Prononcer &apos;Kwangil&apos;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 15h10. Ce bus circule tous les jours depuis 
 2014 et permet de rentrer sur Reykjavik en cas de souci. Attention, l’arrêt du 
 bus n’est pas au refuge mais à un endroit appellé «Crossroads» (croisement).
 Il faudra se renseigner auprès du Warden pour voir de quel croisement on parle. 
@@ -386,7 +386,7 @@ C’est le dernier bus échappatoire si vous allez vers le sud.&lt;/li&gt;
 me raconterez (je l’ai ratée…). Kristina, la &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt; qui porte des chaussettes 
 Quechua, nous a accueillis avec un grand sourire.&lt;/p&gt;
 
-&lt;h4 id=&quot;hvanngil-f&quot;&gt;&lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; (FÍ)&lt;/h4&gt;
+&lt;h4 id=&quot;hvanngil-fí&quot;&gt;&lt;abbr title=&quot;la série &apos;hv&apos; se prononce &apos;kw&apos;. Prononcer &apos;Kwangil&apos;&quot;&gt;Hvanngil&lt;/abbr&gt; (FÍ)&lt;/h4&gt;
 
 &lt;p&gt;La solution alternative à Alftavatn (5 km avant). Dans un cadre superbe, et 
 visiblement désert (tout le monde va à Alftavatn). Certainement un bon plan si 
@@ -410,13 +410,13 @@ vaut vraiment le coup.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Gérant : &lt;a href=&quot;http://www.fi.is/en/huts/hvanngil/&quot;&gt;FÍ&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
-(Álftavatn - &lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 14h30. Ce bus circule tous les jours (depuis 
+(Álftavatn - &lt;abbr title=&quot;la série &apos;hv&apos; se prononce &apos;kw&apos;. Prononcer &apos;Kwangil&apos;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 14h30. Ce bus circule tous les jours (depuis 
 2014) et permet de rentrer sur Reykjavik en cas de souci.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a name=&quot;Alftavatn&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;alftavatn-f&quot;&gt;Alftavatn (FÍ)&lt;/h4&gt;
+&lt;h4 id=&quot;alftavatn-fí&quot;&gt;Alftavatn (FÍ)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/alftavatn1.jpg&quot; title=&quot;Alftavatn : cuisine et dépendance&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/alftavatn1.jpg&quot; /&gt;&lt;/a&gt;
@@ -439,7 +439,7 @@ style Emstrur)&lt;/li&gt;
   &lt;li&gt;Couchage : 72 places&lt;/li&gt;
   &lt;li&gt;Poubelles : géantes&lt;/li&gt;
   &lt;li&gt;Accès en bus : Le refuge est desservi par la ligne 18 de Reykjavik-Excursions 
-(Álftavatn - &lt;abbr title=&quot;la série &#39;hv&#39; se prononce &#39;kw&#39;. Prononcer &#39;Kwangil&#39;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 13h00. Ce bus circule tous les jours (depuis 
+(Álftavatn - &lt;abbr title=&quot;la série &apos;hv&apos; se prononce &apos;kw&apos;. Prononcer &apos;Kwangil&apos;&quot;&gt;Hvanngil&lt;/abbr&gt; - Emstrur) à 13h00. Ce bus circule tous les jours (depuis 
 2014) et permet de rentrer sur Reykjavik en cas de souci.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -451,7 +451,7 @@ grandiose.&lt;/p&gt;
 &lt;p&gt;Si vous pouvez, essayez d’être installé dans la maison blanche par la &lt;abbr title=&quot;Gardien de refuge&quot;&gt;warden&lt;/abbr&gt;, 
 c’est vraiment nickel. Le soir, balade romantique au bord du lac de rigueur.&lt;/p&gt;
 
-&lt;h4 id=&quot;hskuldskali-alias-hraftinnusker-f&quot;&gt;Höskuldskali, alias Hraftinnusker (FÍ)&lt;/h4&gt;
+&lt;h4 id=&quot;höskuldskali-alias-hraftinnusker-fí&quot;&gt;Höskuldskali, alias Hraftinnusker (FÍ)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/hraf1.jpg&quot; title=&quot;Une des quelques tables en terrasse à Hraftinnusker&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/hraf1.jpg&quot; /&gt;&lt;/a&gt;
@@ -505,8 +505,8 @@ dans les sanitaires&lt;/li&gt;
 est surpeuplé, et adieu les quiet hours, c’est très bruyant tard et tôt.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/landmanna_sanitaires.jpg&quot; title=&quot;Les sanitaires de Landmannalaugar et les très prisés tuyaux d&#39;eau chaude&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/landmanna_sanitaires.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;Les sanitaires de Landmannalaugar et les très prisés tuyaux d&#39;eau chaude&lt;/figcaption&gt;
+  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/landmanna_sanitaires.jpg&quot; title=&quot;Les sanitaires de Landmannalaugar et les très prisés tuyaux d&apos;eau chaude&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/landmanna_sanitaires.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Les sanitaires de Landmannalaugar et les très prisés tuyaux d&apos;eau chaude&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Par contre, dès que l’on s’éloigne un peu, c’est paradisiaque. Évidemment, ne
@@ -529,7 +529,7 @@ de vous faire ouvrir le “storage” pour aller récupérer vos affaires.&lt;/p
 
 &lt;h3 id=&quot;les-refuges-hors-laugavegur-mais-plus-ou-moins-dans-le-secteur-&quot;&gt;Les refuges hors Laugavegur (mais plus ou moins dans le secteur )&lt;/h3&gt;
 
-&lt;h4 id=&quot;alftavatnkrokur-lftavtn&quot;&gt;Alftavatnkrokur (Álftavötn)&lt;/h4&gt;
+&lt;h4 id=&quot;alftavatnkrokur-álftavötn&quot;&gt;Alftavatnkrokur (Álftavötn)&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Gérant : &lt;a href=&quot;http://www.utivist.is/english/alftavotn-hut/&quot;&gt;Útivist&lt;/a&gt;&lt;/li&gt;
@@ -583,12 +583,12 @@ besoin de réserver, et toujours eu largement de la place.&lt;/p&gt;
 Landmannalaugar-Skaftafell (18h). Horaires changeants d’une année sur l’autre,
 vérifiez chez &lt;a href=&quot;https://www.re.is&quot;&gt;Reykjavik Excursions&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id=&quot;skaelingar-stragil&quot;&gt;Skaelingar (Stóragil)&lt;/h4&gt;
+&lt;h4 id=&quot;skaelingar-stóragil&quot;&gt;Skaelingar (Stóragil)&lt;/h4&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skaelingar1.jpg&quot; title=&quot;Le refuge&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skaelingar1.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skaelingar2.jpg&quot; title=&quot;L&#39;intérieur&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skaelingar2.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skaelingar3.jpg&quot; title=&quot;Le refuge est à gauche, les toilettes au centre (le toit pointu) et le batiment à l&#39;avant doit être une bergerie (?)&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skaelingar3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skaelingar2.jpg&quot; title=&quot;L&apos;intérieur&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skaelingar2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skaelingar3.jpg&quot; title=&quot;Le refuge est à gauche, les toilettes au centre (le toit pointu) et le batiment à l&apos;avant doit être une bergerie (?)&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skaelingar3.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Skaelingar&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -647,7 +647,7 @@ renversant avec quelques sources chaudes cachées à creuser soi-même.&lt;/p&gt
 &lt;h4 id=&quot;reykjavik&quot;&gt;Reykjavik&lt;/h4&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
-  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/rkj1.jpg&quot; title=&quot;Les emplacements les plus proches de l&#39;acceuil (sommeil non garanti...)&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/rkj1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/rkj1.jpg&quot; title=&quot;Les emplacements les plus proches de l&apos;acceuil (sommeil non garanti...)&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/rkj1.jpg&quot; /&gt;&lt;/a&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/rkj2.jpg&quot; title=&quot;Tables&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/rkj2.jpg&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Camping de Reykjavik&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -675,7 +675,7 @@ du camping ou elle est indiquée (ainsi que l’emplacement des ATM aux alentour
 &lt;p&gt;Laugardalslaug (la piscine) est à 100 m, vous n’avez &lt;em&gt;aucune&lt;/em&gt; excuse pour ne pas
 y aller !&lt;/p&gt;
 
-&lt;h4 id=&quot;kirkjubjarklaustur&quot;&gt;Kirkjubæjarklaustur&lt;/h4&gt;
+&lt;h4 id=&quot;kirkjubæjarklaustur&quot;&gt;Kirkjubæjarklaustur&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Douches : 400 ISK / 5mins.&lt;/li&gt;
@@ -688,7 +688,7 @@ y aller !&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/pano_kirkjubaejarklaustur_lzn.jpg&quot; title=&quot;Sveinstindur&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/pano_kirkjubaejarklaustur_lzn.jpg&quot; /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;Camping de Kirkjubæjarklaustur. Le Hvannadalshnjúkur (point culminant d&#39;Islande) au loin sur la gauche&lt;/figcaption&gt;
+  &lt;figcaption&gt;Camping de Kirkjubæjarklaustur. Le Hvannadalshnjúkur (point culminant d&apos;Islande) au loin sur la gauche&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Plein de balades dans le coin.
@@ -703,10 +703,10 @@ En bref, il y a tout ce qu’il faut ici pour y faire un break détente et quelq
 &lt;ul&gt;
   &lt;li&gt;Douches : 400 ISK / 5 mins (2010). Astuce : plutôt que de faire la queue
 devant les trois douches à coté de la machine à laver, allez au milieu du
-camping, il y en a 6, et elles sont bien moins fréquentées. &lt;/li&gt;
-  &lt;li&gt;Électricité : dans les sanitaires. Attention aux vols… &lt;/li&gt;
-  &lt;li&gt;Cuisine : rien. Deux trois éviers, c’est tout. &lt;/li&gt;
-  &lt;li&gt;Eau : à volonté, chaude et gratuite aux robinets. &lt;/li&gt;
+camping, il y en a 6, et elles sont bien moins fréquentées.&lt;/li&gt;
+  &lt;li&gt;Électricité : dans les sanitaires. Attention aux vols…&lt;/li&gt;
+  &lt;li&gt;Cuisine : rien. Deux trois éviers, c’est tout.&lt;/li&gt;
+  &lt;li&gt;Eau : à volonté, chaude et gratuite aux robinets.&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Laverie : lave linge, sèche linge. Tous deux très fréquentés…&lt;/p&gt;
   &lt;/li&gt;
@@ -720,7 +720,7 @@ charmante (ok, c’est complètement subjectif), mais accès compliqué à pied.
 &lt;p&gt;Randos grandioses au départ du camping (Svartifoss, Kristinartindar,
 Morsarjökul…).&lt;/p&gt;
 
-&lt;h4 id=&quot;skgar&quot;&gt;Skógar&lt;/h4&gt;
+&lt;h4 id=&quot;skógar&quot;&gt;Skógar&lt;/h4&gt;
 
 &lt;figure&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skogar.jpg&quot; title=&quot;Sveinstindur&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-refuges/skogar.jpg&quot; /&gt;&lt;/a&gt;
@@ -753,31 +753,31 @@ Plantage facile, le sol est assez meuble.&lt;/p&gt;
   &lt;/header&gt;
 &lt;div id=&quot;drawer&quot; class=&quot;hidden&quot;&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#laugavegur&quot;&gt;Laugavegur&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#gnralits&quot;&gt;Généralités&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#difficult&quot;&gt;Difficulté&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#parcours&quot;&gt;Parcours&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#etapes&quot;&gt;Etapes&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#liste&quot;&gt;Liste&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#dans-quel-sens-&quot;&gt;Dans quel sens ?&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#doubler-les-tapes-&quot;&gt;Doubler les étapes ?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#laugavegur&quot; id=&quot;markdown-toc-laugavegur&quot;&gt;Laugavegur&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#généralités&quot; id=&quot;markdown-toc-généralités&quot;&gt;Généralités&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#difficulté&quot; id=&quot;markdown-toc-difficulté&quot;&gt;Difficulté&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#parcours&quot; id=&quot;markdown-toc-parcours&quot;&gt;Parcours&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#etapes&quot; id=&quot;markdown-toc-etapes&quot;&gt;Etapes&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#liste&quot; id=&quot;markdown-toc-liste&quot;&gt;Liste&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#dans-quel-sens-&quot; id=&quot;markdown-toc-dans-quel-sens-&quot;&gt;Dans quel sens ?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#doubler-les-étapes-&quot; id=&quot;markdown-toc-doubler-les-étapes-&quot;&gt;Doubler les étapes ?&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#progression&quot;&gt;Progression&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#exposition-terrain-instable&quot;&gt;Exposition, Terrain instable&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#nvs&quot;&gt;Névés&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#gus&quot;&gt;Gués&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#progression&quot; id=&quot;markdown-toc-progression&quot;&gt;Progression&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#exposition-terrain-instable&quot; id=&quot;markdown-toc-exposition-terrain-instable&quot;&gt;Exposition, Terrain instable&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#névés&quot; id=&quot;markdown-toc-névés&quot;&gt;Névés&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#gués&quot; id=&quot;markdown-toc-gués&quot;&gt;Gués&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#lquipement&quot;&gt;L’équipement&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#vtements&quot;&gt;Vétements&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#sac-de-couchage&quot;&gt;Sac de couchage&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#tente&quot;&gt;Tente&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#léquipement&quot; id=&quot;markdown-toc-léquipement&quot;&gt;L’équipement&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#vétements&quot; id=&quot;markdown-toc-vétements&quot;&gt;Vétements&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#sac-de-couchage&quot; id=&quot;markdown-toc-sac-de-couchage&quot;&gt;Sac de couchage&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#tente&quot; id=&quot;markdown-toc-tente&quot;&gt;Tente&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#liste-de-matriel&quot;&gt;Liste de matériel&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#leau&quot;&gt;L’eau&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#autres-infos&quot;&gt;Autres infos&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#liste-de-matériel&quot; id=&quot;markdown-toc-liste-de-matériel&quot;&gt;Liste de matériel&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#leau&quot; id=&quot;markdown-toc-leau&quot;&gt;L’eau&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#autres-infos&quot; id=&quot;markdown-toc-autres-infos&quot;&gt;Autres infos&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -788,13 +788,13 @@ Plantage facile, le sol est assez meuble.&lt;/p&gt;
 
 &lt;h2 id=&quot;laugavegur&quot;&gt;Laugavegur&lt;/h2&gt;
 
-&lt;h3 id=&quot;gnralits&quot;&gt;Généralités&lt;/h3&gt;
+&lt;h3 id=&quot;généralités&quot;&gt;Généralités&lt;/h3&gt;
 
 &lt;p&gt;C’est le trek le plus couru en Islande. Le Laugavegur est très peuplé. Vous y
 croiserez sans problème une bonne centaine de personnes par jour. Mais c’est
 vraiment magnifique, donc pas d’hésitation.&lt;/p&gt;
 
-&lt;h3 id=&quot;difficult&quot;&gt;Difficulté&lt;/h3&gt;
+&lt;h3 id=&quot;difficulté&quot;&gt;Difficulté&lt;/h3&gt;
 
 &lt;figure&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-le_laugavegur/morinsheidi.jpg&quot; title=&quot;Morinsheidi&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-le_laugavegur/morinsheidi.jpg&quot; /&gt;&lt;/a&gt;
@@ -900,7 +900,7 @@ préparez tout votre matos la veille pour percuter tôt la matin et partir dès 
 possible. Vous ferez alors la plus grande partie de l’étape sans croiser
 personne.&lt;/p&gt;
 
-&lt;h4 id=&quot;doubler-les-tapes-&quot;&gt;Doubler les étapes ?&lt;/h4&gt;
+&lt;h4 id=&quot;doubler-les-étapes-&quot;&gt;Doubler les étapes ?&lt;/h4&gt;
 
 &lt;p&gt;C’est possible. Certains doublent toutes les étapes. Elles sont courtes, donc,
 pourquoi pas. Enfin si, pourquoi ? Si vous venez pour l’exploit sportif, c’est
@@ -922,7 +922,7 @@ en balcon au sud d’Uxatindar plutôt flippant, en particulier quand il pleut. 
 Fimmvörðuháls vers Þórsmörk. Rien de bien méchant toutefois. Si on évite de
 tomber pile poil à ce moment, pas de problème :)&lt;/p&gt;
 
-&lt;h4 id=&quot;nvs&quot;&gt;Névés&lt;/h4&gt;
+&lt;h4 id=&quot;névés&quot;&gt;Névés&lt;/h4&gt;
 
 &lt;p&gt;Vous croiserez des petits névés en route. Pas de quoi chausser des crampons,
 mais là aussi, il faut être vigilant. Le plus gros risque survient quand le névé
@@ -932,7 +932,7 @@ la saison, soyez donc prudents, n’hésitez pas à faire un détour. On ne risq
 généralement pas la mort (sauf si le cours d’eau est important), mais si on se
 fait une cheville, c’est terminé pour la rando.&lt;/p&gt;
 
-&lt;h4 id=&quot;gus&quot;&gt;Gués&lt;/h4&gt;
+&lt;h4 id=&quot;gués&quot;&gt;Gués&lt;/h4&gt;
 
 &lt;p&gt;Pour traverser les gués, il faut impérativement défaire la ceinture ventrale du
 sac-à-dos : si vous partez à l’eau, ça vous permettra de vous débarrasser du sac
@@ -970,9 +970,9 @@ supplémentaire offerte au courant (Olivier en parle d’ailleurs). Les Islandai
 que j’ai vu font comme tout le monde : ils quittent leur pompes et mettent
 d’autres chaussures pour traverser. A bon entendeur.&lt;/p&gt;
 
-&lt;h3 id=&quot;lquipement&quot;&gt;L’équipement&lt;/h3&gt;
+&lt;h3 id=&quot;léquipement&quot;&gt;L’équipement&lt;/h3&gt;
 
-&lt;h4 id=&quot;vtements&quot;&gt;Vétements&lt;/h4&gt;
+&lt;h4 id=&quot;vétements&quot;&gt;Vétements&lt;/h4&gt;
 
 &lt;p&gt;Autant vous faire à l’idée: vous aurez de la pluie.&lt;/p&gt;
 
@@ -1013,7 +1013,7 @@ fonction de votre vécu avec votre duvet.&lt;/p&gt;
 &lt;p&gt;Prenez une tente qui résiste au vent si vous ne voulez pas aller chercher votre
 double toit au Groenland. Si vous n’aimez pas les compromis: Hilleberg.&lt;/p&gt;
 
-&lt;p&gt;Après vous avez toute une gamme de jouets chez d’autres fabricants. &lt;/p&gt;
+&lt;p&gt;Après vous avez toute une gamme de jouets chez d’autres fabricants.&lt;/p&gt;
 
 &lt;p&gt;Un Islandais m’avait dit en plantant la tente :
 « Always prepare for the worst ». J’ai fini par me rendre compte qu’il avait
@@ -1025,7 +1025,7 @@ avec 3° et 20 m/s de vent.&lt;/p&gt;
 larges plutôt que des Y. Le sol est souvent très meuble. Marteau inutile, on
 enfonce généralement à la main, et il y a toujours un caillou pas loin.&lt;/p&gt;
 
-&lt;h3 id=&quot;liste-de-matriel&quot;&gt;Liste de matériel&lt;/h3&gt;
+&lt;h3 id=&quot;liste-de-matériel&quot;&gt;Liste de matériel&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;2010 : à retrouver&lt;/li&gt;
@@ -1033,7 +1033,7 @@ enfonce généralement à la main, et il y a toujours un caillou pas loin.&lt;/p
   &lt;li&gt;2013 : quelle liste ?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Quelques autres listes : &lt;/p&gt;
+&lt;p&gt;Quelques autres listes :&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://andrewskurka.com/adventures/iceland-traverse/gear-list/&quot;&gt;Andrew Skurka, le pape du trek longue-distance&lt;/a&gt;&lt;/li&gt;
@@ -1113,42 +1113,42 @@ organisation sans faille… et surtout, d’ajouter quelques centaines de gramme
   &lt;/header&gt;
 &lt;div id=&quot;drawer&quot; class=&quot;hidden&quot;&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#dernires-mises--jour&quot;&gt;Dernières mises à jour&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#prambule&quot;&gt;Préambule&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#argent&quot;&gt;Argent&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#ou-changer-&quot;&gt;Ou changer ?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#paiements&quot;&gt;Paiements&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#la-dtaxe&quot;&gt;La détaxe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dernières-mises-à-jour&quot; id=&quot;markdown-toc-dernières-mises-à-jour&quot;&gt;Dernières mises à jour&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#préambule&quot; id=&quot;markdown-toc-préambule&quot;&gt;Préambule&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#argent&quot; id=&quot;markdown-toc-argent&quot;&gt;Argent&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#ou-changer-&quot; id=&quot;markdown-toc-ou-changer-&quot;&gt;Ou changer ?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#paiements&quot; id=&quot;markdown-toc-paiements&quot;&gt;Paiements&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#la-détaxe&quot; id=&quot;markdown-toc-la-détaxe&quot;&gt;La détaxe&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#transport&quot;&gt;Transport&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#formalits&quot;&gt;Formalités&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#venir&quot;&gt;Venir&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#en-avion&quot;&gt;En avion&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#en-bateau&quot;&gt;En bateau&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#transport&quot; id=&quot;markdown-toc-transport&quot;&gt;Transport&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#formalités&quot; id=&quot;markdown-toc-formalités&quot;&gt;Formalités&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#venir&quot; id=&quot;markdown-toc-venir&quot;&gt;Venir&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#en-avion&quot; id=&quot;markdown-toc-en-avion&quot;&gt;En avion&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#en-bateau&quot; id=&quot;markdown-toc-en-bateau&quot;&gt;En bateau&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#keflavik&quot;&gt;Keflavik&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#le-bsi&quot;&gt;Le BSI&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#les-bus-reykjavik-excursion&quot;&gt;Les bus Reykjavik Excursion&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#les-bus-municipaux-strtis&quot;&gt;Les bus municipaux (Strætó.is)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#partir-enfin-rentrer&quot;&gt;Partir (enfin, rentrer)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#keflavik&quot; id=&quot;markdown-toc-keflavik&quot;&gt;Keflavik&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#le-bsi&quot; id=&quot;markdown-toc-le-bsi&quot;&gt;Le BSI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#les-bus-reykjavik-excursion&quot; id=&quot;markdown-toc-les-bus-reykjavik-excursion&quot;&gt;Les bus Reykjavik Excursion&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#les-bus-municipaux-strætóis&quot; id=&quot;markdown-toc-les-bus-municipaux-strætóis&quot;&gt;Les bus municipaux (Strætó.is)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#partir-enfin-rentrer&quot; id=&quot;markdown-toc-partir-enfin-rentrer&quot;&gt;Partir (enfin, rentrer)&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#achats&quot;&gt;Achats&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#nourriture&quot;&gt;Nourriture&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#gaz&quot;&gt;Gaz&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#cartes-tlphoniques&quot;&gt;Cartes téléphoniques&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#matriel&quot;&gt;Matériel&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#avant-de-rentrer-en-france&quot;&gt;Avant de rentrer en France&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#dormir&quot;&gt;Dormir&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#randonner&quot;&gt;Randonner&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#divers&quot;&gt;Divers&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#le-blue-lagoon&quot;&gt;Le blue lagoon&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#la-piscine-laugardalslaug&quot;&gt;La piscine Laugardalslaug&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#achats&quot; id=&quot;markdown-toc-achats&quot;&gt;Achats&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#nourriture&quot; id=&quot;markdown-toc-nourriture&quot;&gt;Nourriture&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#gaz&quot; id=&quot;markdown-toc-gaz&quot;&gt;Gaz&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cartes-téléphoniques&quot; id=&quot;markdown-toc-cartes-téléphoniques&quot;&gt;Cartes téléphoniques&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#matériel&quot; id=&quot;markdown-toc-matériel&quot;&gt;Matériel&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#avant-de-rentrer-en-france&quot; id=&quot;markdown-toc-avant-de-rentrer-en-france&quot;&gt;Avant de rentrer en France&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dormir&quot; id=&quot;markdown-toc-dormir&quot;&gt;Dormir&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#randonner&quot; id=&quot;markdown-toc-randonner&quot;&gt;Randonner&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#divers&quot; id=&quot;markdown-toc-divers&quot;&gt;Divers&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#le-blue-lagoon&quot; id=&quot;markdown-toc-le-blue-lagoon&quot;&gt;Le blue lagoon&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#la-piscine-laugardalslaug&quot; id=&quot;markdown-toc-la-piscine-laugardalslaug&quot;&gt;La piscine Laugardalslaug&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#autres-infos&quot;&gt;Autres infos&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#autres-infos&quot; id=&quot;markdown-toc-autres-infos&quot;&gt;Autres infos&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -1157,7 +1157,7 @@ organisation sans faille… et surtout, d’ajouter quelques centaines de gramme
 &lt;/section&gt;
 &lt;!-- /#table-of-contents --&gt;
 
-&lt;h3 id=&quot;dernires-mises--jour&quot;&gt;Dernières mises à jour&lt;/h3&gt;
+&lt;h3 id=&quot;dernières-mises-à-jour&quot;&gt;Dernières mises à jour&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;12 juin 2014 : boutique gas, coquilles diverses, WOW air, mise à jour des prix des bus et petits ajustements&lt;/li&gt;
@@ -1170,7 +1170,7 @@ organisation sans faille… et surtout, d’ajouter quelques centaines de gramme
   &lt;li&gt;1er avril 2011 : paragraphe sur les SAR; ajouts sur la Smyril; actualisation des prix des billets d’avion; filmage de sac; velcro pour Crocs; listes de matériel&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;prambule&quot;&gt;Préambule&lt;/h2&gt;
+&lt;h2 id=&quot;préambule&quot;&gt;Préambule&lt;/h2&gt;
 
 &lt;p&gt;Variez vos sources. Je n’ai pas la science infuse et n’ai vu qu’une infime
 partie de l’ile pendant seulement 3×20 jours (2010, 2011 et 2013). Lisez les
@@ -1222,15 +1222,15 @@ transaction à la CE…). Votre hotdog peut vous revenir très cher… Il ne fau
 sortir sa carte qu’en dernier recours !&lt;/p&gt;
 
 &lt;p&gt;En Islande par contre, pas besoin de taper de code : zip dans la fente, une
-petite griffe et terminé &lt;sup id=&quot;fnref:cb&quot;&gt;&lt;a href=&quot;#fn:cb&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+petite griffe et terminé &lt;sup id=&quot;fnref:cb&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:cb&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;la-dtaxe&quot;&gt;La détaxe&lt;/h3&gt;
+&lt;h3 id=&quot;la-détaxe&quot;&gt;La détaxe&lt;/h3&gt;
 
 &lt;p&gt;On peut (théoriquement…) se faire rembourser la TVA de ce que l’on achète et que
 l’on ramène. A chaque achat, demandez un «VAT refund ticket». Vous pourrez
 vous faire rembourser à l’office de tourisme (queue très longue, tickets comme à
 la CAF) ou à l’aéroport (sans-le-sou qui prenez des vols de nuit passez votre
-chemin, ça ferme à 17h). &lt;/p&gt;
+chemin, ça ferme à 17h).&lt;/p&gt;
 
 &lt;p&gt;Si vous n’avez pu vous faire rembourser sur place, vous
 pouvez renvoyer vos tickets à l’adresse mentionnée dessus sous 3 mois et croiser
@@ -1239,7 +1239,7 @@ acheté… Pas super fiable donc, ne comptez pas trop là-dessus.&lt;/p&gt;
 
 &lt;h2 id=&quot;transport&quot;&gt;Transport&lt;/h2&gt;
 
-&lt;h3 id=&quot;formalits&quot;&gt;Formalités&lt;/h3&gt;
+&lt;h3 id=&quot;formalités&quot;&gt;Formalités&lt;/h3&gt;
 
 &lt;p&gt;Pour venir, une simple carte d’identité suffit. Pas de passeport ou de carnet de
 vaccinations.&lt;/p&gt;
@@ -1419,7 +1419,7 @@ départementale de campagne. Au moins il y en a au mieux on se porte c’est sû
 mais pas quand on fait du stop. L’avantage des bus c’est qu’on est sûr de
 l’heure de départ (pas forcément de celle d’arrivée par contre…).&lt;/p&gt;
 
-&lt;h3 id=&quot;les-bus-municipaux-strtis&quot;&gt;Les bus municipaux (Strætó.is)&lt;/h3&gt;
+&lt;h3 id=&quot;les-bus-municipaux-strætóis&quot;&gt;Les bus municipaux (Strætó.is)&lt;/h3&gt;
 
 &lt;figure&gt;
   &lt;a href=&quot;http://islande.mbnet.fr/images/2014-07-16-conseils-pratiques/straeto.jpg&quot; title=&quot;Bus Strætó&quot;&gt;&lt;img src=&quot;http://islande.mbnet.fr/images/2014-07-16-conseils-pratiques/straeto.jpg&quot; /&gt;&lt;/a&gt;
@@ -1481,7 +1481,7 @@ votre réchaud. Pare vent recommandé. Si vous devez acheter un réchaud à gaz,
 prenez en un à la norme EN417 (cartouches à vis), pas les merdes bleues
 franco-françaises.&lt;/p&gt;
 
-&lt;h3 id=&quot;cartes-tlphoniques&quot;&gt;Cartes téléphoniques&lt;/h3&gt;
+&lt;h3 id=&quot;cartes-téléphoniques&quot;&gt;Cartes téléphoniques&lt;/h3&gt;
 
 &lt;p&gt;Si vous avez besoin d’une carte téléphonique 3G, la seule option semble être la
 boutique Vodafone au centre commercial &lt;a href=&quot;https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,154.8h,68.39t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0&quot;&gt;Kringlan&lt;/a&gt;.
@@ -1490,7 +1490,7 @@ vous voulez juste une carte téléphonique, vous pourrez en trouver au
 &lt;a href=&quot;http://www.visitreykjavik.is/travel/tourist-information-centre&quot;&gt;Tourist Information Center&lt;/a&gt; &lt;a href=&quot;https://www.google.fr/maps/place/Snooker+and+Poollounge/@64.148224,-21.941446,249m/data=!3m1!1e3!4m2!3m1!1s0x0:0xb0c935f5e953375e&quot;&gt;ici&lt;/a&gt;
 (là ou est écrit « Centerhotel Plazza »).&lt;/p&gt;
 
-&lt;h3 id=&quot;matriel&quot;&gt;Matériel&lt;/h3&gt;
+&lt;h3 id=&quot;matériel&quot;&gt;Matériel&lt;/h3&gt;
 
 &lt;p&gt;Là aussi, direction &lt;a href=&quot;https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,154.8h,68.39t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0&quot;&gt;Kringlan&lt;/a&gt;
 ou &lt;a href=&quot;https://www.google.fr/maps/@64.130924,-21.896646,3a,90y,258.35h,79.19t/data=!3m4!1e1!3m2!1sD_A88weMQSKn9RhjvweBLg!2e0&quot;&gt;FjallaKofinn&lt;/a&gt;.
@@ -1555,7 +1555,7 @@ excuse pour passer à coté donc. Si vous avez le choix entre la piscine et le
 Blue Lagoon, choisissez la piscine sans hésiter. Il y a un hammam et plusieurs
 bains à température différente (de 38°C, 40°C, 42°C et 42°C pour les plus
 téméraires). Ça vaut vraiment le coup, et l’entrée ne coute que 450 ISK. Rien
-que pour prendre une douche, c’est un affaire. &lt;/p&gt;
+que pour prendre une douche, c’est un affaire.&lt;/p&gt;
 
 &lt;p&gt;Les horaires d’ouverture sont très larges en été :&lt;/p&gt;
 
@@ -1582,10 +1582,10 @@ est… malheureusement presque exclusivement en allemand.&lt;/p&gt;
 &lt;p&gt;David (a.k.a. BigFoot) a vu du pays, et 
 &lt;a href=&quot;http://bigfoot.over-blog.org/article-sommaire-islande-40908174.html&quot;&gt;vous en parle sur son blog&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:cb&quot;&gt;
-      &lt;p&gt;c’est visiblement en voie de disparition quand même &lt;a href=&quot;#fnref:cb&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:cb&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;c’est visiblement en voie de disparition quand même &lt;a href=&quot;#fnref:cb&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
