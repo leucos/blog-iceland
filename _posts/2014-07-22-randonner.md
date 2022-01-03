@@ -25,12 +25,12 @@ mousse et la végétation. Idem pour la préservation du paysage. Essayons de ne
 pas laisser des traces de pompes n’importe ou. La colline est plus belle vierge,
 que maculée de traces de 46...
 
-Evidemment, je ne parle même pas des déchets, quels qu'ils soient. Comme
+Évidemment, je ne parle même pas des déchets, quels qu'ils soient. Comme
 ailleurs, il faut absolument tout ramener, y compris ce que l'on trouve par
 terre, laissé par des voyageurs distraits ou indélicats.
 
-Pour le delestage, ça n'est pas simple. Le sol est trés pauvre. Les excréments
-sont difficile à dégrader. Profitez de votre passage dans les secteurs équipés
+Pour le délestage, ça n'est pas simple. Le sol est très pauvre. Les excréments
+sont difficiles à dégrader. Profitez de votre passage dans les secteurs équipés
 pour faire la commission.
 
 ### La météo
@@ -50,7 +50,7 @@ fond [ici](http://notendur.hi.is/oi/climate_in_iceland.htm).
 Les nuages en Islande ont la faculté de s’amonceler et de se disperser
 rapidement. si vous renoncez à un sommet parce qu’il est dans les nuages, vous
 faites peut-être un erreur. Pendant la descente vous le verrez peut-être
-apparaitre, et l’amertume n’en sera que plus grande. Donc, si cela ne pose pas
+apparaître, et l’amertume n’en sera que plus grande. Donc, si cela ne pose pas
 de problèmes de sécurité, montez quand même, on ne sait jamais.
 
 Sachez qu’il peut neiger et faire des températures négatives l’été. Ajoutez à
@@ -121,7 +121,7 @@ trucs qui ont un intérêt : GPS, tente, vestes) avec la couleur de l'équipemen
 - votre vol retour
 
 et si possible une photo de vous avec votre veste et à coté de votre tente.
-Avant departir, vous repassez chez eux ou leur donnez un coup de fil pour leur
+Avant de partir, vous repassez chez eux ou leur donnez un coup de fil pour leur
 dire que c’est ok.
 
 Dans tous les cas, le plus simple est de remplir le nouveau formulaire en ligne
@@ -137,7 +137,7 @@ emporte avec lui une balise SPOT (et nous pareil depuis 2013).
 Enfin, depuis 2014 ils ont même 
 [une app pour smartphone](http://www.safetravel.is/112-iceland-app/): vous 
 pouvez faire des check-in de temps en temps, ça sème des petits cailloux et ça
-leur donne une indication s'ils doivent vous chercher. Evidemment, il faut un
+leur donne une indication s'ils doivent vous chercher. Évidement, il faut un
 minimum de réseau, donc ne comptez pas trop la dessus si vous êtes vraiment dans
 la pampa.
 

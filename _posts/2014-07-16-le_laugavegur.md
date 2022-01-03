@@ -116,38 +116,39 @@ tomber pile poil à ce moment, pas de problème :)
 #### Névés
 
 Vous croiserez des petits névés en route. Pas de quoi chausser des crampons,
-mais là aussi, il faut être vigilant. Le plus gros risque survient quand le névé
-est en fond de civette et est creusé par un cours d'eau (très fréquent en zone
-géothermique). Le risque de passer au travers est très présent et augmente dans
-la saison, soyez donc prudents, n'hésitez pas à faire un détour. On ne risque
-généralement pas la mort (sauf si le cours d'eau est important), mais si on se
-fait une cheville, c'est terminé pour la rando.
+mais là aussi, il faut être vigilant. Le plus gros risque survient quand le
+névé est en fond de cuvette et est creusé par un cours d'eau (très fréquent en
+zone géothermique). Le risque de passer au travers est très présent et augmente
+dans la saison, soyez donc prudents, n'hésitez pas à faire un détour. Le risque
+est réel (des drames sont arrivés) et si on a la chance de ne se faire qu'une
+cheville, c'est terminé pour la rando.
 
 #### Gués
 
 Pour traverser les gués, il faut impérativement défaire la ceinture ventrale du
 sac-à-dos : si vous partez à l’eau, ça vous permettra de vous débarrasser du sac
-avant qu’il vous fasse couler. A cet effet, les Islandais recommandent
+avant qu’il ne vous fasse couler. A cet effet, les Islandais recommandent
 d’ailleurs de quitter une bretelle... mais ne le font pas. C’est vrai qu’en
 théorie ça permet de se libérer encore plus facilement, mais ça pose tout de
 même de sérieux problèmes d’équilibre.
 
-Il faut traverser à l’endroit le plus large : le courant est moins fort et c’est
-moins profond. Quand à la position, les avis divergent : certains légèrement
-tourné vers l’amont (un peu face au courant), d’autres disent vers l’aval.
-Personnellement je me sens plus en équilibre en résistant de face au courant,
-donc je traverse en dévers en remontant légèrement le courant. David (BigFoot)
-semble faire pareil, ce qui est plutôt bon signe. A vous de tester et de choisir
-votre méthode !
+Il faut traverser à l’endroit le plus large : le courant est moins fort et
+c’est moins profond. Quand à la position, les avis divergent : certains
+légèrement tourné vers l’amont (un peu face au courant), d’autres disent vers
+l’aval. Personnellement je me sens plus en équilibre en résistant de face au
+courant, donc je traverse en dévers en remontant légèrement le courant. David
+(BigFoot) semble faire pareil, ce qui est plutôt bon signe. A vous de tester et
+de choisir votre méthode !
 
 Dans tous les cas, ne traversez pas pieds nus (j’en ai vu...). Prenez des Crocs
-(ou des clones), ça ne pèse presque rien, et ca vous permet de vous balader dans
-les campings en vous aérant les pieds sans remettre vos pompes de marche qui
-daubent. De mon coté j’ai pris une taille au dessous, ca serre un peu, mais
+(ou des clones), ça ne pèse presque rien, et ca vous permet de vous balader
+dans les campings en vous aérant les pieds sans remettre vos pompes de marche
+qui daubent. De mon coté j’ai pris une taille au dessous, ca serre un peu, mais
 c’est plus stable dans les gués et je risque moins de les perdre... On peut
 aussi bricoler un système de strap avec du velcro qui, d’après ceux qui ont
 essayé, donne entière satisfaction. En tout cas, ne faites pas ça pieds nus,
-c'est débile. Vous ne voulez pas rentrer en bus à cause d'une fracture d'orteil.
+c'est débile. Vous ne voulez pas rentrer en bus à cause d'une fracture
+d'orteil ou d'une coupure sous le pied.
 
 Certains mettent des néoprènes en plus. Ça me parait un peu overkill vu que ça
 met quand même un certain temps à chauffer. Les gués (du Laugavegur) étant très
@@ -155,7 +156,7 @@ courts, je ne vois pas trop l'intérêt.
 
 Il y a pas mal de gamberge ici et là sur des systèmes plus rapides à mettre en
 œuvre qu’un déchaussage / séchage / chaussage. Par exemple des 
-[surbotes](http://randonner-leger.org/perso/doku.php?id=liste_equipement_islande#surbottes), 
+[sur-bottes](http://randonner-leger.org/perso/doku.php?id=liste_equipement_islande#surbottes), 
 sacs poubelles (durée de vie ?)... attention avec ces systèmes à la prise
 supplémentaire offerte au courant (Olivier en parle d’ailleurs). Les Islandais
 que j’ai vu font comme tout le monde : ils quittent leur pompes et mettent
@@ -183,13 +184,13 @@ pour deux semaines ça devrait faire l'affaire.
 Votre sac de couchage, c’est un équipement de survie, c’est votre dernier
 refuge. Il faudra se débrouiller pour le garder au sec. Toujours. Prenez un sac
 de compression étanche, type Dry Sack pour mettre votre sac à l’intérieur, et le
-Dry Sack dans un sac pouvelle dédié.
+Dry Sack dans un sac poubelle dédié.
 
 Les avis divergent sur le choix duvet / synthétique. De mon coté, je n’ai jamais
 eu de problème d’humidité avec mon sac en plumes. Même humide après la
 condensation de la nuit, je le fourrais dans le DrySack et l’humidité se
 répartissait dans tout le sac, qui séchait ensuite en un clin d’oeil dès que je
-le sortais au vent. Je trimballe mon petit astazou de chez TZ depuis quelques
+le sortais au vent. Je trimballe mon petit Astazou de chez TZ depuis quelques
 années, et, même s'il a quelques défauts, je ne partirai pas sans lui.
 
 Sur les performances du sac, un -5°C / -10°C me semble l’idéal pour une personne
@@ -202,7 +203,8 @@ fonction de votre vécu avec votre duvet.
 #### Tente
 
 Prenez une tente qui résiste au vent si vous ne voulez pas aller chercher votre
-double toit au Groenland. Si vous n'aimez pas les compromis: Hilleberg.
+double toit au Groenland. Si vous n'aimez pas les compromis et que vous avez
+les moyens: Hilleberg.
 
 Après vous avez toute une gamme de jouets chez d'autres fabricants. 
 
@@ -237,21 +239,22 @@ l’éruption de l’Eyjafjallajökull, la question en se posait pas trop : il �
 préférable de filtrer dans le sud à cause des cendres. En 2013, pareil avec le
 Grimsvotn.
 
-Après, dans d’autres circonstances, je ne suis pas sûr. L’eau est claire dans la
-plupart des cas. Les Islandais avec qui j’ai marché buvaient sans aucun
+Après, dans d’autres circonstances, je ne suis pas sûr. L’eau est claire dans
+la plupart des cas. Les Islandais avec qui j’ai marché buvaient sans aucun
 traitement ou filtrage. Par contre, la pompe s’avère pratique dans des endroits
 ou la profondeur du cours d’eau est faible : on plonge le tuyau dans le filet
-d’eau et hop ! Donc c’est une question de choix.Le bétail est présent, mais très
-dispersé, le risque de contamination est probablement très faible (il provient
-certainement plus de la fréquentation des trekkeurs que du bétail d’ailleurs).
+d’eau et hop ! Donc c’est une question de choix. Le bétail est présent, mais
+très dispersé, le risque de contamination est probablement très faible (il
+provient certainement plus de la fréquentation des randonneurs que du bétail
+d’ailleurs).
 
-Dans le doute, quelques pastilles de Micropur ne pèseront pas très lourd dans le
-sac et permettront d’avoir l’esprit tranquille. Et une pompe ce n’est pas bien
-lourd non plus. Ma Katadyn Mini Ceramic fait 250g (je vois d’ici les MUL froncer
-du sourcil).
+Dans le doute, quelques pastilles de Micropur ne pèseront pas très lourd dans
+le sac et permettront d’avoir l’esprit tranquille. Et une pompe ce n’est pas
+bien lourd non plus. Ma Katadyn Mini Ceramic fait 250g (je vois d’ici les MUL
+froncer du sourcil).
 
 En résumé, je n'ai traité que la première fois. Jamais ensuite. En puisant dans
-de l'eau courant, qui descend des collines, et à l'écart du bétail et des
+de l'eau courante, qui descend des collines, et à l'écart du bétail et des
 sentiers, aucun souci.
 
 Attention si vous allez à Fimmvörðuháls : il n’y a pas d’eau en haut. Il est
@@ -263,8 +266,8 @@ avec ses réserves que l'on peut faire pendant la première partie de la montée
 refuge, si vous y allez, proposez au warden de lui redescendre quelques déchets
 dans la vallée, ça fait toujours plaisir.
 
-Si vous avez un « dépot de bilan » à faire, éloignez vous le plus possible des
-cours d’eau (faites un trou, brulez le PQ et rebouchez). Les suivants vous
+Si vous avez un « dépôt de bilan » à faire, éloignez vous le plus possible des
+cours d’eau (faites un trou, brûlez le PQ et rebouchez). Les suivants vous
 remercient... Le mieux est bien sûr de ramener, mais cela demande une
 organisation sans faille... et surtout, d'ajouter quelques centaines de grammes
 (je parle des contenus, avec le contenant, ça peut chiffrer encore plus) au sac
@@ -272,7 +275,8 @@ organisation sans faille... et surtout, d'ajouter quelques centaines de grammes
 
 ### Autres infos
 
-Le site de référence, c’est celui de Dieter. Tout y est… malheureusement presque exclusivement en allemand.
+Le site de référence, c’est celui de Dieter. Tout y est… mais malheureusement
+presque exclusivement en allemand.
 
 Olivier à plein d’infos sur le matériel chez lui (en version MUL).
 
