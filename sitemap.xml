@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://islande.mbnet.fr</loc>
+        <loc>https://islande.mbnet.fr</loc>
     </url>
     
     
     <url>
-        <loc>http://islande.mbnet.fr/404/</loc>
+        <loc>https://islande.mbnet.fr/404/</loc>
     </url>
     
     <url>
-        <loc>http://islande.mbnet.fr/about/</loc>
+        <loc>https://islande.mbnet.fr/about/</loc>
     </url>
     
     <url>
-        <loc>http://islande.mbnet.fr/categories/</loc>
+        <loc>https://islande.mbnet.fr/categories/</loc>
     </url>
     
     <url>
-        <loc>http://islande.mbnet.fr/feed.xml</loc>
+        <loc>https://islande.mbnet.fr/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://islande.mbnet.fr/</loc>
+        <loc>https://islande.mbnet.fr/</loc>
     </url>
     
     <url>
-        <loc>http://islande.mbnet.fr/posts/</loc>
+        <loc>https://islande.mbnet.fr/posts/</loc>
     </url>
     
     <url>
-        <loc>http://islande.mbnet.fr/pratique/</loc>
+        <loc>https://islande.mbnet.fr/pratique/</loc>
     </url>
     
     <url>
-        <loc>http://islande.mbnet.fr/sitemap.xml</loc>
+        <loc>https://islande.mbnet.fr/sitemap.xml</loc>
     </url>
     
 
     
     <url>
-        <loc>http://islande.mbnet.fr/pratique/randonner/</loc>
+        <loc>https://islande.mbnet.fr/pratique/randonner/</loc>
     </url>
     
     <url>
-        <loc>http://islande.mbnet.fr/pratique/refuges/</loc>
+        <loc>https://islande.mbnet.fr/pratique/refuges/</loc>
     </url>
     
     <url>
-        <loc>http://islande.mbnet.fr/pratique/le_laugavegur/</loc>
+        <loc>https://islande.mbnet.fr/pratique/le_laugavegur/</loc>
     </url>
     
     <url>
-        <loc>http://islande.mbnet.fr/pratique/conseils-pratiques/</loc>
+        <loc>https://islande.mbnet.fr/pratique/conseils-pratiques/</loc>
     </url>
     
 </urlset>
