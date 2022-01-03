@@ -8,11 +8,11 @@ disqus_shortname: islande
 owner:
   name:           Michel Blanc
   avatar:         gravatar.jpg
-  bio:            "Just passing by"
+  bio:            "Don't look back. You`re not going that way."
   email:          mb@mbnet.fr
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: 
-  facebook: michel.blanc.3367
+  # facebook: michel.blanc.3367
   github: leucos
   stackoverflow: 
   linkedin: 
@@ -24,7 +24,7 @@ owner:
   steam:
   dribbble:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus: +MichelBlanc_xyz/about
+  # google_plus: +MichelBlanc_xyz/about
 # Analytics and webmaster tools stuff goes here
 google_analytics:
 google_verify:
